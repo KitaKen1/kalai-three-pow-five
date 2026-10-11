@@ -1,0 +1,173 @@
+"""Necessary local ridge patterns and their exact incidence reduction."""
+import json
+from verification.paths import ROOT
+
+def add_positive_geometry(p,eq,section,table,width):
+    from .paper_endpoints import tuple_text
+    from verification.check_positive_geometry import SMALL,TYPES,row_options
+    section(48,'Local ridge patterns and antipodal partner capacity')
+    p('<b>Lemma 48.1.</b> <i>An eight-vertex four-polytope '
+      'with three tetrahedra, three square pyramids, '
+      'one triangular bipyramid and one triangular '
+      'prism has at least twenty edges.</i> '
+      'Let T be its bipyramid and R its prism. '
+      'They have at least 5+6−8=3 common '
+      'vertices, so intersect in a polygon. '
+      'The bipyramid has only triangles, '
+      'hence their intersection A is a '
+      'triangular prism base and their '
+      'vertex sets cover all eight vertices. '
+      'Their edges give 9+9−3=15 edges.')
+    p('Each of the prism’s three quadrilaterals '
+      'has a different other ridge, necessarily '
+      'a square pyramid: neither a tetrahedron '
+      'nor a bipyramid contains a quadrilateral, '
+      'and the prism is unique. The apex '
+      'of each such pyramid is outside R, '
+      'so is one of the two vertices of '
+      'T∖R. Each square pyramid intersects '
+      'T in the triangle consisting of '
+      'that apex and the corresponding '
+      'edge of A. These three triangles '
+      'are distinct, because each two-face '
+      'has only two ridge partners.')
+    p('The three apices cannot all be the same '
+      'vertex a. The other vertex of T∖R '
+      'would avoid those three triangles '
+      'and A. It would belong to at most '
+      'two of the bipyramid’s six polygons, '
+      'whereas every vertex of a three-polytope '
+      'belongs to at least three. Thus '
+      'two pyramids use one apex a and '
+      'the third the other apex b. The '
+      'first two prism quadrilaterals cover '
+      'all of R; their apex edges therefore '
+      'join a to each of the three vertices '
+      'of R∖T. The third quadrilateral '
+      'has two vertices outside T and '
+      'supplies two further edges from b. '
+      'These five edges are distinct and '
+      'outside the fifteen-edge core. '
+      'This proves the lemma. □')
+    p('We can now perform a sharper necessary-pattern '
+      'check. For each small row use its exact '
+      'ridge-count vector c, quadrilateral count '
+      'q and b from the Gale face lattice. '
+      'For the full rows with seven ridges '
+      'use the dual seven-vertex lattice. '
+      'The following table prints these '
+      'finite inputs in the twelve-type '
+      'order of Section 36. A row may '
+      'have several distinct patterns; '
+      'none is chosen in advance.')
+    D=json.loads((ROOT/'evidence/positive-profile-checks.json').read_text())
+    cat=[tuple(R) for R in D['catalogue']]
+    inputs=[]
+    for i,R in enumerate(cat,1):
+        if R in SMALL:
+            for c,q,b,w in sorted(SMALL[R]):inputs.append([str(i),tuple_text(c),str(q),str(b),str(w)])
+    table([['<b>ID</b>','<b>c</b>','<b>q</b>','<b>b</b>','<b>w</b>']]+inputs,
+          [30,width-120,30,30,30],compact=True)
+    p('For every other full row, generate all c '
+      'from Σc=r, Σnc=J, Σf₂c=2p '
+      'using the twelve listed triples. '
+      'Retain the Section 36 conditions P1–P3 '
+      'and vertex-parity exclusions. Generate '
+      'q,b by the explicit Section 41 rules, '
+      'and impose b=0 whenever a prism '
+      'occurs (Lemma 47.1). Retain only '
+      'w≥ρ from Sections 41,44,47. '
+      'Delete a ridge type with f₂(T)+1&gt;r: '
+      'each polygon of T needs a different '
+      'other ridge in the facet. Delete '
+      'a seven-vertex ridge with r&gt;f₂(T)+1: '
+      'the facet would be a pyramid and '
+      'have exactly f₂(T)+1 ridges. '
+      'Finally apply Lemmas 47.3 and 48.1 '
+      'to delete their impossible edge counts. '
+      'These rules define the full local '
+      'option list; they need no list of '
+      'all realizable eight-vertex polytopes.')
+    p('<b>Partner capacity.</b> Distinct ridges of '
+      'a facet have distinct other facets: '
+      'the intersection of two facets is '
+      'one face. If both members of an '
+      'antipodal partner pair supply ridges, '
+      'those ridges have disjoint vertex '
+      'sets. Thus in a seven-vertex '
+      'facet every partner pair supplies '
+      'at most one ridge. In an '
+      'eight-vertex facet, this remains '
+      'true for every family of ridges '
+      'having at least five vertices. '
+      'For a set J of such ridge types '
+      'and a fixed facet i, consequently')
+    eq('Σ<sub>j∈J</sub>cᵢⱼ ≤ '
+       '|{l≠i : some cₗⱼ&gt;0 with j∈J}|.','48.1')
+    p('For a single ridge type with n vertices, '
+      'a partner pair can supply two only '
+      'if both facets have at least 2n '
+      'vertices. This gives the additional '
+      'single-type bound obtained by assigning '
+      'capacity one or two to each other '
+      'pair. The incidence sum for every '
+      'ridge type is divisible by four; '
+      'equivalently Σ<sub>pairs</sub>cᵢⱼ '
+      'is even.')
+    p('A full facet has at most nine ridges. '
+      'Its seven nonfull partner pairs '
+      'supply at most one each, since '
+      'two antipodal intersections would '
+      'put eight vertices in a nonfull '
+      'partner. The other full pair '
+      'supplies at most two. If the '
+      'two full pairs share a ridge '
+      'of at least five vertices, each '
+      'full facet has just one full '
+      'neighbour: the antipodal alternative '
+      'intersection has at most three '
+      'vertices. The nonfull facets each '
+      'have at most two full neighbours. '
+      'Counting these adjacencies gives '
+      'r(F)+r(H)≤16. To test whether '
+      'such a full shared ridge is '
+      'forced, compare a demand in '
+      '(48.1) with just its nonfull '
+      'carrier pairs; excess demand '
+      'must use the other full pair.')
+    p('A polygon with at least five vertices '
+      'requires at least three facet pairs '
+      'able to contain such a polygon. '
+      'Its two-dimensional face figure is '
+      'a polygon and has at least three '
+      'facets. No proper face is in both '
+      'members of an antipodal pair. '
+      'For a local option, η−q&gt;0 '
+      'means that a larger polygon '
+      'occurs. Therefore a choice of '
+      'local options cannot have exactly '
+      'one or two such carrier pairs.')
+    p('The finite test is now specified completely: '
+      'visit each list of Section 46 in '
+      'the four G=2 cells; choose one '
+      'local option at every position; '
+      'require total pair weight at most '
+      '78−3S, every type-incidence sum '
+      'even, the single-type capacities, '
+      'all subset inequalities (48.1), '
+      'the full-adjacency bound when '
+      'forced, and the polygon carrier '
+      'condition. All sums are over '
+      'finite integer lists. The resulting '
+      'complete residual table is below. '
+      'The count is of local-option '
+      'choices, not of actual polytopes.')
+    geometry=json.loads((ROOT/'evidence/positive-geometry-checks.json').read_text())
+    table([['<b>(G,S)</b>','<b>Nine row IDs</b>','<b>Local choices</b>']]+
+          [[tuple_text((x['G'],x['S'])),tuple_text(s['ids']),str(s['local_witnesses'])]
+           for x in geometry['cells'] for s in x['survivors']],
+          [50,width-130,80],compact=True)
+    p('No list survives at (2,8). Nine lists remain '
+      'across the other cells. Their closure '
+      'uses the full support functions '
+      'themselves, as follows.')

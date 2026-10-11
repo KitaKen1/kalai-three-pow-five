@@ -1,0 +1,248 @@
+KalaiFast.lean:12:0: warning: 
+'Mathlib.Data.FunLike.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.FunLike.Basic
+KalaiFast.lean:13:0: warning: 
+'Mathlib.Data.FunLike.Embedding' has been deprecated: please replace this import by
+
+import Mathlib.Basic.FunLike.Embedding
+KalaiFast.lean:14:0: warning: 
+'Mathlib.Data.FunLike.Equiv' has been deprecated: please replace this import by
+
+import Mathlib.Basic.FunLike.Equiv
+KalaiFast.lean:15:0: warning: 
+'Mathlib.Data.FunLike.IsApply' has been deprecated: please replace this import by
+
+import Mathlib.Algebra.Group.IsApply
+KalaiFast.lean:16:0: warning: 
+'Mathlib.Data.Int.Star' has been deprecated: please replace this import by
+
+import Mathlib.Algebra.Order.Star.Int
+KalaiFast.lean:17:0: warning: 
+'Mathlib.Data.Int.SuccPred' has been deprecated: please replace this import by
+
+import Mathlib.Order.SuccPred.Int
+KalaiFast.lean:19:0: warning: 
+'Mathlib.Data.Nat.SuccPred' has been deprecated: please replace this import by
+
+import Mathlib.Order.SuccPred.Nat
+KalaiFast.lean:20:0: warning: 
+'Mathlib.Data.SProd' has been deprecated: please replace this import by
+
+import Mathlib.Basic.SProd
+KalaiFast.lean:21:0: warning: 
+'Mathlib.Data.SetLike.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.SetLike.Basic
+KALAI_BLOCK_DONE count=500 inflate_ms=1202 replay_ms=2881
+KALAI_REPLAY_DONE 500
+KALAI_BLOCK_DONE count=500 inflate_ms=555 replay_ms=936
+KALAI_REPLAY_DONE 1000
+KALAI_BLOCK_DONE count=500 inflate_ms=340 replay_ms=623
+KALAI_REPLAY_DONE 1500
+KALAI_BLOCK_DONE count=500 inflate_ms=408 replay_ms=17821
+KALAI_REPLAY_DONE 2000
+KALAI_BLOCK_DONE count=500 inflate_ms=158 replay_ms=21491
+KALAI_REPLAY_DONE 2500
+KALAI_BLOCK_DONE count=500 inflate_ms=152 replay_ms=9627
+KALAI_REPLAY_DONE 3000
+KALAI_BLOCK_DONE count=500 inflate_ms=166 replay_ms=18373
+KALAI_REPLAY_DONE 3500
+KALAI_BLOCK_DONE count=500 inflate_ms=148 replay_ms=14552
+KALAI_REPLAY_DONE 4000
+KALAI_BLOCK_DONE count=500 inflate_ms=126 replay_ms=6608
+KALAI_REPLAY_DONE 4500
+KALAI_BLOCK_DONE count=500 inflate_ms=116 replay_ms=13823
+KALAI_REPLAY_DONE 5000
+KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=5805
+KALAI_REPLAY_DONE 5500
+KALAI_BLOCK_DONE count=500 inflate_ms=123 replay_ms=16578
+KALAI_REPLAY_DONE 6000
+KALAI_BLOCK_DONE count=500 inflate_ms=174 replay_ms=8625
+KALAI_REPLAY_DONE 6500
+KALAI_BLOCK_DONE count=500 inflate_ms=161 replay_ms=19373
+KALAI_REPLAY_DONE 7000
+KALAI_BLOCK_DONE count=500 inflate_ms=143 replay_ms=7624
+KALAI_REPLAY_DONE 7500
+KALAI_BLOCK_DONE count=500 inflate_ms=155 replay_ms=15639
+KALAI_REPLAY_DONE 8000
+KALAI_BLOCK_DONE count=500 inflate_ms=136 replay_ms=6484
+KALAI_REPLAY_DONE 8500
+KALAI_BLOCK_DONE count=500 inflate_ms=134 replay_ms=7398
+KALAI_REPLAY_DONE 9000
+KALAI_BLOCK_DONE count=500 inflate_ms=163 replay_ms=19907
+KALAI_REPLAY_DONE 9500
+KALAI_BLOCK_DONE count=500 inflate_ms=156 replay_ms=10951
+KALAI_REPLAY_DONE 10000
+KALAI_BLOCK_DONE count=500 inflate_ms=157 replay_ms=10214
+KALAI_REPLAY_DONE 10500
+KALAI_BLOCK_DONE count=500 inflate_ms=777 replay_ms=25510
+KALAI_REPLAY_DONE 11000
+KALAI_BLOCK_DONE count=500 inflate_ms=1990 replay_ms=5327
+KALAI_REPLAY_DONE 11500
+KALAI_BLOCK_DONE count=500 inflate_ms=1701 replay_ms=4886
+KALAI_REPLAY_DONE 12000
+KALAI_BLOCK_DONE count=500 inflate_ms=88 replay_ms=98314
+KALAI_REPLAY_DONE 12500
+KALAI_BLOCK_DONE count=500 inflate_ms=46 replay_ms=73414
+KALAI_REPLAY_DONE 13000
+KALAI_BLOCK_DONE count=500 inflate_ms=1237 replay_ms=34063
+KALAI_REPLAY_DONE 13500
+KALAI_BLOCK_DONE count=500 inflate_ms=1602 replay_ms=4918
+KALAI_REPLAY_DONE 14000
+KALAI_BLOCK_DONE count=500 inflate_ms=2080 replay_ms=6218
+KALAI_REPLAY_DONE 14500
+KALAI_BLOCK_DONE count=500 inflate_ms=903 replay_ms=80238
+KALAI_REPLAY_DONE 15000
+KALAI_BLOCK_DONE count=500 inflate_ms=848 replay_ms=71214
+KALAI_REPLAY_DONE 15500
+KALAI_BLOCK_DONE count=500 inflate_ms=476 replay_ms=728
+KALAI_REPLAY_DONE 16000
+KALAI_BLOCK_DONE count=500 inflate_ms=214 replay_ms=375
+KALAI_REPLAY_DONE 16500
+KALAI_BLOCK_DONE count=500 inflate_ms=241 replay_ms=423
+KALAI_REPLAY_DONE 17000
+KALAI_BLOCK_DONE count=500 inflate_ms=245 replay_ms=448
+KALAI_REPLAY_DONE 17500
+KALAI_BLOCK_DONE count=500 inflate_ms=223 replay_ms=400
+KALAI_REPLAY_DONE 18000
+KALAI_BLOCK_DONE count=500 inflate_ms=139 replay_ms=257
+KALAI_REPLAY_DONE 18500
+KALAI_BLOCK_DONE count=500 inflate_ms=169 replay_ms=315
+KALAI_REPLAY_DONE 19000
+KALAI_BLOCK_DONE count=500 inflate_ms=211 replay_ms=384
+KALAI_REPLAY_DONE 19500
+KALAI_BLOCK_DONE count=500 inflate_ms=709 replay_ms=4284
+KALAI_REPLAY_DONE 20000
+KALAI_BLOCK_DONE count=500 inflate_ms=77 replay_ms=8681
+KALAI_REPLAY_DONE 20500
+KALAI_BLOCK_DONE count=500 inflate_ms=80 replay_ms=12381
+KALAI_REPLAY_DONE 21000
+KALAI_BLOCK_DONE count=500 inflate_ms=85 replay_ms=12284
+KALAI_REPLAY_DONE 21500
+KALAI_BLOCK_DONE count=500 inflate_ms=81 replay_ms=15128
+KALAI_REPLAY_DONE 22000
+KALAI_BLOCK_DONE count=500 inflate_ms=102 replay_ms=12302
+KALAI_REPLAY_DONE 22500
+KALAI_BLOCK_DONE count=500 inflate_ms=72 replay_ms=13034
+KALAI_REPLAY_DONE 23000
+KALAI_BLOCK_DONE count=500 inflate_ms=44 replay_ms=15077
+KALAI_REPLAY_DONE 23500
+KALAI_BLOCK_DONE count=500 inflate_ms=43 replay_ms=17511
+KALAI_REPLAY_DONE 24000
+KALAI_BLOCK_DONE count=500 inflate_ms=41 replay_ms=13731
+KALAI_REPLAY_DONE 24500
+KALAI_BLOCK_DONE count=500 inflate_ms=35 replay_ms=13868
+KALAI_REPLAY_DONE 25000
+KALAI_BLOCK_DONE count=500 inflate_ms=42 replay_ms=33364
+KALAI_REPLAY_DONE 25500
+KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=27876
+KALAI_REPLAY_DONE 26000
+KALAI_BLOCK_DONE count=500 inflate_ms=39 replay_ms=30514
+KALAI_REPLAY_DONE 26500
+KALAI_BLOCK_DONE count=500 inflate_ms=40 replay_ms=38460
+KALAI_REPLAY_DONE 27000
+KALAI_BLOCK_DONE count=500 inflate_ms=40 replay_ms=31679
+KALAI_REPLAY_DONE 27500
+KALAI_BLOCK_DONE count=500 inflate_ms=34 replay_ms=31265
+KALAI_REPLAY_DONE 28000
+KALAI_BLOCK_DONE count=500 inflate_ms=39 replay_ms=43008
+KALAI_REPLAY_DONE 28500
+KALAI_BLOCK_DONE count=500 inflate_ms=28 replay_ms=26849
+KALAI_REPLAY_DONE 29000
+KALAI_BLOCK_DONE count=500 inflate_ms=49 replay_ms=32753
+KALAI_REPLAY_DONE 29500
+KALAI_BLOCK_DONE count=500 inflate_ms=59 replay_ms=30760
+KALAI_REPLAY_DONE 30000
+KALAI_BLOCK_DONE count=500 inflate_ms=51 replay_ms=28003
+KALAI_REPLAY_DONE 30500
+KALAI_BLOCK_DONE count=500 inflate_ms=47 replay_ms=37000
+KALAI_REPLAY_DONE 31000
+KALAI_BLOCK_DONE count=500 inflate_ms=36 replay_ms=24346
+KALAI_REPLAY_DONE 31500
+KALAI_BLOCK_DONE count=500 inflate_ms=40 replay_ms=68267
+KALAI_REPLAY_DONE 32000
+KALAI_BLOCK_DONE count=500 inflate_ms=36 replay_ms=101162
+KALAI_REPLAY_DONE 32500
+KALAI_BLOCK_DONE count=500 inflate_ms=40 replay_ms=64723
+KALAI_REPLAY_DONE 33000
+KALAI_BLOCK_DONE count=500 inflate_ms=30 replay_ms=95472
+KALAI_REPLAY_DONE 33500
+KALAI_BLOCK_DONE count=500 inflate_ms=237 replay_ms=40281
+KALAI_REPLAY_DONE 34000
+KALAI_BLOCK_DONE count=500 inflate_ms=962 replay_ms=90125
+KALAI_REPLAY_DONE 34500
+KALAI_BLOCK_DONE count=500 inflate_ms=1314 replay_ms=7580
+KALAI_REPLAY_DONE 35000
+KALAI_BLOCK_DONE count=500 inflate_ms=1255 replay_ms=9072
+KALAI_REPLAY_DONE 35500
+KALAI_BLOCK_DONE count=500 inflate_ms=1833 replay_ms=11105
+KALAI_REPLAY_DONE 36000
+KALAI_BLOCK_DONE count=500 inflate_ms=2028 replay_ms=54512
+KALAI_REPLAY_DONE 36500
+KALAI_BLOCK_DONE count=500 inflate_ms=2427 replay_ms=19608
+KALAI_REPLAY_DONE 37000
+KALAI_BLOCK_DONE count=500 inflate_ms=2234 replay_ms=17618
+KALAI_REPLAY_DONE 37500
+KALAI_BLOCK_DONE count=500 inflate_ms=1937 replay_ms=11356
+KALAI_REPLAY_DONE 38000
+KALAI_BLOCK_DONE count=500 inflate_ms=2161 replay_ms=9594
+KALAI_REPLAY_DONE 38500
+KALAI_BLOCK_DONE count=500 inflate_ms=1602 replay_ms=5432
+KALAI_REPLAY_DONE 39000
+KALAI_BLOCK_DONE count=500 inflate_ms=3109 replay_ms=8833
+KALAI_REPLAY_DONE 39500
+KALAI_BLOCK_DONE count=500 inflate_ms=724 replay_ms=138831
+KALAI_REPLAY_DONE 40000
+KALAI_BLOCK_DONE count=500 inflate_ms=1949 replay_ms=11092
+KALAI_REPLAY_DONE 40500
+KALAI_BLOCK_DONE count=500 inflate_ms=2233 replay_ms=12406
+KALAI_REPLAY_DONE 41000
+KALAI_BLOCK_DONE count=500 inflate_ms=1629 replay_ms=11012
+KALAI_REPLAY_DONE 41500
+KALAI_BLOCK_DONE count=500 inflate_ms=1092 replay_ms=53293
+KALAI_REPLAY_DONE 42000
+KALAI_BLOCK_DONE count=500 inflate_ms=1532 replay_ms=9068
+KALAI_REPLAY_DONE 42500
+KALAI_BLOCK_DONE count=500 inflate_ms=2944 replay_ms=16829
+KALAI_REPLAY_DONE 43000
+KALAI_BLOCK_DONE count=500 inflate_ms=2601 replay_ms=12470
+KALAI_REPLAY_DONE 43500
+KALAI_BLOCK_DONE count=500 inflate_ms=1655 replay_ms=11265
+KALAI_REPLAY_DONE 44000
+KALAI_BLOCK_DONE count=500 inflate_ms=1808 replay_ms=11458
+KALAI_REPLAY_DONE 44500
+KALAI_BLOCK_DONE count=500 inflate_ms=1805 replay_ms=13210
+KALAI_REPLAY_DONE 45000
+KALAI_BLOCK_DONE count=500 inflate_ms=1813 replay_ms=11297
+KALAI_REPLAY_DONE 45500
+KALAI_BLOCK_DONE count=500 inflate_ms=1833 replay_ms=10470
+KALAI_REPLAY_DONE 46000
+KALAI_BLOCK_DONE count=500 inflate_ms=1634 replay_ms=10548
+KALAI_REPLAY_DONE 46500
+KALAI_BLOCK_DONE count=142 inflate_ms=531 replay_ms=2529
+KALAI_REPLAY_DONE 46642
+'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+	Command being timed: "lake env lean -DmaxErrors=1 -Ddebug.skipKernelTC=false -DElab.async=false KalaiFast.lean"
+	User time (seconds): 2158.54
+	System time (seconds): 22.40
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 37:27.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6229968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82801
+	Minor (reclaiming a frame) page faults: 4511080
+	Voluntary context switches: 185242
+	Involuntary context switches: 22649
+	Swaps: 0
+	File system inputs: 2794480
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

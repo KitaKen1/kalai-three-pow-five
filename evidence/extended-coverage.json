@@ -1,0 +1,228 @@
+{
+  "E1820_20": {
+    "status": "passed",
+    "cells_and_maxima": 149361,
+    "leaves_used": 21,
+    "global_slack_bound": 82
+  },
+  "E1818_18": {
+    "status": "passed",
+    "cells_and_maxima": 52883,
+    "leaves_used": 212,
+    "global_slack_bound": 62
+  },
+  "E16k_16": {
+    "status": "passed",
+    "cells_and_maxima": 2380,
+    "leaves_used": 1,
+    "global_slack_bound": 26
+  },
+  "E16k_18": {
+    "status": "passed",
+    "cells_and_maxima": 12650,
+    "leaves_used": 14,
+    "global_slack_bound": 42
+  },
+  "E16f_16": {
+    "status": "passed",
+    "cells_and_maxima": 7140,
+    "leaves_used": 25,
+    "global_slack_bound": 26
+  },
+  "E20f_20": {
+    "status": "passed",
+    "cells_and_maxima": 163680,
+    "leaves_used": 4,
+    "global_slack_bound": 58
+  },
+  "weighted20": {
+    "status": "passed",
+    "cells_and_maxima": 124058,
+    "leaves_used": 71,
+    "global_slack_bound": 58
+  },
+  "E1818_B1": {
+    "status": "passed",
+    "cells_and_maxima": 52360,
+    "leaves_used": 1,
+    "global_slack_bound": 62
+  },
+  "E1818_B2": {
+    "status": "passed",
+    "cells_and_maxima": 52360,
+    "leaves_used": 1,
+    "global_slack_bound": 62
+  },
+  "E1818_B3": {
+    "status": "passed",
+    "cells_and_maxima": 52360,
+    "leaves_used": 1,
+    "global_slack_bound": 62
+  },
+  "E1818_B4": {
+    "status": "passed",
+    "cells_and_maxima": 52360,
+    "leaves_used": 1,
+    "global_slack_bound": 62
+  },
+  "E1820_B2": {
+    "status": "passed",
+    "cells_and_maxima": 148995,
+    "leaves_used": 1,
+    "global_slack_bound": 82
+  },
+  "E1820_prism": {
+    "status": "passed",
+    "cells_and_maxima": 148995,
+    "leaves_used": 3,
+    "global_slack_bound": 82
+  },
+  "low18": {
+    "status": "passed",
+    "cells_and_maxima": 46941,
+    "leaves_used": 275,
+    "global_slack_bound": 42,
+    "residual_cells": {
+      "1": [
+        [
+          0,
+          10
+        ]
+      ],
+      "2": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "3": [
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          8,
+          10
+        ]
+      ]
+    }
+  },
+  "low18_r64_residues": {
+    "status": "passed",
+    "cells_and_maxima": 399,
+    "leaves_used": 3,
+    "global_slack_bound": 42
+  }
+}

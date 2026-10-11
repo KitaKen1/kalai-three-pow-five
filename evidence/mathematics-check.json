@@ -1,0 +1,265 @@
+{
+  "status": "passed",
+  "whole_theorem_verified_by_this_script": false,
+  "catalogue": {
+    "sorted_codes": 6364,
+    "rank_compatible_codes": 4608,
+    "valid_codes": 832,
+    "invalid_vertex_codes": 3776,
+    "q55_weight_codes": 81,
+    "quadrilateral_link_codes": 11,
+    "R35_G0_profile_codes": 44,
+    "R35_special_ridge_codes": 44,
+    "positive_small_ridge_codes": 12,
+    "J_profile_codes": 6,
+    "u_incidence_codes": 10,
+    "Z_full_cover_codes": 8
+  },
+  "rows": [
+    [
+      5,
+      10,
+      10,
+      5,
+      20
+    ],
+    [
+      6,
+      13,
+      13,
+      6,
+      26
+    ],
+    [
+      6,
+      14,
+      15,
+      7,
+      29
+    ],
+    [
+      6,
+      14,
+      16,
+      8,
+      32
+    ],
+    [
+      6,
+      15,
+      18,
+      9,
+      36
+    ],
+    [
+      7,
+      15,
+      14,
+      6,
+      29
+    ],
+    [
+      7,
+      16,
+      16,
+      7,
+      32
+    ],
+    [
+      7,
+      17,
+      17,
+      7,
+      32
+    ],
+    [
+      7,
+      17,
+      18,
+      8,
+      35
+    ],
+    [
+      7,
+      17,
+      18,
+      8,
+      36
+    ],
+    [
+      7,
+      17,
+      19,
+      9,
+      38
+    ],
+    [
+      7,
+      18,
+      19,
+      8,
+      35
+    ],
+    [
+      7,
+      18,
+      20,
+      9,
+      38
+    ],
+    [
+      7,
+      18,
+      20,
+      9,
+      39
+    ],
+    [
+      7,
+      18,
+      21,
+      10,
+      41
+    ],
+    [
+      7,
+      18,
+      21,
+      10,
+      42
+    ],
+    [
+      7,
+      18,
+      22,
+      11,
+      44
+    ],
+    [
+      7,
+      19,
+      22,
+      10,
+      42
+    ],
+    [
+      7,
+      19,
+      23,
+      11,
+      45
+    ],
+    [
+      7,
+      19,
+      23,
+      11,
+      46
+    ],
+    [
+      7,
+      19,
+      24,
+      12,
+      48
+    ],
+    [
+      7,
+      20,
+      25,
+      12,
+      49
+    ],
+    [
+      7,
+      20,
+      26,
+      13,
+      52
+    ],
+    [
+      7,
+      21,
+      28,
+      14,
+      56
+    ]
+  ],
+  "counterexample_pairs": [
+    [
+      14,
+      16
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      14,
+      26
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      20,
+      20
+    ]
+  ],
+  "sixteen_twenty_two": {
+    "eight_vertex_box_rows": 1395,
+    "forced_profile": [
+      6,
+      14,
+      2
+    ],
+    "six_vertex_ridge_incidences": 18,
+    "scope": "conditional on the written geometric and rigidity inputs"
+  },
+  "limits": [
+    "rigidity theorem is a mathematical input",
+    "full-facet arguments are not verified by this script",
+    "the other endpoint certificates have separate checkers"
+  ]
+}

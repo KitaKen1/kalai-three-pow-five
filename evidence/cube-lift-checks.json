@@ -1,0 +1,1042 @@
+{
+  "status": "passed",
+  "whole_theorem_verified": false,
+  "five_full_normals": {
+    "subsets": 12870,
+    "representatives": 25,
+    "certified_face_counts": [
+      0,
+      279,
+      279,
+      243,
+      259,
+      315,
+      331,
+      367,
+      243,
+      259,
+      315,
+      307,
+      323,
+      395,
+      339,
+      315,
+      403,
+      295,
+      331,
+      351,
+      379,
+      259,
+      259,
+      391,
+      243
+    ]
+  },
+  "14_vertices": {
+    "reduction": {
+      "sequences": 1016,
+      "nonspanning": 48,
+      "uses": {
+        "0": 232,
+        "1": 288,
+        "2": 192,
+        "3": 32,
+        "5": 96,
+        "6": 24,
+        "7": 48,
+        "4": 48,
+        "8": 8
+      }
+    },
+    "families": [
+      {
+        "records": 308,
+        "planes": 9,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 65,
+          "leaf": 72,
+          "refuted": 52,
+          "invalid": 7
+        }
+      },
+      {
+        "records": 304,
+        "planes": 16,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 155,
+          "leaf": 100,
+          "refuted": 208,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 260,
+        "planes": 16,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 85,
+          "leaf": 60,
+          "refuted": 108,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 232,
+        "planes": 22,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 213,
+          "leaf": 76,
+          "refuted": 344,
+          "zeroRank3": 4,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 224,
+        "planes": 24,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 265,
+          "leaf": 92,
+          "refuted": 432,
+          "zeroRank3": 4,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 290,
+        "planes": 20,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 185,
+          "leaf": 118,
+          "refuted": 248,
+          "zeroRank3": 4,
+          "invalid": 1
+        }
+      },
+      {
+        "records": 242,
+        "planes": 23,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 151,
+          "leaf": 86,
+          "refuted": 210,
+          "zeroRank3": 6,
+          "invalid": 1
+        }
+      },
+      {
+        "records": 230,
+        "planes": 30,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 283,
+          "leaf": 110,
+          "refuted": 450,
+          "zeroRank3": 6,
+          "invalid": 1
+        }
+      },
+      {
+        "records": 280,
+        "planes": 33,
+        "vertical_facets": 0,
+        "nodes": {
+          "branch": 264,
+          "leaf": 146,
+          "refuted": 354,
+          "zeroRank3": 29
+        }
+      }
+    ]
+  },
+  "16_vertices": {
+    "reduction": {
+      "sequences": 1107,
+      "nonspanning": 12,
+      "uses": {
+        "3": 48,
+        "6": 48,
+        "4": 48,
+        "9": 48,
+        "0": 32,
+        "7": 48,
+        "16": 8,
+        "1": 24,
+        "8": 48,
+        "12": 48,
+        "23": 16,
+        "31": 16,
+        "44": 12,
+        "39": 12,
+        "11": 48,
+        "37": 16,
+        "5": 48,
+        "14": 8,
+        "51": 12,
+        "18": 8,
+        "34": 16,
+        "35": 16,
+        "32": 16,
+        "47": 12,
+        "13": 8,
+        "29": 16,
+        "17": 8,
+        "30": 16,
+        "40": 12,
+        "10": 48,
+        "43": 12,
+        "27": 16,
+        "28": 16,
+        "53": 8,
+        "57": 8,
+        "55": 8,
+        "50": 12,
+        "48": 12,
+        "36": 16,
+        "49": 12,
+        "59": 8,
+        "15": 8,
+        "54": 8,
+        "25": 16,
+        "19": 8,
+        "22": 8,
+        "46": 12,
+        "58": 8,
+        "21": 8,
+        "52": 12,
+        "42": 12,
+        "56": 8,
+        "20": 8,
+        "2": 2,
+        "26": 16,
+        "38": 12,
+        "24": 16,
+        "45": 12,
+        "41": 12,
+        "33": 16,
+        "60": 1
+      }
+    },
+    "families": [
+      {
+        "records": 365,
+        "planes": 16,
+        "vertical_facets": 16,
+        "nodes": {
+          "branch": 269,
+          "sub": 46,
+          "implied": 452,
+          "leaf": 432,
+          "invalid": 27,
+          "count": 64,
+          "rank5": 16
+        }
+      },
+      {
+        "records": 351,
+        "planes": 16,
+        "vertical_facets": 16,
+        "nodes": {
+          "branch": 277,
+          "sub": 46,
+          "implied": 464,
+          "leaf": 436,
+          "invalid": 39,
+          "count": 64,
+          "rank5": 16
+        }
+      },
+      {
+        "records": 369,
+        "planes": 16,
+        "vertical_facets": 16,
+        "nodes": {
+          "branch": 268,
+          "sub": 46,
+          "implied": 449,
+          "leaf": 430,
+          "invalid": 27,
+          "count": 64,
+          "rank5": 16
+        }
+      },
+      {
+        "records": 493,
+        "planes": 41,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 548,
+          "sub": 51,
+          "implied": 1732,
+          "leaf": 1038,
+          "invalid": 42,
+          "rank5": 17
+        }
+      },
+      {
+        "records": 492,
+        "planes": 41,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 589,
+          "sub": 65,
+          "implied": 2070,
+          "leaf": 1124,
+          "rank5": 17,
+          "invalid": 38
+        }
+      },
+      {
+        "records": 575,
+        "planes": 37,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 451,
+          "sub": 63,
+          "implied": 1505,
+          "leaf": 818,
+          "count": 40,
+          "rank5": 25,
+          "invalid": 20
+        }
+      },
+      {
+        "records": 489,
+        "planes": 41,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 511,
+          "sub": 56,
+          "implied": 2090,
+          "leaf": 964,
+          "invalid": 43,
+          "rank5": 16
+        }
+      },
+      {
+        "records": 540,
+        "planes": 36,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 406,
+          "sub": 54,
+          "implied": 1064,
+          "leaf": 710,
+          "rank5": 24,
+          "invalid": 39,
+          "count": 40
+        }
+      },
+      {
+        "records": 608,
+        "planes": 37,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 463,
+          "sub": 62,
+          "implied": 1678,
+          "leaf": 856,
+          "count": 40,
+          "rank5": 24,
+          "invalid": 7
+        }
+      },
+      {
+        "records": 487,
+        "planes": 41,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 552,
+          "sub": 53,
+          "implied": 2245,
+          "leaf": 1062,
+          "rank5": 17,
+          "invalid": 26
+        }
+      },
+      {
+        "records": 543,
+        "planes": 37,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 424,
+          "implied": 1224,
+          "sub": 59,
+          "leaf": 758,
+          "rank5": 24,
+          "count": 40,
+          "invalid": 27
+        }
+      },
+      {
+        "records": 569,
+        "planes": 37,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 430,
+          "sub": 60,
+          "implied": 1429,
+          "leaf": 790,
+          "rank5": 24,
+          "count": 40,
+          "invalid": 7
+        }
+      },
+      {
+        "records": 582,
+        "planes": 37,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 448,
+          "sub": 55,
+          "implied": 1435,
+          "leaf": 804,
+          "count": 40,
+          "rank5": 24,
+          "invalid": 29
+        }
+      },
+      {
+        "records": 550,
+        "planes": 61,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 650,
+          "sub": 53,
+          "implied": 2238,
+          "leaf": 1234,
+          "rank5": 16,
+          "invalid": 51
+        }
+      },
+      {
+        "records": 526,
+        "planes": 60,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 528,
+          "implied": 2017,
+          "sub": 46,
+          "leaf": 985,
+          "rank5": 17,
+          "invalid": 55
+        }
+      },
+      {
+        "records": 628,
+        "planes": 61,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 574,
+          "implied": 2342,
+          "sub": 54,
+          "leaf": 1111,
+          "rank5": 19,
+          "invalid": 19
+        }
+      },
+      {
+        "records": 575,
+        "planes": 61,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 630,
+          "implied": 2331,
+          "sub": 52,
+          "leaf": 1175,
+          "invalid": 71,
+          "rank5": 15
+        }
+      },
+      {
+        "records": 672,
+        "planes": 61,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 628,
+          "sub": 66,
+          "implied": 2776,
+          "leaf": 1210,
+          "invalid": 23,
+          "rank5": 24
+        }
+      },
+      {
+        "records": 592,
+        "planes": 61,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 628,
+          "implied": 2504,
+          "sub": 58,
+          "leaf": 1194,
+          "rank5": 18,
+          "invalid": 45
+        }
+      },
+      {
+        "records": 644,
+        "planes": 65,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 742,
+          "sub": 80,
+          "implied": 3760,
+          "leaf": 1442,
+          "rank5": 32,
+          "invalid": 11
+        }
+      },
+      {
+        "records": 621,
+        "planes": 65,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 743,
+          "sub": 68,
+          "implied": 3184,
+          "leaf": 1442,
+          "rank5": 28,
+          "invalid": 17
+        }
+      },
+      {
+        "records": 653,
+        "planes": 65,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 805,
+          "sub": 82,
+          "implied": 3742,
+          "leaf": 1571,
+          "invalid": 9,
+          "rank5": 31
+        }
+      },
+      {
+        "records": 663,
+        "planes": 65,
+        "vertical_facets": 14,
+        "nodes": {
+          "branch": 777,
+          "sub": 72,
+          "implied": 3621,
+          "leaf": 1514,
+          "rank5": 32,
+          "invalid": 9
+        }
+      },
+      {
+        "records": 565,
+        "planes": 46,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 412,
+          "implied": 1218,
+          "sub": 41,
+          "leaf": 747,
+          "rank5": 39,
+          "invalid": 38,
+          "zero": 1
+        }
+      },
+      {
+        "records": 490,
+        "planes": 48,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 362,
+          "implied": 1080,
+          "sub": 39,
+          "leaf": 654,
+          "rank5": 41,
+          "invalid": 30
+        }
+      },
+      {
+        "records": 541,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 433,
+          "sub": 46,
+          "implied": 1623,
+          "leaf": 807,
+          "rank5": 41,
+          "invalid": 19
+        }
+      },
+      {
+        "records": 508,
+        "planes": 49,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 366,
+          "implied": 1055,
+          "sub": 37,
+          "leaf": 644,
+          "rank5": 42,
+          "invalid": 47
+        }
+      },
+      {
+        "records": 597,
+        "planes": 52,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 495,
+          "implied": 1797,
+          "sub": 62,
+          "leaf": 948,
+          "rank5": 40,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 510,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 384,
+          "implied": 1267,
+          "sub": 36,
+          "leaf": 690,
+          "rank5": 41,
+          "invalid": 37,
+          "zero": 1
+        }
+      },
+      {
+        "records": 549,
+        "planes": 52,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 384,
+          "sub": 45,
+          "implied": 1420,
+          "leaf": 722,
+          "invalid": 7,
+          "rank5": 40
+        }
+      },
+      {
+        "records": 528,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 363,
+          "sub": 41,
+          "implied": 1220,
+          "leaf": 658,
+          "invalid": 26,
+          "rank5": 42,
+          "zero": 1
+        }
+      },
+      {
+        "records": 553,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 366,
+          "sub": 40,
+          "implied": 1338,
+          "leaf": 675,
+          "rank5": 42,
+          "invalid": 16
+        }
+      },
+      {
+        "records": 602,
+        "planes": 48,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 487,
+          "implied": 1577,
+          "sub": 48,
+          "leaf": 913,
+          "rank5": 36,
+          "invalid": 26
+        }
+      },
+      {
+        "records": 530,
+        "planes": 46,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 387,
+          "implied": 1197,
+          "sub": 37,
+          "leaf": 686,
+          "rank5": 43,
+          "invalid": 45,
+          "zero": 1
+        }
+      },
+      {
+        "records": 605,
+        "planes": 52,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 441,
+          "implied": 1717,
+          "sub": 40,
+          "leaf": 832,
+          "invalid": 11,
+          "rank5": 40
+        }
+      },
+      {
+        "records": 522,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 392,
+          "sub": 50,
+          "implied": 1435,
+          "leaf": 740,
+          "rank5": 40,
+          "invalid": 5
+        }
+      },
+      {
+        "records": 614,
+        "planes": 51,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 421,
+          "sub": 50,
+          "implied": 1758,
+          "leaf": 800,
+          "rank5": 40,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 571,
+        "planes": 47,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 421,
+          "sub": 43,
+          "implied": 1326,
+          "leaf": 792,
+          "invalid": 15,
+          "rank5": 36
+        }
+      },
+      {
+        "records": 475,
+        "planes": 57,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 452,
+          "sub": 51,
+          "implied": 1405,
+          "leaf": 837,
+          "invalid": 42,
+          "rank5": 26
+        }
+      },
+      {
+        "records": 500,
+        "planes": 62,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 505,
+          "sub": 51,
+          "implied": 1699,
+          "leaf": 948,
+          "invalid": 38,
+          "rank5": 25
+        }
+      },
+      {
+        "records": 631,
+        "planes": 54,
+        "vertical_facets": 8,
+        "nodes": {
+          "branch": 537,
+          "sub": 62,
+          "implied": 1941,
+          "leaf": 1022,
+          "rank5": 25,
+          "invalid": 28
+        }
+      },
+      {
+        "records": 469,
+        "planes": 60,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 404,
+          "sub": 40,
+          "implied": 1337,
+          "leaf": 745,
+          "invalid": 42,
+          "rank5": 22
+        }
+      },
+      {
+        "records": 652,
+        "planes": 68,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 731,
+          "sub": 86,
+          "implied": 2616,
+          "leaf": 1436,
+          "rank5": 24,
+          "invalid": 3
+        }
+      },
+      {
+        "records": 607,
+        "planes": 77,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 818,
+          "sub": 86,
+          "implied": 2806,
+          "leaf": 1561,
+          "invalid": 45,
+          "rank5": 31
+        }
+      },
+      {
+        "records": 476,
+        "planes": 55,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 379,
+          "implied": 1233,
+          "sub": 39,
+          "leaf": 703,
+          "rank5": 26,
+          "invalid": 30
+        }
+      },
+      {
+        "records": 698,
+        "planes": 84,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 872,
+          "sub": 100,
+          "implied": 3457,
+          "leaf": 1695,
+          "rank5": 37,
+          "count": 4,
+          "invalid": 9
+        }
+      },
+      {
+        "records": 686,
+        "planes": 83,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 907,
+          "sub": 108,
+          "implied": 3431,
+          "leaf": 1749,
+          "rank5": 41,
+          "count": 4,
+          "invalid": 21
+        }
+      },
+      {
+        "records": 502,
+        "planes": 63,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 459,
+          "implied": 1566,
+          "sub": 43,
+          "leaf": 868,
+          "rank5": 24,
+          "invalid": 27
+        }
+      },
+      {
+        "records": 663,
+        "planes": 84,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 785,
+          "sub": 101,
+          "implied": 3030,
+          "leaf": 1521,
+          "rank5": 38,
+          "count": 4,
+          "invalid": 8
+        }
+      },
+      {
+        "records": 603,
+        "planes": 83,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 760,
+          "implied": 2931,
+          "sub": 95,
+          "leaf": 1474,
+          "rank5": 34,
+          "count": 4,
+          "invalid": 9
+        }
+      },
+      {
+        "records": 650,
+        "planes": 68,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 659,
+          "sub": 71,
+          "implied": 2304,
+          "leaf": 1276,
+          "rank5": 30,
+          "invalid": 13
+        }
+      },
+      {
+        "records": 614,
+        "planes": 68,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 581,
+          "sub": 69,
+          "implied": 1953,
+          "leaf": 1108,
+          "rank5": 33,
+          "invalid": 22
+        }
+      },
+      {
+        "records": 678,
+        "planes": 81,
+        "vertical_facets": 12,
+        "nodes": {
+          "branch": 1019,
+          "implied": 3716,
+          "sub": 114,
+          "leaf": 1999,
+          "invalid": 7,
+          "rank5": 33
+        }
+      },
+      {
+        "records": 575,
+        "planes": 82,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 574,
+          "implied": 2059,
+          "sub": 61,
+          "leaf": 1049,
+          "invalid": 30,
+          "rank5": 69,
+          "zero": 1
+        }
+      },
+      {
+        "records": 537,
+        "planes": 75,
+        "vertical_facets": 8,
+        "nodes": {
+          "branch": 522,
+          "implied": 1845,
+          "sub": 55,
+          "leaf": 973,
+          "rank5": 56,
+          "invalid": 16
+        }
+      },
+      {
+        "records": 502,
+        "planes": 76,
+        "vertical_facets": 8,
+        "nodes": {
+          "branch": 474,
+          "implied": 1607,
+          "sub": 51,
+          "leaf": 860,
+          "invalid": 35,
+          "rank5": 53,
+          "zero": 1
+        }
+      },
+      {
+        "records": 623,
+        "planes": 85,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 771,
+          "implied": 2815,
+          "sub": 86,
+          "leaf": 1481,
+          "rank5": 61,
+          "invalid": 1
+        }
+      },
+      {
+        "records": 554,
+        "planes": 75,
+        "vertical_facets": 8,
+        "nodes": {
+          "branch": 495,
+          "implied": 1948,
+          "sub": 54,
+          "leaf": 921,
+          "rank5": 57,
+          "invalid": 12,
+          "zero": 1
+        }
+      },
+      {
+        "records": 689,
+        "planes": 91,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 872,
+          "implied": 3540,
+          "sub": 104,
+          "leaf": 1677,
+          "rank5": 67,
+          "invalid": 1
+        }
+      },
+      {
+        "records": 630,
+        "planes": 87,
+        "vertical_facets": 10,
+        "nodes": {
+          "branch": 702,
+          "sub": 82,
+          "implied": 2559,
+          "leaf": 1334,
+          "rank5": 64,
+          "invalid": 7
+        }
+      },
+      {
+        "records": 748,
+        "planes": 115,
+        "vertical_facets": 8,
+        "nodes": {
+          "branch": 1130,
+          "implied": 4314,
+          "sub": 139,
+          "leaf": 2158,
+          "rank5": 102,
+          "zero": 1
+        }
+      }
+    ]
+  }
+}

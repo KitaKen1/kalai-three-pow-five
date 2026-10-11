@@ -1,0 +1,85 @@
+"""Explicit connection of the geometric alternatives to the endpoint tables."""
+def add_endpoint_assembly(p,eq,section,table,width):
+    section(40,'Assembly of the fourteen- and eighteen-vertex endpoints')
+    p('<b>Proposition 40.1.</b> <i>The six endpoints with v=14 '
+      'are excluded.</i> If there are at least four full '
+      'facet pairs, their normals have rank at least three '
+      'by Section 28. Rank three is excluded by Section 29, '
+      'including its point-fibre alternative. Rank at '
+      'least four is excluded by Sections 30–32, which '
+      'apply to arbitrary real coordinates. Thus a '
+      'counterexample has at most six full facets. '
+      'At (14,16) the incidence lower bound '
+      'I≥4(v+h)−12=108, and I≤6h+q=96+q, '
+      'forces q≥12. At (14,18) these bounds '
+      'force q≥8. Both contradict q≤6. '
+      'The four remaining h=20,22,24,26 cases '
+      'now use the row sums of Section 7 with '
+      'q≤6. Their inequalities give respectively '
+      '6t≥716, 6t≥716, 6t≥714 and '
+      '12t≥1434. Since t is even, each '
+      'forces t≥120. In the zero-stress '
+      '(14,20) alternative, the separately '
+      'proved incidence contradiction in Section 7 '
+      'applies instead. This completes all six '
+      'fourteen-vertex branches.')
+    p('<b>Proposition 40.2.</b> <i>The endpoint (18,18) '
+      'is excluded.</i> Let Q denote the row '
+      '(9,18,15,6;36), T the row (8,16,14,6;32), '
+      'and U the row (9,19,17,7;38). These '
+      'names refer to numerical rows whose '
+      'required geometric recognition has '
+      'already been proved. Use the following '
+      'ordered alternatives; each new alternative '
+      'retains the exclusions in the earlier ones.')
+    table([
+      ['<b>Alternative</b>','<b>Geometric consequence</b>','<b>Certificate in §34</b>'],
+      ['Q occurs on P','e≥72 by §20','D1'],
+      ['Q occurs only on P*','r≥72 by §20 on P*','D2'],
+      ['No Q; T occurs on P','e≥64 by §39','D3'],
+      ['No Q; T only on P*','r≥64 by §39 on P*','D4'],
+      ['No Q or T on either side','U is also absent on both sides by §38','Remaining D cases']
+    ],[width*.38,width*.36,width*.26])
+    p('Every D cost is nonnegative on its printed '
+      'local row domain and its global sum gives '
+      'the displayed strictly negative combination. '
+      'The first four cases require only G,S≥0 '
+      'and the displayed edge or ridge bound. '
+      'For the last case the complete even-integer '
+      'coverage calculation of Section 34 includes '
+      'all local maximum stresses; every threshold '
+      'count is justified by the two-facet stress '
+      'bound. Hence none of the five alternatives '
+      'can satisfy t≤118.')
+    p('<b>Proposition 40.3.</b> <i>The endpoint (18,20) '
+      'is excluded.</i> If Q occurs on P, '
+      'e≥72 and 2r≥5h=100, so t≥122. '
+      'If Q occurs only on P*, its twenty '
+      'vertices and the extra-pair argument of '
+      'Section 21 give r≥66; case C1 of '
+      'Section 34 applies. Otherwise Q is '
+      'absent on both sides. If T occurs on '
+      'P, Proposition 39.1 gives e≥64, '
+      'which implies the e≥60 hypothesis '
+      'of C2–C4. Their stress alternatives '
+      'G≥12; G≤10,S≥20; and G≤10,S≤18 '
+      'exhaust every nonnegative even G,S. '
+      'If T does not occur on P, the '
+      'remaining twenty-one C cases cover '
+      'all even slacks and local maxima as '
+      'proved in Section 34. T is permitted '
+      'on the polar in this last alternative; '
+      'no additional twenty-vertex prism '
+      'bound is needed. These alternatives '
+      'exclude every (18,20) counterexample.')
+    p('For completeness, (18,22) was proved '
+      'in Section 23 and (20,20) in Section '
+      '24. The sixteen-vertex h=24 case '
+      'uses 12t≥1464 after excluding the '
+      'full prism, as in Section 8; h=22 '
+      'was proved in Section 19; h=20 '
+      'in Sections 35–37, including its '
+      'rank-three and rank-four alternatives; '
+      'h=16 in Section 34. Thus the only '
+      'endpoint left for Sections 41–54 '
+      'is (16,18).')

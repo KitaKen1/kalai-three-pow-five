@@ -1,0 +1,14 @@
+{
+  "E1822": {
+    "axis_cells_checked": 32196,
+    "leaves_used": 69,
+    "slack_bound": 106,
+    "status": "passed"
+  },
+  "E2020": {
+    "axis_cells_checked": 3025,
+    "leaves_used": 5,
+    "slack_bound": 106,
+    "status": "passed"
+  }
+}

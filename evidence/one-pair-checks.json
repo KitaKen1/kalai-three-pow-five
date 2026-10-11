@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "whole_theorem_verified": false,
+  "tested_integer_profiles": 51480,
+  "survivors": [
+    {
+      "full_row_edge_count": 20,
+      "pair_counts": [
+        4,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "e": 58,
+      "r": 60
+    }
+  ]
+}

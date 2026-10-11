@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-11T11:24:02.275980+00:00",
+  "whole_theorem_verified": false,
+  "exact_cost_certificates": 742,
+  "seconds": 76.493,
+  "steps": [
+    {
+      "check": "certificates/mathematical-certificate-data.json",
+      "report": "printed-cost-certificates.json",
+      "certificates": 76,
+      "seconds": 4.717
+    },
+    {
+      "check": "certificates/extended-certificate-data.json",
+      "report": "extended-cost-checks.json",
+      "certificates": 285,
+      "seconds": 10.891
+    },
+    {
+      "check": "certificates/quad-certificate-data.json",
+      "report": "quad-cost-checks.json",
+      "certificates": 7,
+      "seconds": 2.483
+    },
+    {
+      "check": "certificates/weighted20-certificate-data.json",
+      "report": "weighted20-cost-checks.json",
+      "certificates": 71,
+      "seconds": 7.034
+    },
+    {
+      "check": "certificates/low18-certificate-data.json",
+      "report": "low18-cost-checks.json",
+      "certificates": 276,
+      "seconds": 15.116
+    },
+    {
+      "check": "certificates/positive-certificate-data.json",
+      "report": "positive-cost-checks.json",
+      "certificates": 27,
+      "seconds": 4.551
+    },
+    {
+      "check": "cube-lift integer certificates",
+      "report": "cube-lift-checks.json",
+      "seconds": 6.803
+    },
+    {
+      "check": "verification/verify_mathematics.py",
+      "report": "mathematics-check.json",
+      "seconds": 1.764
+    },
+    {
+      "check": "verification/check_coverage.py",
+      "report": "endpoint-coverage.json",
+      "seconds": 0.393
+    },
+    {
+      "check": "verification/check_extended_coverage.py",
+      "report": "extended-coverage.json",
+      "seconds": 2.231
+    },
+    {
+      "check": "verification/check_ridge_counts.py",
+      "report": "ridge-count-checks.json",
+      "seconds": 0.069
+    },
+    {
+      "check": "verification/check_one_pair.py",
+      "report": "one-pair-checks.json",
+      "seconds": 0.085
+    },
+    {
+      "check": "verification/check_two_pair_zero.py",
+      "report": "two-pair-zero-checks.json",
+      "seconds": 1.094
+    },
+    {
+      "check": "verification/check_positive_profiles.py",
+      "report": "positive-profile-checks.json",
+      "seconds": 0.907
+    },
+    {
+      "check": "verification/check_positive_geometry.py",
+      "report": "positive-geometry-checks.json",
+      "seconds": 0.414
+    },
+    {
+      "check": "verification/check_signed_carriers.py",
+      "report": "signed-carrier-checks.json",
+      "seconds": 16.354
+    },
+    {
+      "check": "verification/check_interval_sections.py",
+      "report": "interval-section-checks.json",
+      "seconds": 1.504
+    }
+  ],
+  "input_sha256": {
+    "certificates/cube-14-certificates.json.gz": "b6238d742d1f753359e3faeb39de0bc653857facda21e39d3b8379209fa48384",
+    "certificates/cube-16-certificates.json.gz": "529d086ca7a6eb782bd51c4aa66250047f9535ac887eed398c1c45c347ed9829",
+    "certificates/cube-5-sign-certificates.json.gz": "106d4b3753f5b16fd7da30c56a58ab97061ab26bcca7dda295320a11750d3dd8",
+    "certificates/extended-certificate-data.json": "269a14e532429e0680c0eaae101697538fde8defa9cd5ca738d3b36fb8baffce",
+    "certificates/low18-certificate-data.json": "df68691feed0f27dbc077caad695a4f71a931344cba57638759f62750b45a79f",
+    "certificates/mathematical-certificate-data.json": "e349c891968298ab6bc8aacea03ae37566084b99932b0fb3a9742129c6237e6a",
+    "certificates/positive-certificate-data.json": "68fe990fcc248ff448d35eaf2065fdf569ace24dd25e1c25107a2c9fd5201632",
+    "certificates/quad-certificate-data.json": "a461631f03ead92a4ef549b0a975867bbd80a63fcd37109d3baeb0b617769b24",
+    "certificates/weighted20-certificate-data.json": "d8135bb81cc643b7b22acdd91b4b8159430cf46bad46878a941fb53afdea3c69",
+    "verification/__init__.py": "ae687922fc6e645673493ad3c9528a98b556bee30f20f19290c8cd8c5322a847",
+    "verification/__main__.py": "9d411202160288d194d0d0a5440762e0cafbc80ebdada80cc94b81808eb4e15e",
+    "verification/certificate_checks.py": "bb0ebdfb5248fb0c112ac33e6f451d52255ea8ce37d2dba3ae5fdc2d00a1105e",
+    "verification/check_coverage.py": "2ac6e69ef56f2c2b58442763ef19afc562ab48b46a304d66c6de5ff4f4c6170d",
+    "verification/check_cube_certificates.py": "6ac0c525b8acc00474ac98a39c7325244b98a843921e76cd6c46653221917ecc",
+    "verification/check_extended_coverage.py": "8d3532567d4ea85a3fb0caaeb78892e723d10be51f008079ce11ad72188bf24e",
+    "verification/check_interval_sections.py": "7c61999a4fcc58119f17fc41d9eee034cb681ac449de9f147a1f512c7101ddbf",
+    "verification/check_one_pair.py": "e62a131092efb0cc370b65127457db9cdd652e9495bb09591e4040fdbd9ae72b",
+    "verification/check_positive_geometry.py": "0aa5b50e850296c6b640f15a7a5e396134f8f9738171160180de506bce55236a",
+    "verification/check_positive_profiles.py": "903e3b229e11d924611e595d893194e4d881d7b8289c2c7dbb9e8e8f548a8abd",
+    "verification/check_ridge_counts.py": "bce057b52ff121cb6f3346a7bbab2eb2a0b8277abbd41f83d445823725acd7d9",
+    "verification/check_signed_carriers.py": "5ddef22db9f3768e9b86ff1a3030ac880218295d47bc030da2177bb317accf5c",
+    "verification/check_two_pair_zero.py": "d040f27ef1b1cc17a1d57ac805cabb285023ddb7ddc2852c0c3b24a73b3552b2",
+    "verification/paths.py": "e9fdbc4ebe29c90d950a31b645079f23ea6f5344735ae1ac146e2013992f718a",
+    "verification/verify_mathematics.py": "56b4fda6f288ac797878112afbbcde798f02d9901d5d255e9063b21c36e8b3aa"
+  },
+  "report_sha256": {
+    "printed-cost-certificates.json": "eb9da2f197d415ce9e0f849d9b01f2665e7a2283803a92173f4b177660e5f404",
+    "extended-cost-checks.json": "54c3155eef4d33b607a40f074f441cb52938e58de7731ea22f285a1eaf9c2e1d",
+    "quad-cost-checks.json": "522e8e6e795baed9cfe7ca21720689d73d3a99518030a3e871d067fad10655c1",
+    "weighted20-cost-checks.json": "b4856ce07f03bbe83a4da899ef4a916b376286153f577342e6ed2d3031705177",
+    "low18-cost-checks.json": "78b9d3ed24cc668443b2bb8fbc5c605dd9b07c1b3f7d566dd8e032ade26aef7f",
+    "positive-cost-checks.json": "77ce7096a05103bc36199a91d8814990cb5bde5749ccfb633693007e26aa5786",
+    "cube-lift-checks.json": "5458b87854ba1feef9e3995fe5c0462988ff6fcd098bc6e5e492426bba901b5e",
+    "mathematics-check.json": "bf564f50d11b07c3e70b1fbd0f94c7f33cb37d0c83e54f3e0fd48885c871c9ba",
+    "endpoint-coverage.json": "35e286277c11722f16f738ed7a4f562dbbf1a9bc7fb5a34a267d1263dddfed9f",
+    "extended-coverage.json": "639bfa204bd5c4a9499eac6ad86b68c73dbd3439bd419df0c06d8ac1443fe77a",
+    "ridge-count-checks.json": "fa56fb390d1b14a22320eb4b8b9d7760570b1073fdc82cc17fd092e5321ece24",
+    "one-pair-checks.json": "45f01941cc069243ec48923969c2c40d2a4d698b159656ad169e4927bd68ceb9",
+    "two-pair-zero-checks.json": "22fe7f3a9de91a6f61701b339275cc23f92888534567928fec29c0fc30c2fb3b",
+    "positive-profile-checks.json": "ce94393c1ec16bc88dc959c52971c7673b60783211dc8ba3c6017ea82bff989f",
+    "positive-geometry-checks.json": "1e55f71fe03b2d15ddbe82e7c3b5ee1eac4db8d1c63190656774af658dc021b5",
+    "signed-carrier-checks.json": "0463ef55dd4d32765c2223413c298cfb4b28eb9b69687dce25afea56dfcbedd4",
+    "interval-section-checks.json": "47e77a3e61d12a5b1f45a563e19cdf1cf6d7283a4349bdc43f605a04fa4b2843"
+  },
+  "limits": [
+    "Geometric lemmas and rigidity are mathematical inputs, not checked here.",
+    "Continuous cube-lift coverage uses the manuscript normalization and sign-tree proof.",
+    "Balanced-section checks test rational cell representatives; the cell boundaries are proved in the manuscript.",
+    "This result is not an independent mathematical audit of the whole manuscript."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "whole_theorem_verified": false,
+  "tested_integer_profiles": 594594,
+  "survivors": [
+    {
+      "six_row_index": 0,
+      "seven_pair_counts": [
+        4,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_pair_counts": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "e": 58,
+      "r": 60
+    },
+    {
+      "six_row_index": 0,
+      "seven_pair_counts": [
+        2,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_pair_counts": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "e": 56,
+      "r": 62
+    }
+  ]
+}
