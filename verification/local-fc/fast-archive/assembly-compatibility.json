@@ -1,0 +1,12 @@
+{
+  "scope": "Kalai5.LemmaB.Assemble compatibility edit checked inside complete PrefixPart4",
+  "status": "PASS",
+  "full_public_target_completed": false,
+  "lean": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "method": "ordinary kernel, debug.skipKernelTC=false, Elab.async=false",
+  "source_sha256": "402ceaf98a23695301c4cafd2795289e0a1c6818ea4543188f0d831cc5a873da",
+  "checkpoint_sha256": "cd3afeccc9671cef492b4ffb12fcd521ce221c63950cb23617a154f3cb7762f6",
+  "checkpoint_seconds": 4408.031,
+  "change": "reduce vecCons coordinates before four_classes_c; theorem statement unchanged"
+}

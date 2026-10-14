@@ -1,0 +1,14 @@
+✔ [3261/3263] Built Kalai5.Statement (229s)
+✔ [3262/3263] Built Kalai5.FlagData (229s)
+⚠ [3263/3263] Built Kalai5.LocalData (183s)
+warning: Kalai5/LocalData.lean:69:31: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, ih]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kalai5/LocalData.lean:69:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (3263 jobs).

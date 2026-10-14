@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "kernel_checking": "forced on",
+  "native_decide": false,
+  "scope": "Endpoint arithmetic replacements only; not the public theorem",
+  "filtered_candidates": 443,
+  "filtered_selected": 33,
+  "direct_proofs": 443,
+  "filtered_source_sha256": "a5fc11cd0869ed2d17a70dc2e0ab331ca907c89ff924cd13533119d27ffb61b8",
+  "exit_code": 0,
+  "seconds": 955.691,
+  "module": "KalaiFCRowsEarly",
+  "source_sha256": "2fd55d9a5f90edd692b8d0c6919cb0ca3ca81109f59785f1d90e591c4cf54926",
+  "helpers": [
+    "KalaiFCFilteredHelper",
+    "KalaiFCFilteredRows",
+    "KalaiFCDirectRows"
+  ]
+}

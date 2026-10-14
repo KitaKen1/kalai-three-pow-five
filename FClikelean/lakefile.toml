@@ -1,0 +1,14 @@
+name = "kalai_fc_reference"
+version = "0.1.0"
+defaultTargets = ["Kalai"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "ef4943a77f7caad81e63e3b4c68b36151af2fc65"
+
+[[lean_lib]]
+name = "Kalai"

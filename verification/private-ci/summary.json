@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "repository": "KitaKen1/ci-test-sandbox",
+  "run_id": 38573608382,
+  "run_attempt": 1,
+  "tested_commit": "e2732a7961dc6b1ffeb42fe036a6d2561428bdd1",
+  "run_url": "https://github.com/KitaKen1/ci-test-sandbox/actions/runs/38573608382",
+  "target": "Kalai.three_pow_five",
+  "lean": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "declarations": 42660,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "native_decide": false,
+  "completed_at_utc": "2026-10-14T15:52:00Z",
+  "total_elapsed_seconds": 7956,
+  "jobs": {
+    "arithmetic": {
+      "conclusion": "success",
+      "elapsed_seconds": 108
+    },
+    "build": {
+      "conclusion": "success",
+      "elapsed_seconds": 3898
+    },
+    "comparator": {
+      "conclusion": "success",
+      "elapsed_seconds": 4045
+    },
+    "replay": {
+      "conclusion": "success",
+      "elapsed_seconds": 3694
+    },
+    "verification_status": {
+      "conclusion": "success",
+      "elapsed_seconds": 4
+    }
+  },
+  "artifact_digests": [
+    {
+      "id": 11908069348,
+      "name": "comparator-38573608382-1",
+      "sha256": "5d51a91587b0d9f086d3c682a3e533dcbd00b07044ad1ec19215fc601cfa8d97",
+      "github_digest": "sha256:5d51a91587b0d9f086d3c682a3e533dcbd00b07044ad1ec19215fc601cfa8d97",
+      "digest_matches": true
+    },
+    {
+      "id": 11908033292,
+      "name": "replay-38573608382-1",
+      "sha256": "5117fb10cfc83f6cace430cb5c9cdf43f6e72b7014a0991080d3f0b501081462",
+      "github_digest": "sha256:5117fb10cfc83f6cace430cb5c9cdf43f6e72b7014a0991080d3f0b501081462",
+      "digest_matches": true
+    },
+    {
+      "id": 11902824794,
+      "name": "build-38573608382-1",
+      "sha256": "277cb5b63fe4318fc6f51c1c7c292fea93b4765e4a1e364f3d47249208a26f7a",
+      "github_digest": "sha256:277cb5b63fe4318fc6f51c1c7c292fea93b4765e4a1e364f3d47249208a26f7a",
+      "digest_matches": true
+    },
+    {
+      "id": 11899875243,
+      "name": "arithmetic-38573608382-1",
+      "sha256": "2ccbf09c9dccce262edf58105e001c2695290c56cae19aa26be0912a5e298a12",
+      "github_digest": "sha256:2ccbf09c9dccce262edf58105e001c2695290c56cae19aa26be0912a5e298a12",
+      "digest_matches": true
+    }
+  ],
+  "scope": "Successful private attempt. These receipts are not a public Actions run or a signed attestation. Public CI is run separately.",
+  "promotion": {
+    "public_base_commit": "592f20b2f46112494beb0459b3109d2aee4a3572",
+    "proof_and_checker_sources": "byte-identical to tested private commit",
+    "workflow": "byte-identical to tested private workflow",
+    "changes": "Public documentation and verification-status metadata; adds selected successful receipts; preserves existing public-only historical evidence"
+  }
+}

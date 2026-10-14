@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scope": "All three LemmaB.Classes lemmas, ordinary kernel on FC v4.33.1; not the whole target",
+  "source_sha256": "930514b69d17625ce73acef1e04fcf5089bb6167aeea87f0299447c141157f21",
+  "public_statement_changed": false
+}

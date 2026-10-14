@@ -1,0 +1,163 @@
+name: Kalai target verification
+
+on:
+  push:
+    branches: [main, kalai-publication-test]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kalai-publication-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    outputs:
+      ready: ${{ steps.build.outputs.ready }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/comparator/check-inputs.py --receipt-dir build-receipt
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 8 20
+      - run: python3 lean/comparator/fetch-cache.py
+      - id: build
+        run: bash lean/comparator/build-proof.sh
+      - name: Save complete or partial proof build
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: lean/.lake/build
+          key: kalai-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: build-${{ github.run_id }}-${{ github.run_attempt }}
+          path: build-receipt/
+          retention-days: 90
+          if-no-files-found: error
+
+  comparator:
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 16 20
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - run: python3 lean/comparator/fetch-cache.py
+      - name: Compile trusted challenge before restoring solution products
+        working-directory: lean
+        run: |
+          lake build Challenge
+          mkdir -p "$RUNNER_TEMP/kalai-trusted-challenge"
+          find .lake/build -type f -name 'Challenge.*' -print0 | tar --null -T - -cf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"
+      - name: Install pinned Comparator and exporter
+        env:
+          COMPARATOR_TOOLS: ${{ runner.temp }}/kalai-comparator-tools
+        run: bash lean/comparator/install-tools.sh
+      - uses: actions/cache/restore@v4
+        with:
+          path: lean/.lake/build
+          key: kalai-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          fail-on-cache-miss: true
+      - name: Restore independently compiled trusted challenge
+        working-directory: lean
+        run: tar -xf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"
+      - name: Compare target, audit axioms and replay the Lean kernel
+        env:
+          COMPARATOR_TOOLS: ${{ runner.temp }}/kalai-comparator-tools
+        run: bash lean/comparator/run-check.sh
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: comparator-${{ github.run_id }}-${{ github.run_attempt }}
+          path: comparator-receipt/
+          retention-days: 90
+          if-no-files-found: error
+
+  replay:
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 16 20
+      - run: python3 lean/comparator/fetch-cache.py
+      - uses: actions/cache/restore@v4
+        with:
+          path: lean/.lake/build
+          key: kalai-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          fail-on-cache-miss: true
+      - name: Fresh replay of the complete solution environment
+        working-directory: lean
+        run: |
+          mkdir -p ../replay-receipt
+          printf 'NOT_RUN\n' > ../replay-receipt/status.txt
+          /usr/bin/time -v timeout --kill-after=120 300m lake env leanchecker --fresh FCSolution > ../replay-receipt/replay.log 2> ../replay-receipt/time.log
+          grep -q 'Exit status: 0' ../replay-receipt/time.log
+          printf 'PASS\n' > ../replay-receipt/status.txt
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: replay-${{ github.run_id }}-${{ github.run_attempt }}
+          path: replay-receipt/
+          retention-days: 90
+          if-no-files-found: warn
+
+  arithmetic:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 lean/comparator/check-inputs.py --receipt-dir math-receipt
+      - name: Recompute the manuscript's finite arithmetic
+        run: |
+          python3 -m verification 2>&1 | tee math-receipt/arithmetic.log
+          cp evidence/finite-checks.json math-receipt/
+          printf 'PASS\n' > math-receipt/status.txt
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: arithmetic-${{ github.run_id }}-${{ github.run_attempt }}
+          path: math-receipt/
+          retention-days: 90
+          if-no-files-found: error
+
+  verification_status:
+    needs: [build, comparator, replay, arithmetic]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Require all four verification jobs to succeed
+        env:
+          READY: ${{ needs.build.outputs.ready }}
+          BUILD: ${{ needs.build.result }}
+          COMPARE: ${{ needs.comparator.result }}
+          REPLAY: ${{ needs.replay.result }}
+          ARITHMETIC: ${{ needs.arithmetic.result }}
+        run: |
+          test "$READY" = true
+          test "$BUILD" = success
+          test "$COMPARE" = success
+          test "$REPLAY" = success
+          test "$ARITHMETIC" = success

@@ -2,3 +2,13 @@ __pycache__/
 *.py[cod]
 .DS_Store
 *.json.tmp
+**/.lake/
+*.olean
+*.olean.*
+*.ilean
+*.ir
+/build-receipt/
+/comparator-receipt/
+/replay-receipt/
+/math-receipt/
+/local-tools/

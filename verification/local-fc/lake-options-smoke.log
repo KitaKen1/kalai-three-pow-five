@@ -1,0 +1,5 @@
+info: kalai_options_smoke: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date
+ℹ [2/3] Built OptionsSmoke (36s)
+info: OptionsSmoke.lean:10:0: 'checked_arithmetic' does not depend on any axioms
+Build completed successfully (3 jobs).

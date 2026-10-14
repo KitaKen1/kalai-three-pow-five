@@ -1,0 +1,11 @@
+name = "kalai_options_smoke"
+defaultTargets = ["OptionsSmoke"]
+
+[leanOptions]
+debug.skipKernelTC = false
+Elab.async = false
+autoImplicit = false
+pp.unicode.fun = true
+
+[[lean_lib]]
+name = "OptionsSmoke"

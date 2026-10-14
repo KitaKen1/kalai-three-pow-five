@@ -1,0 +1,27 @@
+{
+  "target": "Kalai.three_pow_five",
+  "declarations": 46642,
+  "sha256": "d0a119cb1be16cd31254bde5cfee6f2743807500af0f6936776bc463392abc7e",
+  "lean": "leanprover/lean4:v4.35.0-rc3",
+  "mathlib": "08c3fc3f372a6d35d18190fb26b7be083378dc38",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "archive_completed": true,
+  "status": "passed",
+  "repository": "KitaKen1/kalai-three-pow-five-lean",
+  "commit": "cb4d4c0db7a51ec92989a4fdf75bfbf12db43679",
+  "run": 37771235443,
+  "job": 113291043819,
+  "artifact": 11550017997,
+  "url": "https://github.com/KitaKen1/kalai-three-pow-five-lean/actions/runs/37771235443",
+  "job_started_utc": "2026-10-08T11:37:05Z",
+  "job_completed_utc": "2026-10-08T12:19:15Z",
+  "job_seconds": 2530,
+  "proof_verification_seconds": 2247.81,
+  "maximum_resident_set_kib": 6229968,
+  "log_sha256": "a93e7e986dc23fea894bb51723e5a440fbdcddede43ae36e3d4331dab8eed08b",
+  "checked_for_this_manuscript": "2026-10-11"
+}

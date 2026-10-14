@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Transport fixture: 5 declarations, custom inductive type and involution theorem; NOT the geometric Kalai target",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "full_Kalai_checked": false,
+  "log_sha256": "54673cc8917ba33dba747d704a351e6ac0334e9eded9fd84f836438d26e874b8",
+  "kernel_checking": "forced on for each declaration",
+  "native_decide": false
+}

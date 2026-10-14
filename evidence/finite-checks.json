@@ -1,100 +1,100 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-11T11:24:02.275980+00:00",
+  "checked_at_utc": "2026-10-13T16:22:22.395788+00:00",
   "whole_theorem_verified": false,
   "exact_cost_certificates": 742,
-  "seconds": 76.493,
+  "seconds": 193.036,
   "steps": [
     {
       "check": "certificates/mathematical-certificate-data.json",
       "report": "printed-cost-certificates.json",
       "certificates": 76,
-      "seconds": 4.717
+      "seconds": 16.677
     },
     {
       "check": "certificates/extended-certificate-data.json",
       "report": "extended-cost-checks.json",
       "certificates": 285,
-      "seconds": 10.891
+      "seconds": 30.242
     },
     {
       "check": "certificates/quad-certificate-data.json",
       "report": "quad-cost-checks.json",
       "certificates": 7,
-      "seconds": 2.483
+      "seconds": 2.281
     },
     {
       "check": "certificates/weighted20-certificate-data.json",
       "report": "weighted20-cost-checks.json",
       "certificates": 71,
-      "seconds": 7.034
+      "seconds": 11.957
     },
     {
       "check": "certificates/low18-certificate-data.json",
       "report": "low18-cost-checks.json",
       "certificates": 276,
-      "seconds": 15.116
+      "seconds": 34.421
     },
     {
       "check": "certificates/positive-certificate-data.json",
       "report": "positive-cost-checks.json",
       "certificates": 27,
-      "seconds": 4.551
+      "seconds": 13.049
     },
     {
       "check": "cube-lift integer certificates",
       "report": "cube-lift-checks.json",
-      "seconds": 6.803
+      "seconds": 18.741
     },
     {
       "check": "verification/verify_mathematics.py",
       "report": "mathematics-check.json",
-      "seconds": 1.764
+      "seconds": 3.903
     },
     {
       "check": "verification/check_coverage.py",
       "report": "endpoint-coverage.json",
-      "seconds": 0.393
+      "seconds": 1.692
     },
     {
       "check": "verification/check_extended_coverage.py",
       "report": "extended-coverage.json",
-      "seconds": 2.231
+      "seconds": 6.425
     },
     {
       "check": "verification/check_ridge_counts.py",
       "report": "ridge-count-checks.json",
-      "seconds": 0.069
+      "seconds": 0.364
     },
     {
       "check": "verification/check_one_pair.py",
       "report": "one-pair-checks.json",
-      "seconds": 0.085
+      "seconds": 0.265
     },
     {
       "check": "verification/check_two_pair_zero.py",
       "report": "two-pair-zero-checks.json",
-      "seconds": 1.094
+      "seconds": 3.774
     },
     {
       "check": "verification/check_positive_profiles.py",
       "report": "positive-profile-checks.json",
-      "seconds": 0.907
+      "seconds": 2.613
     },
     {
       "check": "verification/check_positive_geometry.py",
       "report": "positive-geometry-checks.json",
-      "seconds": 0.414
+      "seconds": 1.542
     },
     {
       "check": "verification/check_signed_carriers.py",
       "report": "signed-carrier-checks.json",
-      "seconds": 16.354
+      "seconds": 43.467
     },
     {
       "check": "verification/check_interval_sections.py",
       "report": "interval-section-checks.json",
-      "seconds": 1.504
+      "seconds": 1.516
     }
   ],
   "input_sha256": {
@@ -109,6 +109,7 @@
     "certificates/weighted20-certificate-data.json": "d8135bb81cc643b7b22acdd91b4b8159430cf46bad46878a941fb53afdea3c69",
     "verification/__init__.py": "ae687922fc6e645673493ad3c9528a98b556bee30f20f19290c8cd8c5322a847",
     "verification/__main__.py": "9d411202160288d194d0d0a5440762e0cafbc80ebdada80cc94b81808eb4e15e",
+    "verification/archive-run.py": "350edb4cd452997fa411583502e03f6547db0558c04150d99b9f22ce899ef543",
     "verification/certificate_checks.py": "bb0ebdfb5248fb0c112ac33e6f451d52255ea8ce37d2dba3ae5fdc2d00a1105e",
     "verification/check_coverage.py": "2ac6e69ef56f2c2b58442763ef19afc562ab48b46a304d66c6de5ff4f4c6170d",
     "verification/check_cube_certificates.py": "6ac0c525b8acc00474ac98a39c7325244b98a843921e76cd6c46653221917ecc",

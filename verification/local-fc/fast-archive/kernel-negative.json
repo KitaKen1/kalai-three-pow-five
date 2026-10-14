@@ -1,0 +1,8 @@
+{
+  "status": "PASS: invalid proof rejected as required",
+  "scope": "Negative transport fixture only; False := True.intro was rejected even with caller debug.skipKernelTC=true",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "proof_declaration_accepted": false,
+  "kernel_override_verified": true,
+  "log_sha256": "8efeb9590590a62903990d578e90fb22e73e005605708881cc637703d97f32ea"
+}

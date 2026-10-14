@@ -1,0 +1,10 @@
+KALAI_MODULE_DONE Kalai5.Endpoints.LastBPrismShell
+KALAI_MODULE_DONE Kalai5.Endpoints.LastBApexTriangles
+KALAI_MODULE_DONE Kalai5.Endpoints.LastBCommonApex
+KALAI_MODULE_DONE Kalai5.Endpoints.PyramidApexEdges
+KALAI_MODULE_DONE Kalai5.Endpoints.CrossEdgeStars
+KALAI_MODULE_DONE Kalai5.Endpoints.LastBSplitEdges
+KALAI_MODULE_DONE Kalai5.Endpoints.LastBClosure
+KALAI_MODULE_DONE Kalai5.Stubs
+KALAI_MODULE_DONE Kalai5.FormalConjectures
+'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]

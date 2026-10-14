@@ -25,9 +25,9 @@
   "lean_content_in_pdf": false,
   "references_section_in_pdf": false,
   "final_section": "56 Conclusion",
-  "readme_sha256": "4e8ac279969e36499df4b140e70c9f54098aafd58978e94561b220af23001c8b",
-  "readme_lean_content": false,
-  "readme_basis": "Written geometry, rigidity, face incidences and exact finite tables.",
+  "readme_sha256": "a454fa28bc1ef29688902327bda779e0642bcea3346c6e1e8aff4da77b74d2ea",
+  "readme_lean_content": true,
+  "readme_basis": "Mathematical proof sketch retained; FC-version proof and verification setup added to the publication README.",
   "complete_written_endpoint_ledger": true,
   "counterexample_pairs": 15,
   "unwritten_endpoint_branches": [],
@@ -38,7 +38,7 @@
   "whole_theorem_verified_by_python": false,
   "geometric_lemmas_verified_by_python": false,
   "finite_check_report": "evidence/finite-checks.json",
-  "finite_check_report_sha256": "98d33086daed913100d025b38156558d81c11ae36ac6f6e1c3a2b9def5e130de",
+  "finite_check_report_sha256": "a6965ad24fb1ccd63a8a1c078c7b5e617258e253212aec73f921f06e017e9fa5",
   "finite_check_status": "passed",
   "finite_check_steps": 17,
   "exact_cost_certificates": 742,
@@ -104,5 +104,6 @@
     "status": "passed",
     "pages": 240,
     "all_page_drawing_streams_identical": true
-  }
+  },
+  "publication_readme_updated_at": "2026-10-14"
 }

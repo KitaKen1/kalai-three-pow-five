@@ -1,0 +1,791 @@
+{
+  "experimental": true,
+  "full_compilation": "PASS: complete ordinary-kernel replay in private CI38573608382 attempt1",
+  "generator": "lean/scripts/make_grouped_replay.py",
+  "source_root": "Kalai.three_pow_five",
+  "target": "Kalai.three_pow_five",
+  "declarations": 42660,
+  "bytes": 45694583,
+  "sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "payload_sha256": "389a810077a302001346a12b0400896c996a217c3f4511c302bacf3bbc43a351",
+  "decoder_sha256": "8c9a1c6d1c0ca04ccfafaf720b979eedcef442d736249aabf94fd5eaf5df0f4e",
+  "transport": "independent length-prefixed proof blocks; byte-aligned LZ; base64",
+  "transport_helpers": [
+    {
+      "file": "InflateFastExperiment.lean",
+      "sha256": "de8e35ee5c143e4376b7541f9660e81c7292d71eae6373c501bb4f9a2cd4df9e"
+    },
+    {
+      "file": "DeflatedBlockReplayExperiment.lean",
+      "sha256": "6c3e31132bc219f4bdb954d2a5a531f2b2c0b5f1e2948b64b10a42b0f1c854c0"
+    },
+    {
+      "file": "ByteLzExperiment.lean",
+      "sha256": "f0605e79ac46388791d7293ad2f2dd9d07a10f30e17e42ee5940b8efabadbbe2"
+    }
+  ],
+  "mathlib_imports": [
+    "Mathlib.Algebra.Order.Archimedean.Real.Hom",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Algebra.Ring.IsFormallyReal",
+    "Mathlib.Analysis.Convex.KreinMilman",
+    "Mathlib.Analysis.InnerProductSpace.Adjoint",
+    "Mathlib.Analysis.LocallyConvex.AbsConvexOpen",
+    "Mathlib.Analysis.Normed.Affine.AddTorsorBases",
+    "Mathlib.Data.Fin.Tuple.Sort",
+    "Mathlib.Data.Finset.Functor",
+    "Mathlib.Data.FunLike.Basic",
+    "Mathlib.Data.FunLike.Embedding",
+    "Mathlib.Data.FunLike.Equiv",
+    "Mathlib.Data.FunLike.IsApply",
+    "Mathlib.Data.Int.Star",
+    "Mathlib.Data.Int.SuccPred",
+    "Mathlib.Data.Nat.Bitwise",
+    "Mathlib.Data.Nat.SuccPred",
+    "Mathlib.Data.SProd",
+    "Mathlib.Data.SetLike.Basic",
+    "Mathlib.Order.CompletePartialOrder",
+    "Mathlib.RingTheory.Etale.Weakly",
+    "Mathlib.RingTheory.Flat.TorsionFree",
+    "Mathlib.RingTheory.SimpleRing.Principal",
+    "Mathlib.RingTheory.TotallySplit",
+    "Mathlib.Tactic"
+  ],
+  "kernel_checking": "forced on for each declaration",
+  "linters_enabled": false,
+  "native_decide": false,
+  "visible_public_theorem": true,
+  "public_bridge_declarations": 1,
+  "omitted_encoded_public_bridge": true,
+  "integer_transport": "base-128 binary varints",
+  "chunk_size": 500,
+  "public_validation": "not run in the browser",
+  "source_sha256": "0940ff61b0436977b73758e83817d4ea7ef9a64caaf622b9fb8e9abc76230b51",
+  "lines": 845,
+  "source_proof_objects_unchanged": true,
+  "input_pool_boundaries_preserved": true,
+  "decoded_archive_sha256": "81015c595a8dcb930f09723826608acf262241f6cd8687166fe2987ab5b94b05",
+  "declaration_names_sha256": "00de895b70d1c35ae5fc7477e2aafd356163f2e27d8d987ee92d6b4fc6b4a161",
+  "blocks": [
+    {
+      "count": 500,
+      "cumulative": 500,
+      "first": "Kalai5.E",
+      "last": "Kalai5.LemmaA.Family.walk_sound._f",
+      "raw_bytes": 993932,
+      "compressed_bytes": 585982
+    },
+    {
+      "count": 500,
+      "cumulative": 1000,
+      "first": "Kalai5.LemmaA.Family.walk_sound",
+      "last": "Kalai5.LemmaA.fam26_u35",
+      "raw_bytes": 468748,
+      "compressed_bytes": 287642
+    },
+    {
+      "count": 500,
+      "cumulative": 1500,
+      "first": "Kalai5.LemmaA.fam26_u36",
+      "last": "Kalai5.LemmaA.fam39_t117",
+      "raw_bytes": 303787,
+      "compressed_bytes": 178489
+    },
+    {
+      "count": 500,
+      "cumulative": 2000,
+      "first": "Kalai5.LemmaA.fam39_t118",
+      "last": "KalaiFCLeaves.case_8_0",
+      "raw_bytes": 338946,
+      "compressed_bytes": 211821
+    },
+    {
+      "count": 500,
+      "cumulative": 2500,
+      "first": "KalaiFCLeaves.case_8_1_masks",
+      "last": "Kalai5.LemmaA.fam12_t7_ok",
+      "raw_bytes": 170723,
+      "compressed_bytes": 82299
+    },
+    {
+      "count": 500,
+      "cumulative": 3000,
+      "first": "KalaiFCLeaves.case_24._proof_1",
+      "last": "KalaiFCLeaves.case_44._proof_1",
+      "raw_bytes": 164007,
+      "compressed_bytes": 78338
+    },
+    {
+      "count": 500,
+      "cumulative": 3500,
+      "first": "KalaiFCLeaves.case_44_0_masks",
+      "last": "KalaiFCLeaves.case_55_0_0_2_2._proof_1",
+      "raw_bytes": 177201,
+      "compressed_bytes": 87577
+    },
+    {
+      "count": 500,
+      "cumulative": 4000,
+      "first": "KalaiFCLeaves.case_55_0_0_2_2",
+      "last": "KalaiFCLeaves.case_80_1_2_masks",
+      "raw_bytes": 151690,
+      "compressed_bytes": 75881
+    },
+    {
+      "count": 500,
+      "cumulative": 4500,
+      "first": "KalaiFCLeaves.case_80_1_2_witnesses",
+      "last": "KalaiFCLeaves.case_105_0_0_0_fs",
+      "raw_bytes": 130919,
+      "compressed_bytes": 63470
+    },
+    {
+      "count": 500,
+      "cumulative": 5000,
+      "first": "KalaiFCLeaves.case_105_0_0_0_faces",
+      "last": "KalaiFCLeaves.case_117_0_2_1._proof_1",
+      "raw_bytes": 127791,
+      "compressed_bytes": 62113
+    },
+    {
+      "count": 500,
+      "cumulative": 5500,
+      "first": "KalaiFCLeaves.case_117_0_2_1",
+      "last": "KalaiFCLeaves.case_148",
+      "raw_bytes": 133938,
+      "compressed_bytes": 62898
+    },
+    {
+      "count": 500,
+      "cumulative": 6000,
+      "first": "Kalai5.LemmaA.fam26_t40_ok",
+      "last": "KalaiFCLeaves.case_161_0_0_1._proof_1",
+      "raw_bytes": 135471,
+      "compressed_bytes": 63564
+    },
+    {
+      "count": 500,
+      "cumulative": 6500,
+      "first": "KalaiFCLeaves.case_161_0_0_1",
+      "last": "KalaiFCLeaves.case_184_0_0_0._proof_1",
+      "raw_bytes": 183845,
+      "compressed_bytes": 91408
+    },
+    {
+      "count": 500,
+      "cumulative": 7000,
+      "first": "KalaiFCLeaves.case_184_0_0_0_0._proof_1",
+      "last": "KalaiFCLeaves.case_200_0_witnesses",
+      "raw_bytes": 174586,
+      "compressed_bytes": 85491
+    },
+    {
+      "count": 500,
+      "cumulative": 7500,
+      "first": "KalaiFCLeaves.case_200_0_masks_eq._proof_1",
+      "last": "KalaiFCLeaves.case_231_1._proof_1",
+      "raw_bytes": 159257,
+      "compressed_bytes": 73958
+    },
+    {
+      "count": 500,
+      "cumulative": 8000,
+      "first": "KalaiFCLeaves.case_231_1",
+      "last": "KalaiFCLeaves.case_258_1._proof_1",
+      "raw_bytes": 165812,
+      "compressed_bytes": 79058
+    },
+    {
+      "count": 500,
+      "cumulative": 8500,
+      "first": "KalaiFCLeaves.case_258_1",
+      "last": "KalaiFCLeaves.case_279._proof_1",
+      "raw_bytes": 149824,
+      "compressed_bytes": 71141
+    },
+    {
+      "count": 500,
+      "cumulative": 9000,
+      "first": "KalaiFCLeaves.case_279_0._proof_1",
+      "last": "KalaiFCLeaves.case_299_0_2_2_2",
+      "raw_bytes": 145310,
+      "compressed_bytes": 67955
+    },
+    {
+      "count": 500,
+      "cumulative": 9500,
+      "first": "KalaiFCLeaves.case_299_0_2_2",
+      "last": "Kalai5.LemmaA.fam44_t11_ok",
+      "raw_bytes": 170898,
+      "compressed_bytes": 83694
+    },
+    {
+      "count": 500,
+      "cumulative": 10000,
+      "first": "KalaiFCLeaves.case_318_1_0_0_0_0_fs",
+      "last": "KalaiFCLeaves.case_336_2_2_masks_eq",
+      "raw_bytes": 168710,
+      "compressed_bytes": 82358
+    },
+    {
+      "count": 500,
+      "cumulative": 10500,
+      "first": "KalaiFCLeaves.case_336_2_2_witnesses_ok._proof_1",
+      "last": "KalaiFCLeaves.case_358_0._proof_1",
+      "raw_bytes": 168768,
+      "compressed_bytes": 82216
+    },
+    {
+      "count": 500,
+      "cumulative": 11000,
+      "first": "KalaiFCLeaves.case_358_0",
+      "last": "Kalai5.cellSpan_cons_zero._simp_3",
+      "raw_bytes": 624246,
+      "compressed_bytes": 387417
+    },
+    {
+      "count": 500,
+      "cumulative": 11500,
+      "first": "Kalai5.cellSpan_cons_zero",
+      "last": "Kalai5.exists_normalization",
+      "raw_bytes": 1573322,
+      "compressed_bytes": 971943
+    },
+    {
+      "count": 500,
+      "cumulative": 12000,
+      "first": "Kalai5.posC",
+      "last": "KalaiFCGaleRows.rows7_2",
+      "raw_bytes": 1425657,
+      "compressed_bytes": 863303
+    },
+    {
+      "count": 500,
+      "cumulative": 12500,
+      "first": "KalaiFCGaleRows.rows7_3",
+      "last": "KalaiFCGaleRows.cert_113",
+      "raw_bytes": 112637,
+      "compressed_bytes": 50564
+    },
+    {
+      "count": 500,
+      "cumulative": 13000,
+      "first": "Kalai5.Gale.chkX7_67_2",
+      "last": "KalaiFCGaleRows.cert_229",
+      "raw_bytes": 69303,
+      "compressed_bytes": 22683
+    },
+    {
+      "count": 500,
+      "cumulative": 13500,
+      "first": "Kalai5.Gale.chkX7_101_2",
+      "last": "Kalai5.LemmaB.solve_three",
+      "raw_bytes": 911549,
+      "compressed_bytes": 531240
+    },
+    {
+      "count": 500,
+      "cumulative": 14000,
+      "first": "Kalai5.LemmaB.inner_E2",
+      "last": "Kalai5.prism_common",
+      "raw_bytes": 1419653,
+      "compressed_bytes": 841802
+    },
+    {
+      "count": 500,
+      "cumulative": 14500,
+      "first": "Kalai5.prism_sides._proof_4",
+      "last": "Kalai5.E16k.boxF_j2_4_0_0",
+      "raw_bytes": 1656891,
+      "compressed_bytes": 963444
+    },
+    {
+      "count": 500,
+      "cumulative": 15000,
+      "first": "Kalai5.E16k.leaf_j2_4_0_0._proof_2",
+      "last": "KalaiCubePackedMap.unsigned_correct_101._proof_1",
+      "raw_bytes": 1291832,
+      "compressed_bytes": 718422
+    },
+    {
+      "count": 500,
+      "cumulative": 15500,
+      "first": "KalaiCubePackedMap.unsigned_correct_101",
+      "last": "Kalai5.A16.famT60_sub134",
+      "raw_bytes": 651354,
+      "compressed_bytes": 414890
+    },
+    {
+      "count": 500,
+      "cumulative": 16000,
+      "first": "Kalai5.A16.famT60_sub135",
+      "last": "Kalai5.A16.famT49_sub30",
+      "raw_bytes": 458935,
+      "compressed_bytes": 264035
+    },
+    {
+      "count": 500,
+      "cumulative": 16500,
+      "first": "Kalai5.A16.famT49_sub31",
+      "last": "Kalai5.A16.famT46_sub41",
+      "raw_bytes": 214943,
+      "compressed_bytes": 110665
+    },
+    {
+      "count": 500,
+      "cumulative": 17000,
+      "first": "Kalai5.A16.famT46_sub42",
+      "last": "Kalai5.A16.famT37_recs2",
+      "raw_bytes": 217548,
+      "compressed_bytes": 109968
+    },
+    {
+      "count": 500,
+      "cumulative": 17500,
+      "first": "Kalai5.A16.famT37_recs3",
+      "last": "Kalai5.A16.famT35_sub43",
+      "raw_bytes": 263004,
+      "compressed_bytes": 124739
+    },
+    {
+      "count": 500,
+      "cumulative": 18000,
+      "first": "Kalai5.A16.famT35_sub44",
+      "last": "Kalai5.A16.famT24_sub8",
+      "raw_bytes": 218676,
+      "compressed_bytes": 108743
+    },
+    {
+      "count": 500,
+      "cumulative": 18500,
+      "first": "Kalai5.A16.famT24_sub0",
+      "last": "Kalai5.A16.famT21_recs2",
+      "raw_bytes": 167672,
+      "compressed_bytes": 84813
+    },
+    {
+      "count": 500,
+      "cumulative": 19000,
+      "first": "Kalai5.A16.famT21_recs3",
+      "last": "Kalai5.A16.famT9_sub37",
+      "raw_bytes": 158626,
+      "compressed_bytes": 78858
+    },
+    {
+      "count": 500,
+      "cumulative": 19500,
+      "first": "Kalai5.A16.famT9_sub38",
+      "last": "Kalai5.A16.famT6_sub34",
+      "raw_bytes": 134923,
+      "compressed_bytes": 65800
+    },
+    {
+      "count": 500,
+      "cumulative": 20000,
+      "first": "Kalai5.A16.famT6_sub21",
+      "last": "Kalai5.A16.famT1_sub38_ok._proof_1",
+      "raw_bytes": 774269,
+      "compressed_bytes": 417645
+    },
+    {
+      "count": 500,
+      "cumulative": 20500,
+      "first": "Kalai5.A16.famT1_sub38_ok",
+      "last": "Kalai5.A16.famT4_sub31_ok._proof_1",
+      "raw_bytes": 109947,
+      "compressed_bytes": 45612
+    },
+    {
+      "count": 500,
+      "cumulative": 21000,
+      "first": "Kalai5.A16.famT4_sub31_ok",
+      "last": "Kalai5.A16.famT7_sub33_ok._proof_1",
+      "raw_bytes": 125070,
+      "compressed_bytes": 52659
+    },
+    {
+      "count": 500,
+      "cumulative": 21500,
+      "first": "Kalai5.A16.famT7_sub33_ok",
+      "last": "Kalai5.A16.famT10_sub45_ok._proof_1",
+      "raw_bytes": 137666,
+      "compressed_bytes": 58342
+    },
+    {
+      "count": 500,
+      "cumulative": 22000,
+      "first": "Kalai5.A16.famT10_sub45_ok",
+      "last": "Kalai5.A16.famT12_sub4_ok._proof_1",
+      "raw_bytes": 150137,
+      "compressed_bytes": 69126
+    },
+    {
+      "count": 500,
+      "cumulative": 22500,
+      "first": "Kalai5.A16.famT12_sub4_ok",
+      "last": "Kalai5.A16.famT16_sub38_ok._proof_1",
+      "raw_bytes": 95590,
+      "compressed_bytes": 27687
+    },
+    {
+      "count": 500,
+      "cumulative": 23000,
+      "first": "Kalai5.A16.famT16_sub38_ok",
+      "last": "Kalai5.A16.famT19_sub56_ok._proof_1",
+      "raw_bytes": 88355,
+      "compressed_bytes": 27087
+    },
+    {
+      "count": 500,
+      "cumulative": 23500,
+      "first": "Kalai5.A16.famT19_sub56_ok",
+      "last": "Kalai5.A16.famT21_subs",
+      "raw_bytes": 95594,
+      "compressed_bytes": 29767
+    },
+    {
+      "count": 500,
+      "cumulative": 24000,
+      "first": "Kalai5.A16.famT21_ordered_goal",
+      "last": "Kalai5.A16.famT25_sub26_ok._proof_1",
+      "raw_bytes": 90027,
+      "compressed_bytes": 26459
+    },
+    {
+      "count": 500,
+      "cumulative": 24500,
+      "first": "Kalai5.A16.famT25_sub26_ok",
+      "last": "Kalai5.A16.famT29_sub31_ok._proof_1",
+      "raw_bytes": 89645,
+      "compressed_bytes": 27644
+    },
+    {
+      "count": 500,
+      "cumulative": 25000,
+      "first": "Kalai5.A16.famT29_sub31_ok",
+      "last": "Kalai5.A16.famT33_sub25_ok._proof_1",
+      "raw_bytes": 87801,
+      "compressed_bytes": 26931
+    },
+    {
+      "count": 500,
+      "cumulative": 25500,
+      "first": "Kalai5.A16.famT33_sub25_ok",
+      "last": "Kalai5.A16.famT37_sub39_ok._proof_1",
+      "raw_bytes": 88703,
+      "compressed_bytes": 27117
+    },
+    {
+      "count": 500,
+      "cumulative": 26000,
+      "first": "Kalai5.A16.famT37_sub39_ok",
+      "last": "Kalai5.A16.famT40_sub9_ok._proof_1",
+      "raw_bytes": 78930,
+      "compressed_bytes": 23384
+    },
+    {
+      "count": 500,
+      "cumulative": 26500,
+      "first": "Kalai5.A16.famT40_sub9_ok",
+      "last": "Kalai5.A16.famT43_sub31_ok._proof_1",
+      "raw_bytes": 91657,
+      "compressed_bytes": 26895
+    },
+    {
+      "count": 500,
+      "cumulative": 27000,
+      "first": "Kalai5.A16.famT43_sub31_ok",
+      "last": "Kalai5.A16.famT46_sub95_ok._proof_1",
+      "raw_bytes": 113743,
+      "compressed_bytes": 39510
+    },
+    {
+      "count": 500,
+      "cumulative": 27500,
+      "first": "Kalai5.A16.famT46_sub95_ok",
+      "last": "Kalai5.A16.famT48_sub37_ok._proof_1",
+      "raw_bytes": 103876,
+      "compressed_bytes": 39081
+    },
+    {
+      "count": 500,
+      "cumulative": 28000,
+      "first": "Kalai5.A16.famT48_sub37_ok",
+      "last": "Kalai5.A16.famT50_sub0_ok._proof_1",
+      "raw_bytes": 103788,
+      "compressed_bytes": 35474
+    },
+    {
+      "count": 500,
+      "cumulative": 28500,
+      "first": "Kalai5.A16.famT50_sub0_ok",
+      "last": "Kalai5.A16.famT53_sub57_ok._proof_1",
+      "raw_bytes": 105894,
+      "compressed_bytes": 31619
+    },
+    {
+      "count": 500,
+      "cumulative": 29000,
+      "first": "Kalai5.A16.famT53_sub57_ok",
+      "last": "Kalai5.A16.famT56_sub57_ok._proof_1",
+      "raw_bytes": 84946,
+      "compressed_bytes": 25607
+    },
+    {
+      "count": 500,
+      "cumulative": 29500,
+      "first": "Kalai5.A16.famT56_sub57_ok",
+      "last": "Kalai5.A16.famT58_sub7_ok._proof_1",
+      "raw_bytes": 79623,
+      "compressed_bytes": 23609
+    },
+    {
+      "count": 500,
+      "cumulative": 30000,
+      "first": "Kalai5.A16.famT58_sub7_ok",
+      "last": "Kalai5.A16.webReplayT60_sub109_ok",
+      "raw_bytes": 290020,
+      "compressed_bytes": 157228
+    },
+    {
+      "count": 500,
+      "cumulative": 30500,
+      "first": "Kalai5.A16.webReplayT60_sub108_ok._proof_1",
+      "last": "Kalai5.LemmaB.Eight.Config.count_431._proof_10",
+      "raw_bytes": 819659,
+      "compressed_bytes": 469360
+    },
+    {
+      "count": 500,
+      "cumulative": 31000,
+      "first": "Kalai5.LemmaB.Eight.Config.extraPM_of_levels",
+      "last": "Kalai5.q55BSixRowWeight",
+      "raw_bytes": 1428580,
+      "compressed_bytes": 870655
+    },
+    {
+      "count": 500,
+      "cumulative": 31500,
+      "first": "Kalai5.q55VTwelveRowWeight",
+      "last": "Kalai5.eq_of_filter_eq_singleton",
+      "raw_bytes": 1026484,
+      "compressed_bytes": 592154
+    },
+    {
+      "count": 500,
+      "cumulative": 32000,
+      "first": "Kalai5.IsCSPolytope5.five_one_core._proof_1",
+      "last": "Kalai5.E18q.direct_omega_replay_box_F_k3_g16s2_j1k0._proof_1",
+      "raw_bytes": 1826029,
+      "compressed_bytes": 1044460
+    },
+    {
+      "count": 500,
+      "cumulative": 32500,
+      "first": "Kalai5.E18q.direct_omega_replay_box_F_k3_g16s2_j1k0._proof_2",
+      "last": "Kalai5.E18low.direct_omega_replay_box_F_low_k2_g10s2_F5._proof_2",
+      "raw_bytes": 1934701,
+      "compressed_bytes": 1134932
+    },
+    {
+      "count": 500,
+      "cumulative": 33000,
+      "first": "Kalai5.E18low.direct_omega_replay_box_F_low_k2_g10s2_F5._proof_3",
+      "last": "_private.KalaiFCPrefixPart8.0.Kalai5.E18low.remainingCells.match_1.eq_2",
+      "raw_bytes": 2024147,
+      "compressed_bytes": 1172260
+    },
+    {
+      "count": 500,
+      "cumulative": 33500,
+      "first": "Kalai5.E18low.reduction2._proof_4",
+      "last": "Kalai5.E18low.box_F_low_k3_g10s0_F3",
+      "raw_bytes": 1894110,
+      "compressed_bytes": 1063308
+    },
+    {
+      "count": 500,
+      "cumulative": 34000,
+      "first": "Kalai5.E18low.box_S_low_k3_g10s0_F3",
+      "last": "Kalai5.IsCSPolytope5.fewFull18_one_pair_stresses._proof_3",
+      "raw_bytes": 1929542,
+      "compressed_bytes": 1104908
+    },
+    {
+      "count": 500,
+      "cumulative": 34500,
+      "first": "Kalai5.IsCSPolytope5.fewFull18_one_pair_stresses._proof_4",
+      "last": "Kalai5.Cube3.Config.polarModel_extreme_image",
+      "raw_bytes": 1874607,
+      "compressed_bytes": 1143257
+    },
+    {
+      "count": 500,
+      "cumulative": 35000,
+      "first": "Kalai5.Cube3.Config.model_vertices_le_facets",
+      "last": "Kalai5.Cube3.Config.signedPoint_inj",
+      "raw_bytes": 1289604,
+      "compressed_bytes": 725502
+    },
+    {
+      "count": 500,
+      "cumulative": 35500,
+      "first": "Kalai5.Cube3.Config.signedValue_eq",
+      "last": "Kalai5.Cube3.TransverseSupportEdge",
+      "raw_bytes": 1678565,
+      "compressed_bytes": 952908
+    },
+    {
+      "count": 500,
+      "cumulative": 36000,
+      "first": "Kalai5.Cube3.Config.signedFibre",
+      "last": "Kalai5.Gale.chkU7_58._proof_1",
+      "raw_bytes": 1738654,
+      "compressed_bytes": 1015437
+    },
+    {
+      "count": 500,
+      "cumulative": 36500,
+      "first": "Kalai5.Gale.chkU7_58",
+      "last": "Kalai5.TFacet.\u03ba2",
+      "raw_bytes": 1397584,
+      "compressed_bytes": 829470
+    },
+    {
+      "count": 500,
+      "cumulative": 37000,
+      "first": "Kalai5.T18.Wd",
+      "last": "Kalai5.IsCSPolytope5.prism_b55_zero_of_eight._proof_6",
+      "raw_bytes": 1569019,
+      "compressed_bytes": 982136
+    },
+    {
+      "count": 500,
+      "cumulative": 37500,
+      "first": "Kalai5.IsCSPolytope5.prism_b55_zero_of_eight._proof_7",
+      "last": "Kalai5.IsCSPolytope5.full_nine_negative_gap_capacity._proof_5",
+      "raw_bytes": 1189817,
+      "compressed_bytes": 680909
+    },
+    {
+      "count": 500,
+      "cumulative": 38000,
+      "first": "Kalai5.IsCSPolytope5.full_nine_negative_gap_capacity",
+      "last": "Kalai5.IsCSPolytope5.full_pyramid_partner_nonadjacent._simp_4",
+      "raw_bytes": 872753,
+      "compressed_bytes": 493063
+    },
+    {
+      "count": 500,
+      "cumulative": 38500,
+      "first": "Kalai5.IsCSPolytope5.full_pyramid_bipyramid_model._simp_2",
+      "last": "Kalai5.E20f.leaf_k10_all",
+      "raw_bytes": 1300463,
+      "compressed_bytes": 786536
+    },
+    {
+      "count": 500,
+      "cumulative": 39000,
+      "first": "Kalai5.E20f.closure10",
+      "last": "Kalai5.E20w.box_S_k2_g6s6l",
+      "raw_bytes": 2653819,
+      "compressed_bytes": 1574782
+    },
+    {
+      "count": 500,
+      "cumulative": 39500,
+      "first": "Kalai5.E20w.leaf_k2_g6s6l",
+      "last": "Kalai5.E1818.cellj_2_6._proof_20",
+      "raw_bytes": 2336386,
+      "compressed_bytes": 1359620
+    },
+    {
+      "count": 500,
+      "cumulative": 40000,
+      "first": "Kalai5.E1818.cellj_2_6._proof_21",
+      "last": "Kalai5.E1818.extra_envelope_replay_boxS_j4_8_2_4._proof_1",
+      "raw_bytes": 1548348,
+      "compressed_bytes": 853015
+    },
+    {
+      "count": 500,
+      "cumulative": 40500,
+      "first": "Kalai5.E1818.extra_envelope_replay_boxS_j4_8_2_4._proof_2",
+      "last": "Kalai5.E1818.extra_envelope_replay_boxF_j6_6_0_3._proof_1",
+      "raw_bytes": 1669754,
+      "compressed_bytes": 942380
+    },
+    {
+      "count": 500,
+      "cumulative": 41000,
+      "first": "Kalai5.E1818.boxF_j6_6_0_3",
+      "last": "Kalai5.E1818.boxF_j8_6_4_2._proof_1",
+      "raw_bytes": 1733716,
+      "compressed_bytes": 954794
+    },
+    {
+      "count": 500,
+      "cumulative": 41500,
+      "first": "Kalai5.E1818.boxF_j8_6_4_2._proof_4",
+      "last": "Kalai5.Q20.zx_inj",
+      "raw_bytes": 1570675,
+      "compressed_bytes": 855037
+    },
+    {
+      "count": 500,
+      "cumulative": 42000,
+      "first": "Kalai5.Q20.znx_inj",
+      "last": "Kalai5.E1822.boxF_i2_6ba._proof_22",
+      "raw_bytes": 1697414,
+      "compressed_bytes": 953661
+    },
+    {
+      "count": 500,
+      "cumulative": 42500,
+      "first": "Kalai5.E1822.boxF_i2_6ba._proof_21",
+      "last": "Kalai5.E1822.closure._proof_36",
+      "raw_bytes": 1583034,
+      "compressed_bytes": 883322
+    },
+    {
+      "count": 160,
+      "cumulative": 42660,
+      "first": "Kalai5.E1822.closure._proof_37",
+      "last": "Kalai5.kalai_three_pow_five",
+      "raw_bytes": 536393,
+      "compressed_bytes": 299605
+    }
+  ],
+  "decoded_proof_blocks_identical": true,
+  "runtime_external_proof_files": false,
+  "runtime_network": false,
+  "source": "lean/KalaiFast.lean",
+  "editor_group_size": 128,
+  "encoded_proof_blocks_identical": true,
+  "grouped_editor_info_trees": false,
+  "embedded_support_sha256": "96274deb9f156b020c96bdb961dbaad67917c21651d293f365bd42c96f043a98",
+  "lean": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "public_toolchain": "leanprover/lean4:v4.33.1",
+  "public_mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "FC_port": true,
+  "mathematical_replacements": 1666,
+  "private_name_transport": {
+    "scheme": "_private.KalaiFC<module>.<suffix> -> KalaiReplayPrivate.KalaiFC<module>.<suffix>",
+    "reason": "Prevent normalized-name collisions between compiled source modules",
+    "declarations_and_references_renamed_consistently": true,
+    "encoded_proof_blocks_unchanged": true,
+    "public_theorem_unchanged": true
+  },
+  "private_ci_verification": {
+    "status": "PASS",
+    "repository": "KitaKen1/ci-test-sandbox",
+    "run_id": 38573608382,
+    "attempt": 1,
+    "tested_commit": "e2732a7961dc6b1ffeb42fe036a6d2561428bdd1",
+    "receipt": "verification/private-ci/summary.json",
+    "public_ci": "pending separate public run"
+  },
+  "local_full_replay": "not run: verification and timing performed in private CI"
+}

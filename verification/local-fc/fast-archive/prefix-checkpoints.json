@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "modules": [
+    "KalaiFCPrefixPart1",
+    "KalaiFCPrefixPart2",
+    "KalaiFCPrefixPart3",
+    "KalaiFCPrefixPart4",
+    "KalaiFCPrefixPart5",
+    "KalaiFCPrefixPart6",
+    "KalaiFCPrefixPart7",
+    "KalaiFCPrefixPart8",
+    "KalaiFCPrefixPart9",
+    "KalaiFCPrefix",
+    "KalaiFCGaleBase",
+    "KalaiFCGaleFast",
+    "KalaiFCCountBase",
+    "KalaiFCCountAll"
+  ],
+  "linear_mask_integrated": true,
+  "antipodal_helper_integrated": true,
+  "cube_helpers_integrated": true,
+  "count_helpers_integrated": true
+}

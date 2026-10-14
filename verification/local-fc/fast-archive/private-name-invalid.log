@@ -1,0 +1,5 @@
+/private/tmp/kalai-fc-fast/private-name-invalid.lean:451:28: error: kernel replay failed for [KalaiFCInvalidPacket]: (kernel) declaration type mismatch, 'KalaiFCInvalidPacket' has type
+  True
+but it is expected to have type
+  False
+/private/tmp/kalai-fc-fast/private-name-invalid.lean:450:0: error: Kernel replay group stopped after an error

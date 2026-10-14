@@ -1,0 +1,8 @@
+{
+  "status": "PASS: invalid proof stops its replay group",
+  "scope": "Negative transport fixture only; no geometric theorem tested",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "invalid_declaration_accepted": false,
+  "following_command_executed": false,
+  "log_sha256": "0373ec6376362d2c6318bff6e9b8c073c5f14734877103846bea9e45fc0abb08"
+}

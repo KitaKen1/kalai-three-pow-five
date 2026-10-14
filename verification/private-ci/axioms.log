@@ -1,0 +1,2 @@
+'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kalai5.kalai_three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]

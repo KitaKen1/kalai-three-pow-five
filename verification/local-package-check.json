@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Local packaging, syntax, source correspondence and partial Lean checks.",
+  "fc_version": "4.33.1",
+  "checks": [
+    "2084 file hash/inventory check",
+    "976 source modules and both mirrors",
+    "Exact public target correspondence",
+    "All 33 Mathlib imports covered by fixed cache frontier",
+    "Python syntax",
+    "Bash syntax",
+    "Workflow YAML and four required verification jobs",
+    "Positive axiom audit and rejection of five invalid outputs",
+    "Input tamper rejection",
+    "Markdown links",
+    "742 exact cost certificates in 17 finite-check stages",
+    "PDF byte preservation",
+    "Five FC module checks",
+    "Reference statement compilation"
+  ],
+  "full_fc_proof_verified": false,
+  "comparator_verified": false,
+  "private_ci_run": false,
+  "public_ci_run": false,
+  "browser_verified": false
+}

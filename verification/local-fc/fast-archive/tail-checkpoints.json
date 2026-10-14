@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "parts": [
+    {
+      "module": "KalaiFCProfileMemo",
+      "exit_code": 0,
+      "seconds": 126.596
+    },
+    {
+      "module": "KalaiFCTailPart11",
+      "exit_code": 0,
+      "seconds": 108.533
+    },
+    {
+      "module": "KalaiFCTailPart12",
+      "exit_code": 0,
+      "seconds": 210.977
+    },
+    {
+      "module": "KalaiFCTailPart13",
+      "exit_code": 0,
+      "seconds": 212.031
+    },
+    {
+      "module": "KalaiFCTailPart14",
+      "exit_code": 0,
+      "seconds": 209.27
+    },
+    {
+      "module": "KalaiFCTail",
+      "exit_code": 0,
+      "seconds": 122.141
+    }
+  ],
+  "modules": [
+    "KalaiFCTailPart1",
+    "KalaiFCTailPart2",
+    "KalaiFCTailPart3",
+    "KalaiFCTailPart4",
+    "KalaiFCTailPart5",
+    "KalaiFCTailPart6",
+    "KalaiFCTailPart7",
+    "KalaiFCTailPart8",
+    "KalaiFCTailPart9",
+    "KalaiFCTailPart10",
+    "KalaiFCTailPart11",
+    "KalaiFCTailPart12",
+    "KalaiFCTailPart13",
+    "KalaiFCTailPart14",
+    "KalaiFCTail",
+    "KalaiFCProfileMemo"
+  ],
+  "kernel_checking": "forced on",
+  "current_part": "KalaiFCTail"
+}

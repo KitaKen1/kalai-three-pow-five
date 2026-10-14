@@ -1,0 +1,4 @@
+/private/tmp/kalai-fc-fast/FCKernelRejectsInvalidPacket.lean:438:28: error: kernel replay failed for [KalaiFCInvalidPacket]: (kernel) declaration type mismatch, 'KalaiFCInvalidPacket' has type
+  True
+but it is expected to have type
+  False

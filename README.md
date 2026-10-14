@@ -1,4 +1,6 @@
-# Kalai's `3^d` Conjecture in Dimension Five
+# Lean proof of Kalai's `3^d` conjecture in dimension five
+
+[![Kalai target verification](https://github.com/KitaKen1/kalai-three-pow-five/actions/workflows/comparator.yml/badge.svg?branch=main)](https://github.com/KitaKen1/kalai-three-pow-five/actions/workflows/comparator.yml)
 
 Kalai's face-counting conjecture asks for the following statement.
 
@@ -14,6 +16,18 @@ The empty face is excluded.
 This repository presents a proposed proof of the dimension-five case,
 $`s(P)\geq3^5=243`$. A proof sketch follows; the
 [PDF manuscript](PDF/kalai-three-pow-five.pdf) contains the detailed proof.
+
+An earlier Lean proof of the same statement passed public CI on rc3.
+This package uses the pinned FC environment, Lean `v4.33.1`.
+The optimized proof archive passed complete private CI, including Comparator
+and independent kernel replay, using only the standard three axioms.
+The same proof and checker configuration are being verified in
+[public CI](https://github.com/KitaKen1/kalai-three-pow-five/actions/workflows/comparator.yml).
+The two main components are:
+
+1. [FClikelean/](FClikelean/) records the general conjecture and its dimension-restricted variants.
+2. [lean/](lean/) contains the FC-version proof candidate and the target verification setup.
+   [leanWithoutComparator/](leanWithoutComparator/) provides the same modular proof without the Comparator setup.
 
 ## Proof sketch
 
@@ -121,15 +135,136 @@ gives exactly 243 nonempty faces, so the bound is sharp.
 
 - [PDF manuscript](PDF/kalai-three-pow-five.pdf)
 
-## Computational supplement
+## Formal Conjectures like target
+
+[FClikelean/Kalai.lean](FClikelean/Kalai.lean) contains four statements:
+the general conjecture, the established dimension-at-most-four result,
+the dimension-five result, and the remaining dimension-at-least-six conjecture.
+Only `Kalai.three_pow_five` is a Comparator target for this package.
+
+[Challenge.lean](lean/Challenge.lean) supplies the reference, and
+[FCSolution.lean](lean/FCSolution.lean) imports the generated FC archive
+[KalaiFast.lean](lean/KalaiFast.lean). The readable public bridge is retained
+in [Kalai5/FormalConjectures.lean](lean/Kalai5/FormalConjectures.lean). The public statement is:
+
+```lean
+theorem three_pow_five
+    (P : Set (EuclideanSpace ℝ (Fin 5)))
+    (hpoly : ∃ V : Finset (EuclideanSpace ℝ (Fin 5)),
+      P = convexHull ℝ (V : Set (EuclideanSpace ℝ (Fin 5))))
+    (hfull : (interior P).Nonempty)
+    (hsymm : ∀ x ∈ P, -x ∈ P) :
+    3 ^ 5 ≤ {F : Set (EuclideanSpace ℝ (Fin 5)) |
+      F.Nonempty ∧ IsExposed ℝ P F}.ncard
+```
+
+The declaration is in `namespace Kalai`. There are no assumptions about
+certificates, rigidity, vertex counts or facet counts in this signature.
+The [correspondence table](lean/comparator/TARGET-CORRESPONDENCE.md) explains
+each hypothesis and the face count. The reference is a proposed local
+FC-style target; no accepted upstream FC file is claimed here.
+
+## Files
 
 | Location | Contents |
 |---|---|
 | [PDF/](PDF/) | The 240-page mathematical manuscript |
+| [lean/](lean/) | FC-version proof candidate, Challenge, FCSolution and axiom audit |
+| [leanWithoutComparator/](leanWithoutComparator/) | The same 976 proof modules in the FC environment, without Comparator |
+| [FClikelean/](FClikelean/) | Four FC-style statement drafts; only dimension five has this project's external proof |
+| [lean/comparator/](lean/comparator/) | Pinned checker inputs, scripts and verification guide |
+| [.github/workflows/](.github/workflows/) | Build, Comparator, fresh kernel replay and finite arithmetic jobs |
+| [lean4web/](lean4web/) | Byte-identical copy of the privately verified FC archive; browser completion is unverified |
 | [certificates/](certificates/) | Integer cost tables and compressed JSON cube-lift records |
 | [verification/](verification/) | Exact arithmetic and finite case checks |
 | [evidence/](evidence/) | Verification reports and file hashes |
 | [manuscript/](manuscript/) | PDF generator; detailed arguments are grouped in `sections/` |
+
+## Lean verification
+
+The proof candidate, challenge and FC statement draft all use Lean
+`v4.33.1`, with FC's Mathlib fixed to
+`0df444a360eaa60ab8c11dca51a86af692955474`. The FC checkout is fixed to
+`ef4943a77f7caad81e63e3b4c68b36151af2fc65`.
+Comparator and the exporter use pinned source revisions. Their only change
+is `lean-toolchain`, from `v4.33.0` to `v4.33.1`; the checker code is unchanged.
+
+The readable source contains all 976 original modules. Five broad Mathlib
+import blocks are narrowed, and 43 modules have API compatibility edits;
+the [source map](lean/comparator/proof-source-map.json) records these changes.
+The optimized archive regenerates the V31 shortcuts on FC: short intersection
+witnesses, shared Gale rows, linear sign-mask traversal, antipodal record
+identities, direct endpoint arithmetic, compact Cube scans and a shared
+certified table of 1,914 candidate profiles. It contains
+fresh FC proof terms. CI checks every decoded declaration with the ordinary
+kernel and requires exactly `propext`, `Classical.choice` and `Quot.sound`
+in the final axiom report. `native_decide` is not used.
+
+The [earlier public Linux CI run](https://github.com/KitaKen1/kalai-three-pow-five-lean/actions/runs/37771235443)
+on 8 October 2026 used Lean `v4.35.0-rc3`. That run checked all 46,642
+archive declarations and the final public theorem in about 37 minutes.
+Its final axioms were exactly `[propext, Classical.choice, Quot.sound]`.
+The [prior verification record](verification/prior-run/production-verification.json)
+and [log](verification/prior-run/production-verification.log) identify that
+separate repository, version, commit and run. They do not verify this FC port.
+
+**The FC archive passed all private verification jobs.** The
+[successful-run record](verification/private-ci/README.md) includes the actual
+[axiom output](verification/private-ci/axioms.log) and Comparator acceptance.
+All 42,660 declarations were replayed; the final axioms are exactly
+`propext`, `Classical.choice` and `Quot.sound`.
+The source build took 59m23s, and independent fresh replay took 58m12s.
+With Comparator running alongside fresh replay, total CI time was about 2h13m.
+Public CI runs the same proof, target, pins and checker code on this repository.
+Browser completion remains unverified. Full local archive replay was omitted;
+the [local record](verification/local-fc/fast-archive/verification.json) records
+that distinction. The earlier smoke checks remain documented
+[separately](verification/local-fc/README.md).
+The [publication manifest](PUBLICATION-MANIFEST.json) records the current
+sources and stages. A source/hash check alone is not a proof check.
+
+With elan installed, from the repository root:
+
+```sh
+python3 lean/comparator/check-inputs.py
+python3 lean/comparator/fetch-cache.py
+cd lean
+lake build FCSolution
+lake env lean -Ddebug.skipKernelTC=false -DElab.async=false FCAudit.lean
+lake env leanchecker --fresh FCSolution
+```
+
+The cache step fetches only the proof and challenge import closures.
+See [the Linux verification guide](lean/comparator/README.md) for Comparator.
+
+## Appendix: verification on GitHub CI runners
+
+The [workflow](.github/workflows/comparator.yml) replays the complete FC archive,
+compares its target and dependent definitions with the independently compiled
+challenge, audits the permitted axioms, and performs Comparator's builtin
+kernel replay. A separate job runs `leanchecker --fresh FCSolution`.
+The two checking jobs run in parallel after the build. Finite arithmetic
+checks run independently, and the final status requires every job to succeed.
+
+Private CI on `KitaKen1/ci-test-sandbox` succeeded. Public CI on
+`KitaKen1/kalai-three-pow-five` verifies the same proof and checker
+configuration. [Publication steps](verification/PUBLICATION.md) describe
+the transition without replacing either repository's existing history.
+
+### Results within 90 days
+
+The workflow retains four attempt-specific artifacts for 90 days: build,
+Comparator, fresh replay and arithmetic receipts. Their logs include actual
+axiom reports and identify the tested inputs. The
+[private success receipts](verification/private-ci/README.md) are retained here;
+public run results appear in the Actions link above.
+
+### Permanent archive
+
+After public CI succeeds, [archive-run.py](verification/archive-run.py) can
+retain the original ZIPs, complete logs, run metadata, receipts and GitHub
+artifact digests in a dated folder. No new archive is claimed before the
+corresponding successful run exists.
 
 ## Recompute the finite checks
 
@@ -155,3 +290,8 @@ The paper and integer supplement should be reviewed together. The manuscript
 is a review draft; a full independent mathematical audit has not been completed.
 
 Mathematical draft 4, 11 October 2026.
+
+AI assistance: the formalization, mathematical exploration, proof development
+and documentation were produced by Kenta Kitamura with assistance from ChatGPT
+and OpenAI Codex using GPT-6 Astra and GPT-6.1 sol, and Claude Code using Claude
+Opus 5.5.

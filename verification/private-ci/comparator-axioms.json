@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "targets": {
+    "Kalai.three_pow_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Kalai5.kalai_three_pow_five": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "sorryAx": false,
+  "new_axioms": false
+}

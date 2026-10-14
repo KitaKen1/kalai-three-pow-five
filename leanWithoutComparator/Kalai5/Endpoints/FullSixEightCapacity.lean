@@ -1,0 +1,95 @@
+import Kalai5.Endpoints.FullSixSharedCapacity
+
+namespace Kalai5
+open Set
+open scoped Classical
+variable {P : Set E5} (hP : IsCSPolytope5 P)
+include hP
+
+/-- Eight ridges exhaust the small-pair capacity; even one missed pair is impossible. -/
+theorem IsCSPolytope5.full_six_one_missed_small_false
+    (hv : fvec P 0 = 16) (hh : fvec P 4 = 18) (hc : cnt8 (facetRows P) = 4)
+    {F H T X : Set E5}
+    (hF : F ∈ faces P) (hF4 : dim F = 4) (hF8 : cnt P F 0 = 8)
+    (hH : H ∈ faces P) (hH4 : dim H = 4) (hH8 : cnt P H 0 = 8)
+    (hHF : H ≠ F) (hHnF : H ≠ -F) (hHr : 8 ≤ cnt P H 3)
+    (hT6 : cnt P T 0 = 6) (hTI : T = F ∩ H)
+    (hX : X ∈ faces P) (hX4 : dim X = 4) (hX7 : cnt P X 0 = 7)
+    (hmissX : ∀ S ∈ faces P, dim S = 3 → S ⊆ X → (¬ S ⊆ H) ∧ (¬ S ⊆ -H)) : False := by
+  let full : Set (Set E5) := {J | J ∈ faces P ∧ dim J = 4 ∧ cnt P J 0 = 8}
+  have hfin : full.Finite := hP.faces_finite.subset fun J hJ => hJ.1
+  let D := hfin.toFinset.erase F
+  have hDc : D.card = 3 := by
+    have hn : hfin.toFinset.card = 4 := by
+      rw [← Set.ncard_coe_finset,Set.Finite.coe_toFinset]
+      exact (hP.cnt8_eq_full_ncard).symm.trans hc
+    have hm : F ∈ hfin.toFinset := (Set.Finite.mem_toFinset hfin).2 ⟨hF,hF4,hF8⟩
+    rw [Finset.card_erase_of_mem hm,hn]
+  have hD : ∀ J ∈ D, J ∈ faces P ∧ dim J = 4 ∧ cnt P J 0 = 8 := by
+    intro J hJ
+    exact (Set.Finite.mem_toFinset hfin).1 (Finset.mem_erase.1 hJ).2
+  have havoid : ∀ J ∈ D, J ≠ H → ∀ S ∈ faces P, S ⊆ H → dim S = 3 → ¬ S ⊆ J := by
+    intro J hJD hJH S hS hSH hS3 hSJ
+    obtain ⟨hJ,hJ4,hJ8⟩ := hD J hJD
+    have hFnH : F ≠ -H := by intro he; apply hHnF; rw [he,neg_neg]
+    have he := hP.full_six_partner_unique hv hc hH hH4 hH8 hF hF4 hF8 hHF.symm hFnH
+      hT6 (by rw [hTI,inter_comm]) hJ hJ4 hJ8 hJH ⟨S,hS,hS3,hSH,hSJ⟩
+    exact (Finset.mem_erase.1 hJD).1 he
+  let es : Set (Set E5) := {X,-X}
+  let E := es.toFinite.toFinset
+  have hXnX : X ≠ -X := fun he =>
+    (hP.ne_of_dim_ne' (by rw [hX4]; decide)) (hP.eq_of_neg_eq hX he.symm)
+  have hEc : E.card = 2 := by
+    rw [← Set.ncard_coe_finset,Set.Finite.coe_toFinset]
+    exact Set.ncard_pair hXnX
+  have hE : ∀ J ∈ E, J ∈ faces P ∧ dim J = 4 ∧ cnt P J 0 ≠ 8 := by
+    intro J hJ
+    have hm : J ∈ es := (Set.Finite.mem_toFinset es.toFinite).1 hJ
+    rcases hm with rfl | rfl
+    · exact ⟨hX,hX4,by omega⟩
+    · exact ⟨neg_mem_faces hP.symm hX,by rw [dim_neg,hX4],by rw [hP.cnt_neg,hX7]; decide⟩
+  have miss : ∀ {J},
+      (∀ S ∈ faces P, dim S = 3 → S ⊆ J → (¬ S ⊆ H) ∧ (¬ S ⊆ -H)) →
+      ∀ S ∈ faces P, S ⊆ H → dim S = 3 → (¬ S ⊆ J) ∧ (¬ S ⊆ -J) := by
+    intro J hm S hS hSH hS3
+    refine ⟨fun hSJ => (hm S hS hS3 hSJ).1 hSH,?_⟩
+    intro hnSJ
+    have hnSJ' : -S ⊆ J := by simpa using Set.neg_subset_neg.2 hnSJ
+    exact (hm (-S) (neg_mem_faces hP.symm hS) (by rw [dim_neg,hS3]) hnSJ').2
+      (Set.neg_subset_neg.2 hSH)
+  have hmiss : ∀ J ∈ E, ∀ S ∈ faces P, S ⊆ H → dim S = 3 → (¬ S ⊆ J) ∧ (¬ S ⊆ -J) := by
+    intro J hJ S hS hSH hS3
+    have hm : J ∈ es := (Set.Finite.mem_toFinset es.toFinite).1 hJ
+    rcases hm with rfl | rfl
+    · exact miss hmissX S hS hSH hS3
+    · simpa only [neg_neg] using (miss hmissX S hS hSH hS3).symm
+  have hb := hP.facet_ridge_capacity_avoiding_small hv hH hH4 D hD havoid E hE hmiss
+  omega
+
+/-- An eight-ridge full neighbour excludes a second six-vertex ridge. -/
+theorem IsCSPolytope5.full_two_six_ridges_shared_eight_false
+    (hv : fvec P 0 = 16) (hh : fvec P 4 = 18) (hc : cnt8 (facetRows P) = 4)
+    (hsmall : ∀ X ∈ faces P, dim X = 4 → cnt P X 0 ≠ 8 → cnt P X 0 = 7)
+    {F H T U : Set E5}
+    (hF : F ∈ faces P) (hF4 : dim F = 4) (hF8 : cnt P F 0 = 8) (hz : big2 P F = 0)
+    (hH : H ∈ faces P) (hH4 : dim H = 4) (hH8 : cnt P H 0 = 8)
+    (hHF : H ≠ F) (hHnF : H ≠ -F) (hHr : 8 ≤ cnt P H 3)
+    (hT : T ∈ faces P) (hT3 : dim T = 3) (hT6 : cnt P T 0 = 6) (hTI : T = F ∩ H)
+    (hU : U ∈ faces P) (hUF : U ⊆ F) (hU3 : dim U = 3) (hU6 : cnt P U 0 = 6) (hUT : U ≠ T) : False := by
+  have hTF : T ⊆ F := hTI ▸ inter_subset_left
+  have hiU := hP.six_ridges_inter_four_of_no_big hF8 hz hT hTF hT3 hT6 hU hUF hU3 hU6 hUT.symm
+  obtain ⟨X,hX,hX4,hXF,hUX⟩ := hP.exists_other_facet hU hU3 hUF
+  have small : ∀ {R X}, R ∈ faces P → R ⊆ F → dim R = 3 → R ≠ T →
+      X ∈ faces P → dim X = 4 → X ≠ F → R ⊆ X → cnt P X 0 = 7 := by
+    intro R X hR hRF hR3 hRT hX hX4 hXF hRX
+    apply hsmall X hX hX4
+    intro hX8
+    have he := hP.full_six_partner_unique hv hc hF hF4 hF8 hH hH4 hH8 hHF hHnF
+      hT6 hTI hX hX4 hX8 hXF ⟨R,hR,hR3,hRF,hRX⟩
+    exact hRT ((hP.three_face_eq_inter hF hF4 hH hH4 hHF.symm hR hR3 hRF (he ▸ hRX)).trans hTI.symm)
+  have hX7 := small hU hUF hU3 hUT hX hX4 hXF hUX
+  exact hP.full_six_one_missed_small_false hv hh hc hF hF4 hF8 hH hH4 hH8 hHF hHnF hHr hT6 hTI
+    hX hX4 hX7
+    (hP.full_six_partner_avoids_both hv hF hF4 hF8 hH hH4 hH8 hT hT3 hT6 hTI hUF hU6 hiU hX hX4 hX7 hUX)
+
+end Kalai5

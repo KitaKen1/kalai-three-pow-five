@@ -1,0 +1,6 @@
+{
+  "status": "NOT_RUN",
+  "archive_completed": false,
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "reason": "Full archive replay and runtime measurement deferred to private CI at user request."
+}

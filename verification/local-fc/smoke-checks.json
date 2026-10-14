@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "scope": "Three foundational modules and two API compatibility modules; not the complete final theorem.",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "commands": [
+    "lake build Kalai5.Statement Kalai5.FlagData Kalai5.LocalData",
+    "lake env lean -Ddebug.skipKernelTC=false -DElab.async=false Kalai5/Small/CubeFaces.lean",
+    "lake env lean -Ddebug.skipKernelTC=false -DElab.async=false Kalai5/Gale/ProfileCount.lean"
+  ],
+  "modules": {
+    "Kalai5.Statement": "381dafbf5e7e9cd3f6321de5870055de6874f18bc97e07439c3ced3ad4722a77",
+    "Kalai5.FlagData": "46c025385013d4fb3b08b41227fea372d169cbd9154f8e317955b0c4ff33185e",
+    "Kalai5.LocalData": "443137ab0d7be73e09bc554ed0f6eb5d9053aa20c7c526a5066818177dbc9997"
+  },
+  "log_sha256": "80c23085dcd6d2d53f9c3bd0001093175f217b21ce64fe7c5326e07d2d73180d",
+  "full_fc_proof_status": "not_run",
+  "comparator_status": "not_run",
+  "private_ci_status": "not_run",
+  "public_ci_status": "not_run",
+  "compatibility_module_checks": {
+    "Kalai5.Small.CubeFaces": {
+      "exit_code": 0,
+      "source_sha256": "ac32c335f7c7f3e3ef656fb490a8766f4333889d2592da617c5ac0970bf1a1a4",
+      "log_sha256": "bc3aa43607fbfe4b92b5bc6ce5546a737690eb56956a9f46d9e84db5a876c130",
+      "debug.skipKernelTC": false,
+      "Elab.async": false
+    },
+    "Kalai5.Gale.ProfileCount": {
+      "exit_code": 0,
+      "source_sha256": "670662cc87b26650ffb83c3eb772908d3b4f1b104f7a31a348d82bf65beb690f",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "debug.skipKernelTC": false,
+      "Elab.async": false
+    }
+  },
+  "reference_compile": {
+    "source": "lean/Challenge.lean",
+    "exit_code": 0,
+    "source_sha256": "2177ed8eb73ab3c9f812c151f9975fcbe43d5af6c1346e94e35cc5743ea84d28",
+    "log_sha256": "237230c5c25c6b47a2dc01a931387525ec11bcb0fbf4303a695e0a4b1cb6bed2",
+    "expected_sorry_warning": true,
+    "scope": "Reference statement compilation only; deliberate placeholder is not a proof."
+  },
+  "lake_options_regression": {
+    "status": "passed",
+    "exit_code": 0,
+    "lean_version": "v4.33.1",
+    "debug.skipKernelTC": false,
+    "Elab.async": false,
+    "scope": "Core-only regression build using the actual publication leanOptions block. Not a theorem verification.",
+    "source_sha256": "8f6d7115f745269c8377a2bd3ff713f1e2760a30d586268f105bb99cbb3a5be5",
+    "config_sha256": "6e187472b701691334f8baf1aa048169835b9479e279df82545cbddfd57d57b2",
+    "log_sha256": "7f2c16d89850f298ac9c3d78856cbce54f74a98d2144b10d09ea7a14348bb2a2"
+  }
+}

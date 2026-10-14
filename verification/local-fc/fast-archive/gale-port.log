@@ -1,0 +1,1173 @@
+'KalaiGaleInvalidDirect.candidateAt_mem' depends on axioms: [propext, Quot.sound]
+'KalaiGaleInvalidDirect.checkInvalid_sound' depends on axioms: [propext, Quot.sound]
+'KalaiGaleInvalidDirect.checkFromSuggested_sound' depends on axioms: [propext, Quot.sound]
+'KalaiGaleSeparation.pair_nonnegative_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleSeparation.pair_nonnegative_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleSeparation.tri_nonnegative_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleSeparation.tri_nonnegative_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleSeparation.covered_false_of_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleNoCircuit.checkInvalid_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleNoCircuit.checkFromSuggested_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleDimensionCertificate.checkFromSuggested_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiGaleSharedRows.checkFromSuggested_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KalaiPackedByteCount.bytePacked_eq' depends on axioms: [propext, Quot.sound]
+'KalaiPackedByteCount.countPacked_eq' depends on axioms: [propext, Quot.sound]
+time: 219ms
+PACKED_BYTE_GALE_DONE 5
+time: 1134ms
+PACKED_BYTE_GALE_DONE 6
+time: 5343ms
+PACKED_BYTE_GALE_DONE 7_0
+time: 6810ms
+PACKED_BYTE_GALE_DONE 7_1
+time: 9086ms
+PACKED_BYTE_GALE_DONE 7_2
+time: 12843ms
+PACKED_BYTE_GALE_DONE 7_3
+time: 8772ms
+PACKED_BYTE_GALE_DONE 7_4
+time: 6719ms
+PACKED_BYTE_GALE_DONE 7_5
+time: 7778ms
+PACKED_BYTE_GALE_DONE 7_6
+time: 8199ms
+PACKED_BYTE_GALE_DONE 7_7
+time: 10891ms
+PACKED_BYTE_GALE_DONE 7_8
+time: 9380ms
+PACKED_BYTE_GALE_DONE 7_9
+time: 8593ms
+PACKED_BYTE_GALE_DONE 7_10
+time: 9336ms
+PACKED_BYTE_GALE_DONE 7_11
+time: 6233ms
+PACKED_BYTE_GALE_DONE 7_12
+time: 6785ms
+PACKED_BYTE_GALE_DONE 7_13
+time: 9201ms
+PACKED_BYTE_GALE_DONE 7_14
+time: 7975ms
+PACKED_BYTE_GALE_DONE 7_15
+time: 8095ms
+PACKED_BYTE_GALE_DONE 7_16
+time: 17524ms
+PACKED_BYTE_GALE_DONE 7_17
+time: 6116ms
+PACKED_BYTE_GALE_DONE 7_18
+time: 6326ms
+PACKED_BYTE_GALE_DONE 7_19
+time: 1656ms
+PACKED_BYTE_GALE_DONE 7_20
+time: 96873ms
+time: 1977ms
+time: 28ms
+'KalaiFCGaleRows.checked_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 1/278
+time: 1728ms
+time: 17ms
+'KalaiFCGaleRows.checked_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 2/278
+time: 2069ms
+time: 33ms
+'KalaiFCGaleRows.checked_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 3/278
+time: 3340ms
+time: 31ms
+'KalaiFCGaleRows.checked_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 4/278
+time: 790ms
+time: 27ms
+'KalaiFCGaleRows.checked_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 5/278
+time: 1476ms
+time: 43ms
+'KalaiFCGaleRows.checked_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 6/278
+time: 907ms
+time: 22ms
+'KalaiFCGaleRows.checked_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 7/278
+time: 737ms
+time: 14ms
+'KalaiFCGaleRows.checked_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 8/278
+time: 1314ms
+time: 46ms
+'KalaiFCGaleRows.checked_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 9/278
+time: 2125ms
+time: 39ms
+'KalaiFCGaleRows.checked_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 10/278
+time: 1694ms
+time: 30ms
+'KalaiFCGaleRows.checked_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 11/278
+time: 1334ms
+time: 22ms
+'KalaiFCGaleRows.checked_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 12/278
+time: 1166ms
+time: 34ms
+'KalaiFCGaleRows.checked_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 13/278
+time: 2718ms
+time: 16ms
+'KalaiFCGaleRows.checked_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 14/278
+time: 1908ms
+time: 42ms
+'KalaiFCGaleRows.checked_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 15/278
+time: 676ms
+time: 37ms
+'KalaiFCGaleRows.checked_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 16/278
+time: 901ms
+time: 17ms
+'KalaiFCGaleRows.checked_16' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 17/278
+time: 570ms
+time: 11ms
+'KalaiFCGaleRows.checked_17' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 18/278
+time: 749ms
+time: 13ms
+'KalaiFCGaleRows.checked_18' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 19/278
+time: 1897ms
+time: 16ms
+'KalaiFCGaleRows.checked_19' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 20/278
+time: 477ms
+time: 8ms
+'KalaiFCGaleRows.checked_20' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 21/278
+time: 1840ms
+time: 18ms
+'KalaiFCGaleRows.checked_21' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 22/278
+time: 646ms
+time: 15ms
+'KalaiFCGaleRows.checked_22' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 23/278
+time: 688ms
+time: 10ms
+'KalaiFCGaleRows.checked_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 24/278
+time: 2018ms
+time: 92ms
+'KalaiFCGaleRows.checked_24' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 25/278
+time: 3088ms
+time: 28ms
+'KalaiFCGaleRows.checked_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 26/278
+time: 7923ms
+time: 72ms
+'KalaiFCGaleRows.checked_26' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 27/278
+time: 2609ms
+time: 21ms
+'KalaiFCGaleRows.checked_27' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 28/278
+time: 5897ms
+time: 33ms
+'KalaiFCGaleRows.checked_28' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 29/278
+time: 4221ms
+time: 28ms
+'KalaiFCGaleRows.checked_29' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 30/278
+time: 907ms
+time: 15ms
+'KalaiFCGaleRows.checked_30' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 31/278
+time: 4255ms
+time: 27ms
+'KalaiFCGaleRows.checked_31' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 32/278
+time: 872ms
+time: 13ms
+'KalaiFCGaleRows.checked_32' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 33/278
+time: 5216ms
+time: 32ms
+'KalaiFCGaleRows.checked_33' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 34/278
+time: 3583ms
+time: 41ms
+'KalaiFCGaleRows.checked_34' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 35/278
+time: 6371ms
+time: 36ms
+'KalaiFCGaleRows.checked_35' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 36/278
+time: 3446ms
+time: 26ms
+'KalaiFCGaleRows.checked_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 37/278
+time: 628ms
+time: 15ms
+'KalaiFCGaleRows.checked_37' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 38/278
+time: 5004ms
+time: 23ms
+'KalaiFCGaleRows.checked_38' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 39/278
+time: 465ms
+time: 11ms
+'KalaiFCGaleRows.checked_39' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 40/278
+time: 2943ms
+time: 19ms
+'KalaiFCGaleRows.checked_40' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 41/278
+time: 3326ms
+time: 40ms
+'KalaiFCGaleRows.checked_41' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 42/278
+time: 6127ms
+time: 45ms
+'KalaiFCGaleRows.checked_42' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 43/278
+time: 7250ms
+time: 20ms
+'KalaiFCGaleRows.checked_43' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 44/278
+time: 1375ms
+time: 22ms
+'KalaiFCGaleRows.checked_44' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 45/278
+time: 3623ms
+time: 23ms
+'KalaiFCGaleRows.checked_45' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 46/278
+time: 463ms
+time: 11ms
+'KalaiFCGaleRows.checked_46' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 47/278
+time: 702ms
+time: 23ms
+'KalaiFCGaleRows.checked_47' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 48/278
+time: 426ms
+time: 15ms
+'KalaiFCGaleRows.checked_48' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 49/278
+time: 652ms
+time: 17ms
+'KalaiFCGaleRows.checked_49' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 50/278
+time: 4696ms
+time: 55ms
+'KalaiFCGaleRows.checked_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 51/278
+time: 728ms
+time: 18ms
+'KalaiFCGaleRows.checked_51' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 52/278
+time: 6729ms
+time: 27ms
+'KalaiFCGaleRows.checked_52' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 53/278
+time: 6014ms
+time: 51ms
+'KalaiFCGaleRows.checked_53' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 54/278
+time: 671ms
+time: 24ms
+'KalaiFCGaleRows.checked_54' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 55/278
+time: 4991ms
+time: 57ms
+'KalaiFCGaleRows.checked_55' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 56/278
+time: 1042ms
+time: 13ms
+'KalaiFCGaleRows.checked_56' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 57/278
+time: 5410ms
+time: 37ms
+'KalaiFCGaleRows.checked_57' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 58/278
+time: 7859ms
+time: 36ms
+'KalaiFCGaleRows.checked_58' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 59/278
+time: 13518ms
+time: 66ms
+'KalaiFCGaleRows.checked_59' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 60/278
+time: 13018ms
+time: 43ms
+'KalaiFCGaleRows.checked_60' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 61/278
+time: 636ms
+time: 21ms
+'KalaiFCGaleRows.checked_61' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 62/278
+time: 8357ms
+time: 22ms
+'KalaiFCGaleRows.checked_62' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 63/278
+time: 3313ms
+time: 100ms
+'KalaiFCGaleRows.checked_63' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 64/278
+time: 5569ms
+time: 47ms
+'KalaiFCGaleRows.checked_64' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 65/278
+time: 11421ms
+time: 43ms
+'KalaiFCGaleRows.checked_65' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 66/278
+time: 6948ms
+time: 153ms
+'KalaiFCGaleRows.checked_66' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 67/278
+time: 4193ms
+time: 67ms
+'KalaiFCGaleRows.checked_67' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 68/278
+time: 7086ms
+time: 31ms
+'KalaiFCGaleRows.checked_68' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 69/278
+time: 5254ms
+time: 36ms
+'KalaiFCGaleRows.checked_69' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 70/278
+time: 208ms
+time: 25ms
+'KalaiFCGaleRows.checked_70' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 71/278
+time: 3204ms
+time: 36ms
+'KalaiFCGaleRows.checked_71' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 72/278
+time: 176ms
+time: 20ms
+'KalaiFCGaleRows.checked_72' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 73/278
+time: 5183ms
+time: 73ms
+'KalaiFCGaleRows.checked_73' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 74/278
+time: 3252ms
+time: 29ms
+'KalaiFCGaleRows.checked_74' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 75/278
+time: 9668ms
+time: 95ms
+'KalaiFCGaleRows.checked_75' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 76/278
+time: 4714ms
+time: 29ms
+'KalaiFCGaleRows.checked_76' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 77/278
+time: 166ms
+time: 14ms
+'KalaiFCGaleRows.checked_77' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 78/278
+time: 3430ms
+time: 46ms
+'KalaiFCGaleRows.checked_78' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 79/278
+time: 253ms
+time: 23ms
+'KalaiFCGaleRows.checked_79' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 80/278
+time: 250ms
+time: 14ms
+'KalaiFCGaleRows.checked_80' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 81/278
+time: 253ms
+time: 21ms
+'KalaiFCGaleRows.checked_81' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 82/278
+time: 285ms
+time: 30ms
+'KalaiFCGaleRows.checked_82' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 83/278
+time: 198ms
+time: 20ms
+'KalaiFCGaleRows.checked_83' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 84/278
+time: 174ms
+time: 18ms
+'KalaiFCGaleRows.checked_84' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 85/278
+time: 2946ms
+time: 18ms
+'KalaiFCGaleRows.checked_85' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 86/278
+time: 2431ms
+time: 23ms
+'KalaiFCGaleRows.checked_86' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 87/278
+time: 275ms
+time: 17ms
+'KalaiFCGaleRows.checked_87' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 88/278
+time: 170ms
+time: 18ms
+'KalaiFCGaleRows.checked_88' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 89/278
+time: 523ms
+time: 33ms
+'KalaiFCGaleRows.checked_89' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 90/278
+time: 179ms
+time: 25ms
+'KalaiFCGaleRows.checked_90' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 91/278
+time: 2911ms
+time: 42ms
+'KalaiFCGaleRows.checked_91' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 92/278
+time: 2605ms
+time: 53ms
+'KalaiFCGaleRows.checked_92' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 93/278
+time: 2763ms
+time: 58ms
+'KalaiFCGaleRows.checked_93' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 94/278
+time: 173ms
+time: 18ms
+'KalaiFCGaleRows.checked_94' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 95/278
+time: 4272ms
+time: 22ms
+'KalaiFCGaleRows.checked_95' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 96/278
+time: 2034ms
+time: 18ms
+'KalaiFCGaleRows.checked_96' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 97/278
+time: 2427ms
+time: 55ms
+'KalaiFCGaleRows.checked_97' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 98/278
+time: 5004ms
+time: 19ms
+'KalaiFCGaleRows.checked_98' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 99/278
+time: 2202ms
+time: 15ms
+'KalaiFCGaleRows.checked_99' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 100/278
+time: 4301ms
+time: 50ms
+'KalaiFCGaleRows.checked_100' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 101/278
+time: 1829ms
+time: 21ms
+'KalaiFCGaleRows.checked_101' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 102/278
+time: 5517ms
+time: 43ms
+'KalaiFCGaleRows.checked_102' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 103/278
+time: 2264ms
+time: 14ms
+'KalaiFCGaleRows.checked_103' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 104/278
+time: 211ms
+time: 16ms
+'KalaiFCGaleRows.checked_104' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 105/278
+time: 137ms
+time: 13ms
+'KalaiFCGaleRows.checked_105' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 106/278
+time: 210ms
+time: 13ms
+'KalaiFCGaleRows.checked_106' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 107/278
+time: 179ms
+time: 15ms
+'KalaiFCGaleRows.checked_107' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 108/278
+time: 1650ms
+time: 16ms
+'KalaiFCGaleRows.checked_108' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 109/278
+time: 1797ms
+time: 22ms
+'KalaiFCGaleRows.checked_109' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 110/278
+time: 1671ms
+time: 26ms
+'KalaiFCGaleRows.checked_110' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 111/278
+time: 255ms
+time: 22ms
+'KalaiFCGaleRows.checked_111' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 112/278
+time: 141ms
+time: 18ms
+'KalaiFCGaleRows.checked_112' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 113/278
+time: 195ms
+time: 11ms
+'KalaiFCGaleRows.checked_113' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 114/278
+time: 181ms
+time: 19ms
+'KalaiFCGaleRows.checked_114' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 115/278
+time: 2035ms
+time: 57ms
+'KalaiFCGaleRows.checked_115' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 116/278
+time: 2222ms
+time: 15ms
+'KalaiFCGaleRows.checked_116' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 117/278
+time: 1872ms
+time: 27ms
+'KalaiFCGaleRows.checked_117' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 118/278
+time: 1922ms
+time: 24ms
+'KalaiFCGaleRows.checked_118' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 119/278
+time: 6535ms
+time: 39ms
+'KalaiFCGaleRows.checked_119' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 120/278
+time: 2152ms
+time: 21ms
+'KalaiFCGaleRows.checked_120' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 121/278
+time: 3722ms
+time: 36ms
+'KalaiFCGaleRows.checked_121' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 122/278
+time: 3556ms
+time: 25ms
+'KalaiFCGaleRows.checked_122' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 123/278
+time: 1511ms
+time: 13ms
+'KalaiFCGaleRows.checked_123' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 124/278
+time: 3223ms
+time: 29ms
+'KalaiFCGaleRows.checked_124' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 125/278
+time: 1447ms
+time: 18ms
+'KalaiFCGaleRows.checked_125' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 126/278
+time: 4886ms
+time: 37ms
+'KalaiFCGaleRows.checked_126' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 127/278
+time: 1737ms
+time: 21ms
+'KalaiFCGaleRows.checked_127' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 128/278
+time: 156ms
+time: 19ms
+'KalaiFCGaleRows.checked_128' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 129/278
+time: 2715ms
+time: 17ms
+'KalaiFCGaleRows.checked_129' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 130/278
+time: 158ms
+time: 12ms
+'KalaiFCGaleRows.checked_130' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 131/278
+time: 4603ms
+time: 24ms
+'KalaiFCGaleRows.checked_131' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 132/278
+time: 2076ms
+time: 12ms
+'KalaiFCGaleRows.checked_132' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 133/278
+time: 5784ms
+time: 32ms
+'KalaiFCGaleRows.checked_133' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 134/278
+time: 4234ms
+time: 25ms
+'KalaiFCGaleRows.checked_134' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 135/278
+time: 174ms
+time: 16ms
+'KalaiFCGaleRows.checked_135' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 136/278
+time: 3012ms
+time: 19ms
+'KalaiFCGaleRows.checked_136' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 137/278
+time: 132ms
+time: 14ms
+'KalaiFCGaleRows.checked_137' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 138/278
+time: 1468ms
+time: 19ms
+'KalaiFCGaleRows.checked_138' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 139/278
+time: 2283ms
+time: 36ms
+'KalaiFCGaleRows.checked_139' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 140/278
+time: 2017ms
+time: 21ms
+'KalaiFCGaleRows.checked_140' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 141/278
+time: 3831ms
+time: 28ms
+'KalaiFCGaleRows.checked_141' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 142/278
+time: 2596ms
+time: 17ms
+'KalaiFCGaleRows.checked_142' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 143/278
+time: 7099ms
+time: 35ms
+'KalaiFCGaleRows.checked_143' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 144/278
+time: 3755ms
+time: 15ms
+'KalaiFCGaleRows.checked_144' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 145/278
+time: 1976ms
+time: 13ms
+'KalaiFCGaleRows.checked_145' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 146/278
+time: 4144ms
+time: 36ms
+'KalaiFCGaleRows.checked_146' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 147/278
+time: 2310ms
+time: 13ms
+'KalaiFCGaleRows.checked_147' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 148/278
+time: 4046ms
+time: 20ms
+'KalaiFCGaleRows.checked_148' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 149/278
+time: 4398ms
+time: 45ms
+'KalaiFCGaleRows.checked_149' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 150/278
+time: 9276ms
+time: 30ms
+'KalaiFCGaleRows.checked_150' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 151/278
+time: 4124ms
+time: 18ms
+'KalaiFCGaleRows.checked_151' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 152/278
+time: 242ms
+time: 32ms
+'KalaiFCGaleRows.checked_152' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 153/278
+time: 4922ms
+time: 37ms
+'KalaiFCGaleRows.checked_153' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 154/278
+time: 172ms
+time: 18ms
+'KalaiFCGaleRows.checked_154' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 155/278
+time: 5532ms
+time: 24ms
+'KalaiFCGaleRows.checked_155' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 156/278
+time: 11772ms
+time: 74ms
+'KalaiFCGaleRows.checked_156' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 157/278
+time: 12335ms
+time: 82ms
+'KalaiFCGaleRows.checked_157' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 158/278
+time: 8229ms
+time: 261ms
+'KalaiFCGaleRows.checked_158' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 159/278
+time: 675ms
+time: 65ms
+'KalaiFCGaleRows.checked_159' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 160/278
+time: 8010ms
+time: 90ms
+'KalaiFCGaleRows.checked_160' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 161/278
+time: 466ms
+time: 36ms
+'KalaiFCGaleRows.checked_161' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 162/278
+time: 449ms
+time: 28ms
+'KalaiFCGaleRows.checked_162' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 163/278
+time: 922ms
+time: 65ms
+'KalaiFCGaleRows.checked_163' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 164/278
+time: 384ms
+time: 38ms
+'KalaiFCGaleRows.checked_164' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 165/278
+time: 2617ms
+time: 25ms
+'KalaiFCGaleRows.checked_165' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 166/278
+time: 197ms
+time: 18ms
+'KalaiFCGaleRows.checked_166' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 167/278
+time: 3874ms
+time: 34ms
+'KalaiFCGaleRows.checked_167' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 168/278
+time: 2483ms
+time: 36ms
+'KalaiFCGaleRows.checked_168' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 169/278
+time: 237ms
+time: 27ms
+'KalaiFCGaleRows.checked_169' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 170/278
+time: 316ms
+time: 56ms
+'KalaiFCGaleRows.checked_170' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 171/278
+time: 881ms
+time: 58ms
+'KalaiFCGaleRows.checked_171' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 172/278
+time: 3457ms
+time: 39ms
+'KalaiFCGaleRows.checked_172' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 173/278
+time: 2730ms
+time: 23ms
+'KalaiFCGaleRows.checked_173' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 174/278
+time: 10974ms
+time: 75ms
+'KalaiFCGaleRows.checked_174' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 175/278
+time: 7451ms
+time: 86ms
+'KalaiFCGaleRows.checked_175' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 176/278
+time: 335ms
+time: 57ms
+'KalaiFCGaleRows.checked_176' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 177/278
+time: 3084ms
+time: 23ms
+'KalaiFCGaleRows.checked_177' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 178/278
+time: 3160ms
+time: 14ms
+'KalaiFCGaleRows.checked_178' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 179/278
+time: 2855ms
+time: 22ms
+'KalaiFCGaleRows.checked_179' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 180/278
+time: 5646ms
+time: 22ms
+'KalaiFCGaleRows.checked_180' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 181/278
+time: 2504ms
+time: 12ms
+'KalaiFCGaleRows.checked_181' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 182/278
+time: 4899ms
+time: 58ms
+'KalaiFCGaleRows.checked_182' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 183/278
+time: 1405ms
+time: 20ms
+'KalaiFCGaleRows.checked_183' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 184/278
+time: 6420ms
+time: 32ms
+'KalaiFCGaleRows.checked_184' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 185/278
+time: 1401ms
+time: 17ms
+'KalaiFCGaleRows.checked_185' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 186/278
+time: 154ms
+time: 17ms
+'KalaiFCGaleRows.checked_186' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 187/278
+time: 249ms
+time: 23ms
+'KalaiFCGaleRows.checked_187' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 188/278
+time: 134ms
+time: 13ms
+'KalaiFCGaleRows.checked_188' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 189/278
+time: 1494ms
+time: 19ms
+'KalaiFCGaleRows.checked_189' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 190/278
+time: 162ms
+time: 15ms
+'KalaiFCGaleRows.checked_190' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 191/278
+time: 2745ms
+time: 15ms
+'KalaiFCGaleRows.checked_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 192/278
+time: 1343ms
+time: 17ms
+'KalaiFCGaleRows.checked_192' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 193/278
+time: 609ms
+time: 23ms
+'KalaiFCGaleRows.checked_193' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 194/278
+time: 242ms
+time: 30ms
+'KalaiFCGaleRows.checked_194' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 195/278
+time: 149ms
+time: 9ms
+'KalaiFCGaleRows.checked_195' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 196/278
+time: 248ms
+time: 16ms
+'KalaiFCGaleRows.checked_196' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 197/278
+time: 177ms
+time: 19ms
+'KalaiFCGaleRows.checked_197' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 198/278
+time: 215ms
+time: 9ms
+'KalaiFCGaleRows.checked_198' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 199/278
+time: 6959ms
+time: 243ms
+'KalaiFCGaleRows.checked_199' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 200/278
+time: 410ms
+time: 24ms
+'KalaiFCGaleRows.checked_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 201/278
+time: 7260ms
+time: 44ms
+'KalaiFCGaleRows.checked_201' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 202/278
+time: 5517ms
+time: 60ms
+'KalaiFCGaleRows.checked_202' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 203/278
+time: 221ms
+time: 21ms
+'KalaiFCGaleRows.checked_203' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 204/278
+time: 4495ms
+time: 22ms
+'KalaiFCGaleRows.checked_204' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 205/278
+time: 264ms
+time: 29ms
+'KalaiFCGaleRows.checked_205' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 206/278
+time: 4399ms
+time: 19ms
+'KalaiFCGaleRows.checked_206' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 207/278
+time: 4737ms
+time: 16ms
+'KalaiFCGaleRows.checked_207' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 208/278
+time: 9107ms
+time: 24ms
+'KalaiFCGaleRows.checked_208' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 209/278
+time: 3754ms
+time: 30ms
+'KalaiFCGaleRows.checked_209' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 210/278
+time: 183ms
+time: 17ms
+'KalaiFCGaleRows.checked_210' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 211/278
+time: 2882ms
+time: 16ms
+'KalaiFCGaleRows.checked_211' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 212/278
+time: 1959ms
+time: 49ms
+'KalaiFCGaleRows.checked_212' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 213/278
+time: 2542ms
+time: 31ms
+'KalaiFCGaleRows.checked_213' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 214/278
+time: 3955ms
+time: 19ms
+'KalaiFCGaleRows.checked_214' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 215/278
+time: 3506ms
+time: 23ms
+'KalaiFCGaleRows.checked_215' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 216/278
+time: 5829ms
+time: 20ms
+'KalaiFCGaleRows.checked_216' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 217/278
+time: 1883ms
+time: 52ms
+'KalaiFCGaleRows.checked_217' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 218/278
+time: 6982ms
+time: 33ms
+'KalaiFCGaleRows.checked_218' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 219/278
+time: 1631ms
+time: 13ms
+'KalaiFCGaleRows.checked_219' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 220/278
+time: 163ms
+time: 16ms
+'KalaiFCGaleRows.checked_220' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 221/278
+time: 2538ms
+time: 28ms
+'KalaiFCGaleRows.checked_221' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 222/278
+time: 230ms
+time: 17ms
+'KalaiFCGaleRows.checked_222' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 223/278
+time: 3815ms
+time: 41ms
+'KalaiFCGaleRows.checked_223' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 224/278
+time: 2675ms
+time: 11ms
+'KalaiFCGaleRows.checked_224' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 225/278
+time: 9318ms
+time: 31ms
+'KalaiFCGaleRows.checked_225' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 226/278
+time: 5832ms
+time: 41ms
+'KalaiFCGaleRows.checked_226' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 227/278
+time: 234ms
+time: 21ms
+'KalaiFCGaleRows.checked_227' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 228/278
+time: 4448ms
+time: 34ms
+'KalaiFCGaleRows.checked_228' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 229/278
+time: 285ms
+time: 25ms
+'KalaiFCGaleRows.checked_229' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 230/278
+time: 4067ms
+time: 24ms
+'KalaiFCGaleRows.checked_230' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 231/278
+time: 5389ms
+time: 75ms
+'KalaiFCGaleRows.checked_231' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 232/278
+time: 8629ms
+time: 24ms
+'KalaiFCGaleRows.checked_232' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 233/278
+time: 5220ms
+time: 47ms
+'KalaiFCGaleRows.checked_233' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 234/278
+time: 2104ms
+time: 15ms
+'KalaiFCGaleRows.checked_234' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 235/278
+time: 6431ms
+time: 48ms
+'KalaiFCGaleRows.checked_235' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 236/278
+time: 2004ms
+time: 20ms
+'KalaiFCGaleRows.checked_236' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 237/278
+time: 7250ms
+time: 91ms
+'KalaiFCGaleRows.checked_237' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 238/278
+time: 4726ms
+time: 17ms
+'KalaiFCGaleRows.checked_238' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 239/278
+time: 10928ms
+time: 80ms
+'KalaiFCGaleRows.checked_239' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 240/278
+time: 10452ms
+time: 71ms
+'KalaiFCGaleRows.checked_240' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 241/278
+time: 2692ms
+time: 41ms
+'KalaiFCGaleRows.checked_241' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 242/278
+time: 6290ms
+time: 98ms
+'KalaiFCGaleRows.checked_242' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 243/278
+time: 2040ms
+time: 17ms
+'KalaiFCGaleRows.checked_243' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 244/278
+time: 172ms
+time: 31ms
+'KalaiFCGaleRows.checked_244' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 245/278
+time: 321ms
+time: 27ms
+'KalaiFCGaleRows.checked_245' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 246/278
+time: 192ms
+time: 13ms
+'KalaiFCGaleRows.checked_246' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 247/278
+time: 2164ms
+time: 35ms
+'KalaiFCGaleRows.checked_247' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 248/278
+time: 160ms
+time: 22ms
+'KalaiFCGaleRows.checked_248' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 249/278
+time: 5559ms
+time: 59ms
+'KalaiFCGaleRows.checked_249' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 250/278
+time: 1656ms
+time: 13ms
+'KalaiFCGaleRows.checked_250' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 251/278
+time: 144ms
+time: 17ms
+'KalaiFCGaleRows.checked_251' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 252/278
+time: 256ms
+time: 23ms
+'KalaiFCGaleRows.checked_252' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 253/278
+time: 155ms
+time: 16ms
+'KalaiFCGaleRows.checked_253' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 254/278
+time: 2145ms
+time: 35ms
+'KalaiFCGaleRows.checked_254' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 255/278
+time: 2414ms
+time: 23ms
+'KalaiFCGaleRows.checked_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 256/278
+time: 3864ms
+time: 25ms
+'KalaiFCGaleRows.checked_256' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 257/278
+time: 7077ms
+time: 42ms
+'KalaiFCGaleRows.checked_257' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 258/278
+time: 230ms
+time: 24ms
+'KalaiFCGaleRows.checked_258' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 259/278
+time: 3419ms
+time: 29ms
+'KalaiFCGaleRows.checked_259' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 260/278
+time: 1932ms
+time: 33ms
+'KalaiFCGaleRows.checked_260' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 261/278
+time: 2904ms
+time: 78ms
+'KalaiFCGaleRows.checked_261' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 262/278
+time: 6413ms
+time: 56ms
+'KalaiFCGaleRows.checked_262' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 263/278
+time: 3861ms
+time: 21ms
+'KalaiFCGaleRows.checked_263' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 264/278
+time: 5720ms
+time: 101ms
+'KalaiFCGaleRows.checked_264' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 265/278
+time: 1865ms
+time: 44ms
+'KalaiFCGaleRows.checked_265' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 266/278
+time: 7019ms
+time: 46ms
+'KalaiFCGaleRows.checked_266' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 267/278
+time: 2336ms
+time: 36ms
+'KalaiFCGaleRows.checked_267' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 268/278
+time: 173ms
+time: 24ms
+'KalaiFCGaleRows.checked_268' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 269/278
+time: 173ms
+time: 15ms
+'KalaiFCGaleRows.checked_269' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 270/278
+time: 135ms
+time: 24ms
+'KalaiFCGaleRows.checked_270' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 271/278
+time: 2181ms
+time: 17ms
+'KalaiFCGaleRows.checked_271' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 272/278
+time: 286ms
+time: 28ms
+'KalaiFCGaleRows.checked_272' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 273/278
+time: 3986ms
+time: 22ms
+'KalaiFCGaleRows.checked_273' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 274/278
+time: 1592ms
+time: 14ms
+'KalaiFCGaleRows.checked_274' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 275/278
+time: 191ms
+time: 19ms
+'KalaiFCGaleRows.checked_275' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 276/278
+time: 300ms
+time: 51ms
+'KalaiFCGaleRows.checked_276' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 277/278
+time: 186ms
+time: 24ms
+'KalaiFCGaleRows.checked_277' depends on axioms: [propext, Classical.choice, Quot.sound]
+GALE_SHARED_ROWS_DONE 278/278

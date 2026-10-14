@@ -1,0 +1,34 @@
+{
+  "status": "GENERATED: ready for private CI",
+  "steps": [
+    {
+      "name": "KalaiFCComponents",
+      "exit_code": 0,
+      "seconds": 643.424,
+      "log": "KalaiFCComponents.log"
+    },
+    {
+      "name": "KalaiFCReplacements",
+      "exit_code": 0,
+      "seconds": 77.762,
+      "log": "KalaiFCReplacements.log"
+    },
+    {
+      "name": "KalaiFCExport",
+      "exit_code": 0,
+      "seconds": 153.291,
+      "log": "KalaiFCExport.log"
+    }
+  ],
+  "lean": "v4.33.1",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "native_decide": false,
+  "kernel_checking": "forced on",
+  "target": "Kalai.three_pow_five",
+  "current_step": "KalaiFCExport",
+  "replacements": 1666,
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "declarations": 42660,
+  "full_archive_replay": "pending private CI",
+  "local_archive_replay": "omitted at user request"
+}

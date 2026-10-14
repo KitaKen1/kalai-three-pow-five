@@ -1,0 +1,728 @@
+'KalaiFCLeaves.replacement_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 1/364 Kalai5.LemmaA.fam0_t0_ok
+'KalaiFCLeaves.replacement_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 2/364 Kalai5.LemmaA.fam0_t1_ok
+'KalaiFCLeaves.replacement_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 3/364 Kalai5.LemmaA.fam0_t2_ok
+'KalaiFCLeaves.replacement_3' depends on axioms: [propext]
+WITNESS_DONE 4/364 Kalai5.LemmaA.fam0_t3_ok
+'KalaiFCLeaves.replacement_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 5/364 Kalai5.LemmaA.fam0_t4_ok
+'KalaiFCLeaves.replacement_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 6/364 Kalai5.LemmaA.fam0_t5_ok
+'KalaiFCLeaves.replacement_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 7/364 Kalai5.LemmaA.fam0_t6_ok
+'KalaiFCLeaves.replacement_7' depends on axioms: [propext]
+WITNESS_DONE 8/364 Kalai5.LemmaA.fam0_t7_ok
+'KalaiFCLeaves.replacement_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 9/364 Kalai5.LemmaA.fam0_t8_ok
+'KalaiFCLeaves.replacement_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 10/364 Kalai5.LemmaA.fam0_t9_ok
+'KalaiFCLeaves.replacement_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 11/364 Kalai5.LemmaA.fam0_t10_ok
+'KalaiFCLeaves.replacement_11' depends on axioms: [propext]
+WITNESS_DONE 12/364 Kalai5.LemmaA.fam0_t11_ok
+'KalaiFCLeaves.replacement_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 13/364 Kalai5.LemmaA.fam0_t12_ok
+'KalaiFCLeaves.replacement_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 14/364 Kalai5.LemmaA.fam0_t13_ok
+'KalaiFCLeaves.replacement_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 15/364 Kalai5.LemmaA.fam0_t14_ok
+'KalaiFCLeaves.replacement_15' depends on axioms: [propext]
+WITNESS_DONE 16/364 Kalai5.LemmaA.fam0_t15_ok
+'KalaiFCLeaves.replacement_16' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 17/364 Kalai5.LemmaA.fam12_t0_ok
+'KalaiFCLeaves.replacement_17' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 18/364 Kalai5.LemmaA.fam12_t1_ok
+'KalaiFCLeaves.replacement_18' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 19/364 Kalai5.LemmaA.fam12_t2_ok
+'KalaiFCLeaves.replacement_19' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 20/364 Kalai5.LemmaA.fam12_t3_ok
+'KalaiFCLeaves.replacement_20' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 21/364 Kalai5.LemmaA.fam12_t4_ok
+'KalaiFCLeaves.replacement_21' depends on axioms: [propext]
+WITNESS_DONE 22/364 Kalai5.LemmaA.fam12_t5_ok
+'KalaiFCLeaves.replacement_22' depends on axioms: [propext]
+WITNESS_DONE 23/364 Kalai5.LemmaA.fam12_t6_ok
+'KalaiFCLeaves.replacement_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 24/364 Kalai5.LemmaA.fam12_t7_ok
+'KalaiFCLeaves.replacement_24' depends on axioms: [propext]
+WITNESS_DONE 25/364 Kalai5.LemmaA.fam12_t8_ok
+'KalaiFCLeaves.replacement_25' depends on axioms: [propext]
+WITNESS_DONE 26/364 Kalai5.LemmaA.fam12_t9_ok
+'KalaiFCLeaves.replacement_26' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 27/364 Kalai5.LemmaA.fam12_t10_ok
+'KalaiFCLeaves.replacement_27' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 28/364 Kalai5.LemmaA.fam12_t11_ok
+'KalaiFCLeaves.replacement_28' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 29/364 Kalai5.LemmaA.fam12_t12_ok
+'KalaiFCLeaves.replacement_29' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 30/364 Kalai5.LemmaA.fam12_t13_ok
+'KalaiFCLeaves.replacement_30' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 31/364 Kalai5.LemmaA.fam12_t14_ok
+'KalaiFCLeaves.replacement_31' depends on axioms: [propext]
+WITNESS_DONE 32/364 Kalai5.LemmaA.fam12_t15_ok
+'KalaiFCLeaves.replacement_32' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 33/364 Kalai5.LemmaA.fam12_t16_ok
+'KalaiFCLeaves.replacement_33' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 34/364 Kalai5.LemmaA.fam12_t17_ok
+'KalaiFCLeaves.replacement_34' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 35/364 Kalai5.LemmaA.fam12_t18_ok
+'KalaiFCLeaves.replacement_35' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 36/364 Kalai5.LemmaA.fam12_t19_ok
+'KalaiFCLeaves.replacement_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 37/364 Kalai5.LemmaA.fam12_t20_ok
+'KalaiFCLeaves.replacement_37' depends on axioms: [propext]
+WITNESS_DONE 38/364 Kalai5.LemmaA.fam12_t21_ok
+'KalaiFCLeaves.replacement_38' depends on axioms: [propext]
+WITNESS_DONE 39/364 Kalai5.LemmaA.fam12_t22_ok
+'KalaiFCLeaves.replacement_39' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 40/364 Kalai5.LemmaA.fam12_t23_ok
+'KalaiFCLeaves.replacement_40' depends on axioms: [propext]
+WITNESS_DONE 41/364 Kalai5.LemmaA.fam12_t24_ok
+'KalaiFCLeaves.replacement_41' depends on axioms: [propext]
+WITNESS_DONE 42/364 Kalai5.LemmaA.fam12_t25_ok
+'KalaiFCLeaves.replacement_42' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 43/364 Kalai5.LemmaA.fam12_t26_ok
+'KalaiFCLeaves.replacement_43' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 44/364 Kalai5.LemmaA.fam12_t27_ok
+'KalaiFCLeaves.replacement_44' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 45/364 Kalai5.LemmaA.fam12_t28_ok
+'KalaiFCLeaves.replacement_45' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 46/364 Kalai5.LemmaA.fam12_t29_ok
+'KalaiFCLeaves.replacement_46' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 47/364 Kalai5.LemmaA.fam12_t30_ok
+'KalaiFCLeaves.replacement_47' depends on axioms: [propext]
+WITNESS_DONE 48/364 Kalai5.LemmaA.fam12_t31_ok
+'KalaiFCLeaves.replacement_48' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 49/364 Kalai5.LemmaA.fam15_t0_ok
+'KalaiFCLeaves.replacement_49' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 50/364 Kalai5.LemmaA.fam15_t1_ok
+'KalaiFCLeaves.replacement_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 51/364 Kalai5.LemmaA.fam15_t2_ok
+'KalaiFCLeaves.replacement_51' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 52/364 Kalai5.LemmaA.fam15_t3_ok
+'KalaiFCLeaves.replacement_52' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 53/364 Kalai5.LemmaA.fam15_t4_ok
+'KalaiFCLeaves.replacement_53' depends on axioms: [propext]
+WITNESS_DONE 54/364 Kalai5.LemmaA.fam15_t5_ok
+'KalaiFCLeaves.replacement_54' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 55/364 Kalai5.LemmaA.fam15_t6_ok
+'KalaiFCLeaves.replacement_55' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 56/364 Kalai5.LemmaA.fam15_t7_ok
+'KalaiFCLeaves.replacement_56' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 57/364 Kalai5.LemmaA.fam15_t8_ok
+'KalaiFCLeaves.replacement_57' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 58/364 Kalai5.LemmaA.fam15_t9_ok
+'KalaiFCLeaves.replacement_58' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 59/364 Kalai5.LemmaA.fam15_t10_ok
+'KalaiFCLeaves.replacement_59' depends on axioms: [propext]
+WITNESS_DONE 60/364 Kalai5.LemmaA.fam15_t11_ok
+'KalaiFCLeaves.replacement_60' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 61/364 Kalai5.LemmaA.fam22_t0_ok
+'KalaiFCLeaves.replacement_61' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 62/364 Kalai5.LemmaA.fam22_t1_ok
+'KalaiFCLeaves.replacement_62' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 63/364 Kalai5.LemmaA.fam22_t2_ok
+'KalaiFCLeaves.replacement_63' depends on axioms: [propext]
+WITNESS_DONE 64/364 Kalai5.LemmaA.fam22_t3_ok
+'KalaiFCLeaves.replacement_64' depends on axioms: [propext]
+WITNESS_DONE 65/364 Kalai5.LemmaA.fam22_t4_ok
+'KalaiFCLeaves.replacement_65' depends on axioms: [propext]
+WITNESS_DONE 66/364 Kalai5.LemmaA.fam22_t5_ok
+'KalaiFCLeaves.replacement_66' depends on axioms: [propext]
+WITNESS_DONE 67/364 Kalai5.LemmaA.fam22_t6_ok
+'KalaiFCLeaves.replacement_67' depends on axioms: [propext]
+WITNESS_DONE 68/364 Kalai5.LemmaA.fam22_t7_ok
+'KalaiFCLeaves.replacement_68' depends on axioms: [propext]
+WITNESS_DONE 69/364 Kalai5.LemmaA.fam22_t8_ok
+'KalaiFCLeaves.replacement_69' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 70/364 Kalai5.LemmaA.fam22_t9_ok
+'KalaiFCLeaves.replacement_70' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 71/364 Kalai5.LemmaA.fam22_t10_ok
+'KalaiFCLeaves.replacement_71' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 72/364 Kalai5.LemmaA.fam22_t11_ok
+'KalaiFCLeaves.replacement_72' depends on axioms: [propext]
+WITNESS_DONE 73/364 Kalai5.LemmaA.fam22_t12_ok
+'KalaiFCLeaves.replacement_73' depends on axioms: [propext]
+WITNESS_DONE 74/364 Kalai5.LemmaA.fam22_t13_ok
+'KalaiFCLeaves.replacement_74' depends on axioms: [propext]
+WITNESS_DONE 75/364 Kalai5.LemmaA.fam22_t14_ok
+'KalaiFCLeaves.replacement_75' depends on axioms: [propext]
+WITNESS_DONE 76/364 Kalai5.LemmaA.fam22_t15_ok
+'KalaiFCLeaves.replacement_76' depends on axioms: [propext]
+WITNESS_DONE 77/364 Kalai5.LemmaA.fam22_t16_ok
+'KalaiFCLeaves.replacement_77' depends on axioms: [propext]
+WITNESS_DONE 78/364 Kalai5.LemmaA.fam22_t17_ok
+'KalaiFCLeaves.replacement_78' depends on axioms: [propext]
+WITNESS_DONE 79/364 Kalai5.LemmaA.fam22_t18_ok
+'KalaiFCLeaves.replacement_79' depends on axioms: [propext]
+WITNESS_DONE 80/364 Kalai5.LemmaA.fam22_t19_ok
+'KalaiFCLeaves.replacement_80' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 81/364 Kalai5.LemmaA.fam22_t20_ok
+'KalaiFCLeaves.replacement_81' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 82/364 Kalai5.LemmaA.fam22_t21_ok
+'KalaiFCLeaves.replacement_82' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 83/364 Kalai5.LemmaA.fam22_t22_ok
+'KalaiFCLeaves.replacement_83' depends on axioms: [propext]
+WITNESS_DONE 84/364 Kalai5.LemmaA.fam22_t23_ok
+'KalaiFCLeaves.replacement_84' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 85/364 Kalai5.LemmaA.fam22_t24_ok
+'KalaiFCLeaves.replacement_85' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 86/364 Kalai5.LemmaA.fam22_t25_ok
+'KalaiFCLeaves.replacement_86' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 87/364 Kalai5.LemmaA.fam22_t26_ok
+'KalaiFCLeaves.replacement_87' depends on axioms: [propext]
+WITNESS_DONE 88/364 Kalai5.LemmaA.fam22_t27_ok
+'KalaiFCLeaves.replacement_88' depends on axioms: [propext]
+WITNESS_DONE 89/364 Kalai5.LemmaA.fam22_t28_ok
+'KalaiFCLeaves.replacement_89' depends on axioms: [propext]
+WITNESS_DONE 90/364 Kalai5.LemmaA.fam22_t29_ok
+'KalaiFCLeaves.replacement_90' depends on axioms: [propext]
+WITNESS_DONE 91/364 Kalai5.LemmaA.fam22_t30_ok
+'KalaiFCLeaves.replacement_91' depends on axioms: [propext]
+WITNESS_DONE 92/364 Kalai5.LemmaA.fam22_t31_ok
+'KalaiFCLeaves.replacement_92' depends on axioms: [propext]
+WITNESS_DONE 93/364 Kalai5.LemmaA.fam22_t32_ok
+'KalaiFCLeaves.replacement_93' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 94/364 Kalai5.LemmaA.fam22_t33_ok
+'KalaiFCLeaves.replacement_94' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 95/364 Kalai5.LemmaA.fam22_t34_ok
+'KalaiFCLeaves.replacement_95' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 96/364 Kalai5.LemmaA.fam22_t35_ok
+'KalaiFCLeaves.replacement_96' depends on axioms: [propext]
+WITNESS_DONE 97/364 Kalai5.LemmaA.fam22_t36_ok
+'KalaiFCLeaves.replacement_97' depends on axioms: [propext]
+WITNESS_DONE 98/364 Kalai5.LemmaA.fam22_t37_ok
+'KalaiFCLeaves.replacement_98' depends on axioms: [propext]
+WITNESS_DONE 99/364 Kalai5.LemmaA.fam22_t38_ok
+'KalaiFCLeaves.replacement_99' depends on axioms: [propext]
+WITNESS_DONE 100/364 Kalai5.LemmaA.fam22_t39_ok
+'KalaiFCLeaves.replacement_100' depends on axioms: [propext]
+WITNESS_DONE 101/364 Kalai5.LemmaA.fam22_t40_ok
+'KalaiFCLeaves.replacement_101' depends on axioms: [propext]
+WITNESS_DONE 102/364 Kalai5.LemmaA.fam22_t41_ok
+'KalaiFCLeaves.replacement_102' depends on axioms: [propext]
+WITNESS_DONE 103/364 Kalai5.LemmaA.fam22_t42_ok
+'KalaiFCLeaves.replacement_103' depends on axioms: [propext]
+WITNESS_DONE 104/364 Kalai5.LemmaA.fam22_t43_ok
+'KalaiFCLeaves.replacement_104' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 105/364 Kalai5.LemmaA.fam22_t44_ok
+'KalaiFCLeaves.replacement_105' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 106/364 Kalai5.LemmaA.fam22_t45_ok
+'KalaiFCLeaves.replacement_106' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 107/364 Kalai5.LemmaA.fam22_t46_ok
+'KalaiFCLeaves.replacement_107' depends on axioms: [propext]
+WITNESS_DONE 108/364 Kalai5.LemmaA.fam22_t47_ok
+'KalaiFCLeaves.replacement_108' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 109/364 Kalai5.LemmaA.fam26_t0_ok
+'KalaiFCLeaves.replacement_109' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 110/364 Kalai5.LemmaA.fam26_t1_ok
+'KalaiFCLeaves.replacement_110' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 111/364 Kalai5.LemmaA.fam26_t2_ok
+'KalaiFCLeaves.replacement_111' depends on axioms: [propext]
+WITNESS_DONE 112/364 Kalai5.LemmaA.fam26_t3_ok
+'KalaiFCLeaves.replacement_112' depends on axioms: [propext]
+WITNESS_DONE 113/364 Kalai5.LemmaA.fam26_t4_ok
+'KalaiFCLeaves.replacement_113' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 114/364 Kalai5.LemmaA.fam26_t5_ok
+'KalaiFCLeaves.replacement_114' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 115/364 Kalai5.LemmaA.fam26_t6_ok
+'KalaiFCLeaves.replacement_115' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 116/364 Kalai5.LemmaA.fam26_t7_ok
+'KalaiFCLeaves.replacement_116' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 117/364 Kalai5.LemmaA.fam26_t8_ok
+'KalaiFCLeaves.replacement_117' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 118/364 Kalai5.LemmaA.fam26_t9_ok
+'KalaiFCLeaves.replacement_118' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 119/364 Kalai5.LemmaA.fam26_t10_ok
+'KalaiFCLeaves.replacement_119' depends on axioms: [propext]
+WITNESS_DONE 120/364 Kalai5.LemmaA.fam26_t11_ok
+'KalaiFCLeaves.replacement_120' depends on axioms: [propext]
+WITNESS_DONE 121/364 Kalai5.LemmaA.fam26_t12_ok
+'KalaiFCLeaves.replacement_121' depends on axioms: [propext]
+WITNESS_DONE 122/364 Kalai5.LemmaA.fam26_t13_ok
+'KalaiFCLeaves.replacement_122' depends on axioms: [propext]
+WITNESS_DONE 123/364 Kalai5.LemmaA.fam26_t14_ok
+'KalaiFCLeaves.replacement_123' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 124/364 Kalai5.LemmaA.fam26_t15_ok
+'KalaiFCLeaves.replacement_124' depends on axioms: [propext]
+WITNESS_DONE 125/364 Kalai5.LemmaA.fam26_t16_ok
+'KalaiFCLeaves.replacement_125' depends on axioms: [propext]
+WITNESS_DONE 126/364 Kalai5.LemmaA.fam26_t17_ok
+'KalaiFCLeaves.replacement_126' depends on axioms: [propext]
+WITNESS_DONE 127/364 Kalai5.LemmaA.fam26_t18_ok
+'KalaiFCLeaves.replacement_127' depends on axioms: [propext]
+WITNESS_DONE 128/364 Kalai5.LemmaA.fam26_t19_ok
+'KalaiFCLeaves.replacement_128' depends on axioms: [propext]
+WITNESS_DONE 129/364 Kalai5.LemmaA.fam26_t20_ok
+'KalaiFCLeaves.replacement_129' depends on axioms: [propext]
+WITNESS_DONE 130/364 Kalai5.LemmaA.fam26_t21_ok
+'KalaiFCLeaves.replacement_130' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 131/364 Kalai5.LemmaA.fam26_t22_ok
+'KalaiFCLeaves.replacement_131' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 132/364 Kalai5.LemmaA.fam26_t23_ok
+'KalaiFCLeaves.replacement_132' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 133/364 Kalai5.LemmaA.fam26_t24_ok
+'KalaiFCLeaves.replacement_133' depends on axioms: [propext]
+WITNESS_DONE 134/364 Kalai5.LemmaA.fam26_t25_ok
+'KalaiFCLeaves.replacement_134' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 135/364 Kalai5.LemmaA.fam26_t26_ok
+'KalaiFCLeaves.replacement_135' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 136/364 Kalai5.LemmaA.fam26_t27_ok
+'KalaiFCLeaves.replacement_136' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 137/364 Kalai5.LemmaA.fam26_t28_ok
+'KalaiFCLeaves.replacement_137' depends on axioms: [propext]
+WITNESS_DONE 138/364 Kalai5.LemmaA.fam26_t29_ok
+'KalaiFCLeaves.replacement_138' depends on axioms: [propext]
+WITNESS_DONE 139/364 Kalai5.LemmaA.fam26_t30_ok
+'KalaiFCLeaves.replacement_139' depends on axioms: [propext]
+WITNESS_DONE 140/364 Kalai5.LemmaA.fam26_t31_ok
+'KalaiFCLeaves.replacement_140' depends on axioms: [propext]
+WITNESS_DONE 141/364 Kalai5.LemmaA.fam26_t32_ok
+'KalaiFCLeaves.replacement_141' depends on axioms: [propext]
+WITNESS_DONE 142/364 Kalai5.LemmaA.fam26_t33_ok
+'KalaiFCLeaves.replacement_142' depends on axioms: [propext]
+WITNESS_DONE 143/364 Kalai5.LemmaA.fam26_t34_ok
+'KalaiFCLeaves.replacement_143' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 144/364 Kalai5.LemmaA.fam26_t35_ok
+'KalaiFCLeaves.replacement_144' depends on axioms: [propext]
+WITNESS_DONE 145/364 Kalai5.LemmaA.fam26_t36_ok
+'KalaiFCLeaves.replacement_145' depends on axioms: [propext]
+WITNESS_DONE 146/364 Kalai5.LemmaA.fam26_t37_ok
+'KalaiFCLeaves.replacement_146' depends on axioms: [propext]
+WITNESS_DONE 147/364 Kalai5.LemmaA.fam26_t38_ok
+'KalaiFCLeaves.replacement_147' depends on axioms: [propext]
+WITNESS_DONE 148/364 Kalai5.LemmaA.fam26_t39_ok
+'KalaiFCLeaves.replacement_148' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 149/364 Kalai5.LemmaA.fam26_t40_ok
+'KalaiFCLeaves.replacement_149' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 150/364 Kalai5.LemmaA.fam26_t41_ok
+'KalaiFCLeaves.replacement_150' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 151/364 Kalai5.LemmaA.fam26_t42_ok
+'KalaiFCLeaves.replacement_151' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 152/364 Kalai5.LemmaA.fam26_t43_ok
+'KalaiFCLeaves.replacement_152' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 153/364 Kalai5.LemmaA.fam26_t44_ok
+'KalaiFCLeaves.replacement_153' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 154/364 Kalai5.LemmaA.fam26_t45_ok
+'KalaiFCLeaves.replacement_154' depends on axioms: [propext]
+WITNESS_DONE 155/364 Kalai5.LemmaA.fam26_t46_ok
+'KalaiFCLeaves.replacement_155' depends on axioms: [propext]
+WITNESS_DONE 156/364 Kalai5.LemmaA.fam26_t47_ok
+'KalaiFCLeaves.replacement_156' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 157/364 Kalai5.LemmaA.fam26_t48_ok
+'KalaiFCLeaves.replacement_157' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 158/364 Kalai5.LemmaA.fam26_t49_ok
+'KalaiFCLeaves.replacement_158' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 159/364 Kalai5.LemmaA.fam26_t50_ok
+'KalaiFCLeaves.replacement_159' depends on axioms: [propext]
+WITNESS_DONE 160/364 Kalai5.LemmaA.fam26_t51_ok
+'KalaiFCLeaves.replacement_160' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 161/364 Kalai5.LemmaA.fam32_t0_ok
+'KalaiFCLeaves.replacement_161' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 162/364 Kalai5.LemmaA.fam32_t1_ok
+'KalaiFCLeaves.replacement_162' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 163/364 Kalai5.LemmaA.fam32_t2_ok
+'KalaiFCLeaves.replacement_163' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 164/364 Kalai5.LemmaA.fam32_t3_ok
+'KalaiFCLeaves.replacement_164' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 165/364 Kalai5.LemmaA.fam32_t4_ok
+'KalaiFCLeaves.replacement_165' depends on axioms: [propext]
+WITNESS_DONE 166/364 Kalai5.LemmaA.fam32_t5_ok
+'KalaiFCLeaves.replacement_166' depends on axioms: [propext]
+WITNESS_DONE 167/364 Kalai5.LemmaA.fam32_t6_ok
+'KalaiFCLeaves.replacement_167' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 168/364 Kalai5.LemmaA.fam32_t7_ok
+'KalaiFCLeaves.replacement_168' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 169/364 Kalai5.LemmaA.fam32_t8_ok
+'KalaiFCLeaves.replacement_169' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 170/364 Kalai5.LemmaA.fam32_t9_ok
+'KalaiFCLeaves.replacement_170' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 171/364 Kalai5.LemmaA.fam32_t10_ok
+'KalaiFCLeaves.replacement_171' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 172/364 Kalai5.LemmaA.fam32_t11_ok
+'KalaiFCLeaves.replacement_172' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 173/364 Kalai5.LemmaA.fam32_t12_ok
+'KalaiFCLeaves.replacement_173' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 174/364 Kalai5.LemmaA.fam32_t13_ok
+'KalaiFCLeaves.replacement_174' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 175/364 Kalai5.LemmaA.fam32_t14_ok
+'KalaiFCLeaves.replacement_175' depends on axioms: [propext]
+WITNESS_DONE 176/364 Kalai5.LemmaA.fam32_t15_ok
+'KalaiFCLeaves.replacement_176' depends on axioms: [propext]
+WITNESS_DONE 177/364 Kalai5.LemmaA.fam32_t16_ok
+'KalaiFCLeaves.replacement_177' depends on axioms: [propext]
+WITNESS_DONE 178/364 Kalai5.LemmaA.fam32_t17_ok
+'KalaiFCLeaves.replacement_178' depends on axioms: [propext]
+WITNESS_DONE 179/364 Kalai5.LemmaA.fam32_t18_ok
+'KalaiFCLeaves.replacement_179' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 180/364 Kalai5.LemmaA.fam32_t19_ok
+'KalaiFCLeaves.replacement_180' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 181/364 Kalai5.LemmaA.fam32_t20_ok
+'KalaiFCLeaves.replacement_181' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 182/364 Kalai5.LemmaA.fam32_t21_ok
+'KalaiFCLeaves.replacement_182' depends on axioms: [propext]
+WITNESS_DONE 183/364 Kalai5.LemmaA.fam32_t22_ok
+'KalaiFCLeaves.replacement_183' depends on axioms: [propext]
+WITNESS_DONE 184/364 Kalai5.LemmaA.fam32_t23_ok
+'KalaiFCLeaves.replacement_184' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 185/364 Kalai5.LemmaA.fam32_t24_ok
+'KalaiFCLeaves.replacement_185' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 186/364 Kalai5.LemmaA.fam32_t25_ok
+'KalaiFCLeaves.replacement_186' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 187/364 Kalai5.LemmaA.fam32_t26_ok
+'KalaiFCLeaves.replacement_187' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 188/364 Kalai5.LemmaA.fam32_t27_ok
+'KalaiFCLeaves.replacement_188' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 189/364 Kalai5.LemmaA.fam32_t28_ok
+'KalaiFCLeaves.replacement_189' depends on axioms: [propext]
+WITNESS_DONE 190/364 Kalai5.LemmaA.fam32_t29_ok
+'KalaiFCLeaves.replacement_190' depends on axioms: [propext]
+WITNESS_DONE 191/364 Kalai5.LemmaA.fam32_t30_ok
+'KalaiFCLeaves.replacement_191' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 192/364 Kalai5.LemmaA.fam32_t31_ok
+'KalaiFCLeaves.replacement_192' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 193/364 Kalai5.LemmaA.fam32_t32_ok
+'KalaiFCLeaves.replacement_193' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 194/364 Kalai5.LemmaA.fam32_t33_ok
+'KalaiFCLeaves.replacement_194' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 195/364 Kalai5.LemmaA.fam32_t34_ok
+'KalaiFCLeaves.replacement_195' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 196/364 Kalai5.LemmaA.fam32_t35_ok
+'KalaiFCLeaves.replacement_196' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 197/364 Kalai5.LemmaA.fam32_t36_ok
+'KalaiFCLeaves.replacement_197' depends on axioms: [propext]
+WITNESS_DONE 198/364 Kalai5.LemmaA.fam32_t37_ok
+'KalaiFCLeaves.replacement_198' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 199/364 Kalai5.LemmaA.fam38_t0_ok
+'KalaiFCLeaves.replacement_199' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 200/364 Kalai5.LemmaA.fam38_t1_ok
+'KalaiFCLeaves.replacement_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 201/364 Kalai5.LemmaA.fam38_t2_ok
+'KalaiFCLeaves.replacement_201' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 202/364 Kalai5.LemmaA.fam38_t3_ok
+'KalaiFCLeaves.replacement_202' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 203/364 Kalai5.LemmaA.fam38_t4_ok
+'KalaiFCLeaves.replacement_203' depends on axioms: [propext]
+WITNESS_DONE 204/364 Kalai5.LemmaA.fam38_t5_ok
+'KalaiFCLeaves.replacement_204' depends on axioms: [propext]
+WITNESS_DONE 205/364 Kalai5.LemmaA.fam38_t6_ok
+'KalaiFCLeaves.replacement_205' depends on axioms: [propext]
+WITNESS_DONE 206/364 Kalai5.LemmaA.fam38_t7_ok
+'KalaiFCLeaves.replacement_206' depends on axioms: [propext]
+WITNESS_DONE 207/364 Kalai5.LemmaA.fam38_t8_ok
+'KalaiFCLeaves.replacement_207' depends on axioms: [propext]
+WITNESS_DONE 208/364 Kalai5.LemmaA.fam38_t9_ok
+'KalaiFCLeaves.replacement_208' depends on axioms: [propext]
+WITNESS_DONE 209/364 Kalai5.LemmaA.fam38_t10_ok
+'KalaiFCLeaves.replacement_209' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 210/364 Kalai5.LemmaA.fam38_t11_ok
+'KalaiFCLeaves.replacement_210' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 211/364 Kalai5.LemmaA.fam38_t12_ok
+'KalaiFCLeaves.replacement_211' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 212/364 Kalai5.LemmaA.fam38_t13_ok
+'KalaiFCLeaves.replacement_212' depends on axioms: [propext]
+WITNESS_DONE 213/364 Kalai5.LemmaA.fam38_t14_ok
+'KalaiFCLeaves.replacement_213' depends on axioms: [propext]
+WITNESS_DONE 214/364 Kalai5.LemmaA.fam38_t15_ok
+'KalaiFCLeaves.replacement_214' depends on axioms: [propext]
+WITNESS_DONE 215/364 Kalai5.LemmaA.fam38_t16_ok
+'KalaiFCLeaves.replacement_215' depends on axioms: [propext]
+WITNESS_DONE 216/364 Kalai5.LemmaA.fam38_t17_ok
+'KalaiFCLeaves.replacement_216' depends on axioms: [propext]
+WITNESS_DONE 217/364 Kalai5.LemmaA.fam38_t18_ok
+'KalaiFCLeaves.replacement_217' depends on axioms: [propext]
+WITNESS_DONE 218/364 Kalai5.LemmaA.fam38_t19_ok
+'KalaiFCLeaves.replacement_218' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 219/364 Kalai5.LemmaA.fam38_t20_ok
+'KalaiFCLeaves.replacement_219' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 220/364 Kalai5.LemmaA.fam38_t21_ok
+'KalaiFCLeaves.replacement_220' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 221/364 Kalai5.LemmaA.fam38_t22_ok
+'KalaiFCLeaves.replacement_221' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 222/364 Kalai5.LemmaA.fam38_t23_ok
+'KalaiFCLeaves.replacement_222' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 223/364 Kalai5.LemmaA.fam38_t24_ok
+'KalaiFCLeaves.replacement_223' depends on axioms: [propext]
+WITNESS_DONE 224/364 Kalai5.LemmaA.fam38_t25_ok
+'KalaiFCLeaves.replacement_224' depends on axioms: [propext]
+WITNESS_DONE 225/364 Kalai5.LemmaA.fam38_t26_ok
+'KalaiFCLeaves.replacement_225' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 226/364 Kalai5.LemmaA.fam38_t27_ok
+'KalaiFCLeaves.replacement_226' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 227/364 Kalai5.LemmaA.fam38_t28_ok
+'KalaiFCLeaves.replacement_227' depends on axioms: [propext]
+WITNESS_DONE 228/364 Kalai5.LemmaA.fam38_t29_ok
+'KalaiFCLeaves.replacement_228' depends on axioms: [propext]
+WITNESS_DONE 229/364 Kalai5.LemmaA.fam38_t30_ok
+'KalaiFCLeaves.replacement_229' depends on axioms: [propext]
+WITNESS_DONE 230/364 Kalai5.LemmaA.fam38_t31_ok
+'KalaiFCLeaves.replacement_230' depends on axioms: [propext]
+WITNESS_DONE 231/364 Kalai5.LemmaA.fam38_t32_ok
+'KalaiFCLeaves.replacement_231' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 232/364 Kalai5.LemmaA.fam38_t33_ok
+'KalaiFCLeaves.replacement_232' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 233/364 Kalai5.LemmaA.fam38_t34_ok
+'KalaiFCLeaves.replacement_233' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 234/364 Kalai5.LemmaA.fam38_t35_ok
+'KalaiFCLeaves.replacement_234' depends on axioms: [propext]
+WITNESS_DONE 235/364 Kalai5.LemmaA.fam38_t36_ok
+'KalaiFCLeaves.replacement_235' depends on axioms: [propext]
+WITNESS_DONE 236/364 Kalai5.LemmaA.fam38_t37_ok
+'KalaiFCLeaves.replacement_236' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 237/364 Kalai5.LemmaA.fam38_t38_ok
+'KalaiFCLeaves.replacement_237' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 238/364 Kalai5.LemmaA.fam38_t39_ok
+'KalaiFCLeaves.replacement_238' depends on axioms: [propext]
+WITNESS_DONE 239/364 Kalai5.LemmaA.fam38_t40_ok
+'KalaiFCLeaves.replacement_239' depends on axioms: [propext]
+WITNESS_DONE 240/364 Kalai5.LemmaA.fam38_t41_ok
+'KalaiFCLeaves.replacement_240' depends on axioms: [propext]
+WITNESS_DONE 241/364 Kalai5.LemmaA.fam38_t42_ok
+'KalaiFCLeaves.replacement_241' depends on axioms: [propext]
+WITNESS_DONE 242/364 Kalai5.LemmaA.fam38_t43_ok
+'KalaiFCLeaves.replacement_242' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 243/364 Kalai5.LemmaA.fam38_t44_ok
+'KalaiFCLeaves.replacement_243' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 244/364 Kalai5.LemmaA.fam38_t45_ok
+'KalaiFCLeaves.replacement_244' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 245/364 Kalai5.LemmaA.fam38_t46_ok
+'KalaiFCLeaves.replacement_245' depends on axioms: [propext]
+WITNESS_DONE 246/364 Kalai5.LemmaA.fam38_t47_ok
+'KalaiFCLeaves.replacement_246' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 247/364 Kalai5.LemmaA.fam39_t0_ok
+'KalaiFCLeaves.replacement_247' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 248/364 Kalai5.LemmaA.fam39_t1_ok
+'KalaiFCLeaves.replacement_248' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 249/364 Kalai5.LemmaA.fam39_t2_ok
+'KalaiFCLeaves.replacement_249' depends on axioms: [propext]
+WITNESS_DONE 250/364 Kalai5.LemmaA.fam39_t3_ok
+'KalaiFCLeaves.replacement_250' depends on axioms: [propext]
+WITNESS_DONE 251/364 Kalai5.LemmaA.fam39_t4_ok
+'KalaiFCLeaves.replacement_251' depends on axioms: [propext]
+WITNESS_DONE 252/364 Kalai5.LemmaA.fam39_t5_ok
+'KalaiFCLeaves.replacement_252' depends on axioms: [propext]
+WITNESS_DONE 253/364 Kalai5.LemmaA.fam39_t6_ok
+'KalaiFCLeaves.replacement_253' depends on axioms: [propext]
+WITNESS_DONE 254/364 Kalai5.LemmaA.fam39_t7_ok
+'KalaiFCLeaves.replacement_254' depends on axioms: [propext]
+WITNESS_DONE 255/364 Kalai5.LemmaA.fam39_t8_ok
+'KalaiFCLeaves.replacement_255' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 256/364 Kalai5.LemmaA.fam39_t9_ok
+'KalaiFCLeaves.replacement_256' depends on axioms: [propext]
+WITNESS_DONE 257/364 Kalai5.LemmaA.fam39_t10_ok
+'KalaiFCLeaves.replacement_257' depends on axioms: [propext]
+WITNESS_DONE 258/364 Kalai5.LemmaA.fam39_t11_ok
+'KalaiFCLeaves.replacement_258' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 259/364 Kalai5.LemmaA.fam39_t12_ok
+'KalaiFCLeaves.replacement_259' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 260/364 Kalai5.LemmaA.fam39_t13_ok
+'KalaiFCLeaves.replacement_260' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 261/364 Kalai5.LemmaA.fam39_t14_ok
+'KalaiFCLeaves.replacement_261' depends on axioms: [propext]
+WITNESS_DONE 262/364 Kalai5.LemmaA.fam39_t15_ok
+'KalaiFCLeaves.replacement_262' depends on axioms: [propext]
+WITNESS_DONE 263/364 Kalai5.LemmaA.fam39_t16_ok
+'KalaiFCLeaves.replacement_263' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 264/364 Kalai5.LemmaA.fam39_t17_ok
+'KalaiFCLeaves.replacement_264' depends on axioms: [propext]
+WITNESS_DONE 265/364 Kalai5.LemmaA.fam39_t18_ok
+'KalaiFCLeaves.replacement_265' depends on axioms: [propext]
+WITNESS_DONE 266/364 Kalai5.LemmaA.fam39_t19_ok
+'KalaiFCLeaves.replacement_266' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 267/364 Kalai5.LemmaA.fam39_t20_ok
+'KalaiFCLeaves.replacement_267' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 268/364 Kalai5.LemmaA.fam39_t21_ok
+'KalaiFCLeaves.replacement_268' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 269/364 Kalai5.LemmaA.fam39_t22_ok
+'KalaiFCLeaves.replacement_269' depends on axioms: [propext]
+WITNESS_DONE 270/364 Kalai5.LemmaA.fam39_t23_ok
+'KalaiFCLeaves.replacement_270' depends on axioms: [propext]
+WITNESS_DONE 271/364 Kalai5.LemmaA.fam39_t24_ok
+'KalaiFCLeaves.replacement_271' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 272/364 Kalai5.LemmaA.fam39_t25_ok
+'KalaiFCLeaves.replacement_272' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 273/364 Kalai5.LemmaA.fam39_t26_ok
+'KalaiFCLeaves.replacement_273' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 274/364 Kalai5.LemmaA.fam39_t27_ok
+'KalaiFCLeaves.replacement_274' depends on axioms: [propext]
+WITNESS_DONE 275/364 Kalai5.LemmaA.fam39_t28_ok
+'KalaiFCLeaves.replacement_275' depends on axioms: [propext]
+WITNESS_DONE 276/364 Kalai5.LemmaA.fam39_t29_ok
+'KalaiFCLeaves.replacement_276' depends on axioms: [propext]
+WITNESS_DONE 277/364 Kalai5.LemmaA.fam39_t30_ok
+'KalaiFCLeaves.replacement_277' depends on axioms: [propext]
+WITNESS_DONE 278/364 Kalai5.LemmaA.fam39_t31_ok
+'KalaiFCLeaves.replacement_278' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 279/364 Kalai5.LemmaA.fam39_t32_ok
+'KalaiFCLeaves.replacement_279' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 280/364 Kalai5.LemmaA.fam39_t33_ok
+'KalaiFCLeaves.replacement_280' depends on axioms: [propext]
+WITNESS_DONE 281/364 Kalai5.LemmaA.fam39_t34_ok
+'KalaiFCLeaves.replacement_281' depends on axioms: [propext]
+WITNESS_DONE 282/364 Kalai5.LemmaA.fam39_t35_ok
+'KalaiFCLeaves.replacement_282' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 283/364 Kalai5.LemmaA.fam39_t36_ok
+'KalaiFCLeaves.replacement_283' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 284/364 Kalai5.LemmaA.fam39_t37_ok
+'KalaiFCLeaves.replacement_284' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 285/364 Kalai5.LemmaA.fam39_t38_ok
+'KalaiFCLeaves.replacement_285' depends on axioms: [propext]
+WITNESS_DONE 286/364 Kalai5.LemmaA.fam39_t39_ok
+'KalaiFCLeaves.replacement_286' depends on axioms: [propext]
+WITNESS_DONE 287/364 Kalai5.LemmaA.fam39_t40_ok
+'KalaiFCLeaves.replacement_287' depends on axioms: [propext]
+WITNESS_DONE 288/364 Kalai5.LemmaA.fam39_t41_ok
+'KalaiFCLeaves.replacement_288' depends on axioms: [propext]
+WITNESS_DONE 289/364 Kalai5.LemmaA.fam39_t42_ok
+'KalaiFCLeaves.replacement_289' depends on axioms: [propext]
+WITNESS_DONE 290/364 Kalai5.LemmaA.fam39_t43_ok
+'KalaiFCLeaves.replacement_290' depends on axioms: [propext]
+WITNESS_DONE 291/364 Kalai5.LemmaA.fam39_t44_ok
+'KalaiFCLeaves.replacement_291' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 292/364 Kalai5.LemmaA.fam39_t45_ok
+'KalaiFCLeaves.replacement_292' depends on axioms: [propext]
+WITNESS_DONE 293/364 Kalai5.LemmaA.fam39_t46_ok
+'KalaiFCLeaves.replacement_293' depends on axioms: [propext]
+WITNESS_DONE 294/364 Kalai5.LemmaA.fam39_t47_ok
+'KalaiFCLeaves.replacement_294' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 295/364 Kalai5.LemmaA.fam39_t48_ok
+'KalaiFCLeaves.replacement_295' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 296/364 Kalai5.LemmaA.fam39_t49_ok
+'KalaiFCLeaves.replacement_296' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 297/364 Kalai5.LemmaA.fam39_t50_ok
+'KalaiFCLeaves.replacement_297' depends on axioms: [propext]
+WITNESS_DONE 298/364 Kalai5.LemmaA.fam39_t51_ok
+'KalaiFCLeaves.replacement_298' depends on axioms: [propext]
+WITNESS_DONE 299/364 Kalai5.LemmaA.fam39_t52_ok
+'KalaiFCLeaves.replacement_299' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 300/364 Kalai5.LemmaA.fam39_t53_ok
+'KalaiFCLeaves.replacement_300' depends on axioms: [propext]
+WITNESS_DONE 301/364 Kalai5.LemmaA.fam39_t54_ok
+'KalaiFCLeaves.replacement_301' depends on axioms: [propext]
+WITNESS_DONE 302/364 Kalai5.LemmaA.fam39_t55_ok
+'KalaiFCLeaves.replacement_302' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 303/364 Kalai5.LemmaA.fam39_t56_ok
+'KalaiFCLeaves.replacement_303' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 304/364 Kalai5.LemmaA.fam39_t57_ok
+'KalaiFCLeaves.replacement_304' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 305/364 Kalai5.LemmaA.fam39_t58_ok
+'KalaiFCLeaves.replacement_305' depends on axioms: [propext]
+WITNESS_DONE 306/364 Kalai5.LemmaA.fam39_t59_ok
+'KalaiFCLeaves.replacement_306' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 307/364 Kalai5.LemmaA.fam44_t0_ok
+'KalaiFCLeaves.replacement_307' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 308/364 Kalai5.LemmaA.fam44_t1_ok
+'KalaiFCLeaves.replacement_308' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 309/364 Kalai5.LemmaA.fam44_t2_ok
+'KalaiFCLeaves.replacement_309' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 310/364 Kalai5.LemmaA.fam44_t3_ok
+'KalaiFCLeaves.replacement_310' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 311/364 Kalai5.LemmaA.fam44_t4_ok
+'KalaiFCLeaves.replacement_311' depends on axioms: [propext]
+WITNESS_DONE 312/364 Kalai5.LemmaA.fam44_t5_ok
+'KalaiFCLeaves.replacement_312' depends on axioms: [propext]
+WITNESS_DONE 313/364 Kalai5.LemmaA.fam44_t6_ok
+'KalaiFCLeaves.replacement_313' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 314/364 Kalai5.LemmaA.fam44_t7_ok
+'KalaiFCLeaves.replacement_314' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 315/364 Kalai5.LemmaA.fam44_t8_ok
+'KalaiFCLeaves.replacement_315' depends on axioms: [propext]
+WITNESS_DONE 316/364 Kalai5.LemmaA.fam44_t9_ok
+'KalaiFCLeaves.replacement_316' depends on axioms: [propext]
+WITNESS_DONE 317/364 Kalai5.LemmaA.fam44_t10_ok
+'KalaiFCLeaves.replacement_317' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 318/364 Kalai5.LemmaA.fam44_t11_ok
+'KalaiFCLeaves.replacement_318' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 319/364 Kalai5.LemmaA.fam44_t12_ok
+'KalaiFCLeaves.replacement_319' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 320/364 Kalai5.LemmaA.fam44_t13_ok
+'KalaiFCLeaves.replacement_320' depends on axioms: [propext]
+WITNESS_DONE 321/364 Kalai5.LemmaA.fam44_t14_ok
+'KalaiFCLeaves.replacement_321' depends on axioms: [propext]
+WITNESS_DONE 322/364 Kalai5.LemmaA.fam44_t15_ok
+'KalaiFCLeaves.replacement_322' depends on axioms: [propext]
+WITNESS_DONE 323/364 Kalai5.LemmaA.fam44_t16_ok
+'KalaiFCLeaves.replacement_323' depends on axioms: [propext]
+WITNESS_DONE 324/364 Kalai5.LemmaA.fam44_t17_ok
+'KalaiFCLeaves.replacement_324' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 325/364 Kalai5.LemmaA.fam44_t18_ok
+'KalaiFCLeaves.replacement_325' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 326/364 Kalai5.LemmaA.fam44_t19_ok
+'KalaiFCLeaves.replacement_326' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 327/364 Kalai5.LemmaA.fam44_t20_ok
+'KalaiFCLeaves.replacement_327' depends on axioms: [propext]
+WITNESS_DONE 328/364 Kalai5.LemmaA.fam44_t21_ok
+'KalaiFCLeaves.replacement_328' depends on axioms: [propext]
+WITNESS_DONE 329/364 Kalai5.LemmaA.fam44_t22_ok
+'KalaiFCLeaves.replacement_329' depends on axioms: [propext]
+WITNESS_DONE 330/364 Kalai5.LemmaA.fam44_t23_ok
+'KalaiFCLeaves.replacement_330' depends on axioms: [propext]
+WITNESS_DONE 331/364 Kalai5.LemmaA.fam44_t24_ok
+'KalaiFCLeaves.replacement_331' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 332/364 Kalai5.LemmaA.fam44_t25_ok
+'KalaiFCLeaves.replacement_332' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 333/364 Kalai5.LemmaA.fam44_t26_ok
+'KalaiFCLeaves.replacement_333' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 334/364 Kalai5.LemmaA.fam44_t27_ok
+'KalaiFCLeaves.replacement_334' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 335/364 Kalai5.LemmaA.fam44_t28_ok
+'KalaiFCLeaves.replacement_335' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 336/364 Kalai5.LemmaA.fam44_t29_ok
+'KalaiFCLeaves.replacement_336' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 337/364 Kalai5.LemmaA.fam44_t30_ok
+'KalaiFCLeaves.replacement_337' depends on axioms: [propext]
+WITNESS_DONE 338/364 Kalai5.LemmaA.fam44_t31_ok
+'KalaiFCLeaves.replacement_338' depends on axioms: [propext]
+WITNESS_DONE 339/364 Kalai5.LemmaA.fam44_t32_ok
+'KalaiFCLeaves.replacement_339' depends on axioms: [propext]
+WITNESS_DONE 340/364 Kalai5.LemmaA.fam44_t33_ok
+'KalaiFCLeaves.replacement_340' depends on axioms: [propext]
+WITNESS_DONE 341/364 Kalai5.LemmaA.fam44_t34_ok
+'KalaiFCLeaves.replacement_341' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 342/364 Kalai5.LemmaA.fam44_t35_ok
+'KalaiFCLeaves.replacement_342' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 343/364 Kalai5.LemmaA.fam44_t36_ok
+'KalaiFCLeaves.replacement_343' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 344/364 Kalai5.LemmaA.fam44_t37_ok
+'KalaiFCLeaves.replacement_344' depends on axioms: [propext]
+WITNESS_DONE 345/364 Kalai5.LemmaA.fam44_t38_ok
+'KalaiFCLeaves.replacement_345' depends on axioms: [propext]
+WITNESS_DONE 346/364 Kalai5.LemmaA.fam44_t39_ok
+'KalaiFCLeaves.replacement_346' depends on axioms: [propext]
+WITNESS_DONE 347/364 Kalai5.LemmaA.fam44_t40_ok
+'KalaiFCLeaves.replacement_347' depends on axioms: [propext]
+WITNESS_DONE 348/364 Kalai5.LemmaA.fam44_t41_ok
+'KalaiFCLeaves.replacement_348' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 349/364 Kalai5.LemmaA.fam44_t42_ok
+'KalaiFCLeaves.replacement_349' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 350/364 Kalai5.LemmaA.fam44_t43_ok
+'KalaiFCLeaves.replacement_350' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 351/364 Kalai5.LemmaA.fam44_t44_ok
+'KalaiFCLeaves.replacement_351' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 352/364 Kalai5.LemmaA.fam44_t45_ok
+'KalaiFCLeaves.replacement_352' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 353/364 Kalai5.LemmaA.fam44_t46_ok
+'KalaiFCLeaves.replacement_353' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 354/364 Kalai5.LemmaA.fam44_t47_ok
+'KalaiFCLeaves.replacement_354' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 355/364 Kalai5.LemmaA.fam44_t48_ok
+'KalaiFCLeaves.replacement_355' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 356/364 Kalai5.LemmaA.fam44_t49_ok
+'KalaiFCLeaves.replacement_356' depends on axioms: [propext]
+WITNESS_DONE 357/364 Kalai5.LemmaA.fam44_t50_ok
+'KalaiFCLeaves.replacement_357' depends on axioms: [propext]
+WITNESS_DONE 358/364 Kalai5.LemmaA.fam44_t51_ok
+'KalaiFCLeaves.replacement_358' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 359/364 Kalai5.LemmaA.fam44_t52_ok
+'KalaiFCLeaves.replacement_359' depends on axioms: [propext]
+WITNESS_DONE 360/364 Kalai5.LemmaA.fam44_t53_ok
+'KalaiFCLeaves.replacement_360' depends on axioms: [propext]
+WITNESS_DONE 361/364 Kalai5.LemmaA.fam44_t54_ok
+'KalaiFCLeaves.replacement_361' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 362/364 Kalai5.LemmaA.fam44_t55_ok
+'KalaiFCLeaves.replacement_362' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 363/364 Kalai5.LemmaA.fam44_t56_ok
+'KalaiFCLeaves.replacement_363' depends on axioms: [propext, Classical.choice, Quot.sound]
+WITNESS_DONE 364/364 Kalai5.LemmaA.fam44_t57_ok

@@ -1,0 +1,37 @@
+{
+  "purpose": "Regenerate V31 shortcuts on the pinned FC environment; old compiled proof objects are not reused.",
+  "reference": {
+    "archive_sha256": "d0a119cb1be16cd31254bde5cfee6f2743807500af0f6936776bc463392abc7e",
+    "lean": "leanprover/lean4:v4.35.0-rc3",
+    "mathlib": "08c3fc3f372a6d35d18190fb26b7be083378dc38",
+    "successful_run": 37771235443
+  },
+  "FC": {
+    "lean": "leanprover/lean4:v4.33.1",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+  },
+  "shortcuts": [
+    "Short intersection witnesses",
+    "Shared Gale dimension-row certificates",
+    "Linear A16 mask traversal",
+    "Antipodal record halves",
+    "Direct integer endpoint proofs",
+    "Annotated count-witness traversal",
+    "Packed Cube scans and byte row checks"
+  ],
+  "policy": {
+    "replacement_types": "Structurally identical to the original declaration, including universe parameters",
+    "kernel_checking": "Forced for every declaration",
+    "allowed_final_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "native_decide": false
+  },
+  "local_full_target": "PASS: source-generation checkpoint with optimized proofs",
+  "private_CI": "pending",
+  "full_archive_replay": "pending private CI; omitted locally at user request",
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "declarations": 42660
+}

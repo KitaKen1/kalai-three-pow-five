@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "targets": 37,
+  "steps": [
+    {
+      "module": "KalaiFCCountBase",
+      "exit_code": 0,
+      "seconds": 166.43
+    },
+    {
+      "module": "KalaiFCExtractCountEarly",
+      "exit_code": 0,
+      "seconds": 313.778
+    },
+    {
+      "module": "KalaiFCCountAll",
+      "exit_code": 0,
+      "seconds": 477.196
+    }
+  ],
+  "kernel_checking": "forced on",
+  "native_decide": false,
+  "current": "KalaiFCCountAll"
+}

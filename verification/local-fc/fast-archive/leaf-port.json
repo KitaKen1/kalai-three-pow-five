@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "module": "KalaiFCExtractLeavesEarly",
+      "exit_code": 0,
+      "seconds": 843.738
+    },
+    {
+      "module": "KalaiFCLeaves",
+      "exit_code": 0,
+      "seconds": 1242.816
+    }
+  ],
+  "ordinary_kernel": true,
+  "native_decide": false,
+  "current": "KalaiFCLeaves"
+}

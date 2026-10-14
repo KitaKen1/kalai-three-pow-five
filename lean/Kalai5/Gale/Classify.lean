@@ -1,0 +1,183 @@
+import Kalai5.Gale.CheckAll
+import Kalai5.Gale.Count
+import Kalai5.Gale.GenLemmas
+import Kalai5.Pyramid.Recognition
+
+/-!
+# Classification of 4-polytopes with at most seven vertices
+
+**Theorem** (`small_classification_proof`): every 4-polytope with at most seven vertices has
+one of the 24 rows in `smallRows`.
+
+Proof: transport the polytope to `E 4` with `0` in the interior, label its vertices, take a
+Gale diagram in `ℝ²` (`exists_isGale`), normalise it (`exists_normal`), read off sign codes by
+slope rank (`codeFor_codeOf`) and sort them (`Tuple.sort`).  The sorted codes are enumerated by
+`gen` (`ofFn_mem_gen`), so the kernel-checked certificate (`check_all`) applies: every vertex is
+certified, every subset is covered by circuits or refuted by a functional, and the resulting row
+— which is the row of the polytope (`rowOf_eq`) — lies in `smallRows`.
+-/
+
+namespace Kalai5.Gale
+
+open Set Module
+
+variable {n : ℕ}
+
+/-- A labelled vertex is a face index. -/
+lemma isFaceIdx_singleton {W : Fin n → E 4} (hinj : Function.Injective W)
+    (hext : ∀ j, W j ∈ (convexHull ℝ (range W)).extremePoints ℝ) (j : Fin n) :
+    IsFaceIdx W {j} := by
+  classical
+  have hS : ((Finset.univ.image W : Finset (E 4)) : Set (E 4)) = range W := coe_image_univ
+  have hface : ({W j} : Set (E 4)) ∈ faces (convexHull ℝ (range W)) := by
+    have := singleton_mem_faces_of_extreme (S := Finset.univ.image W) (x := W j)
+      (by rw [hS]; exact hext j)
+    rwa [hS] at this
+  have := isFaceIdx_idx hface
+  have hidx : idx W {W j} = {j} := by
+    ext i; rw [mem_idx, Set.mem_singleton_iff, Finset.mem_singleton]; exact hinj.eq_iff
+  rwa [hidx] at this
+
+/-- The total rank of a Gale diagram of `n` points spanning `E 4` is `n - 5`. -/
+lemma finrank_span_univ {W : Fin n → E 4} {g : Fin n → Fin 2 → ℝ}
+    (hspan : affineSpan ℝ (range W) = ⊤) (hg : IsGale W g) :
+    finrank ℝ (Submodule.span ℝ (g '' ↑(Finset.univ : Finset (Fin n)))) + 5 = n := by
+  have h := finrank_inf_supp_add hg Finset.univ
+  have hsupp : supp (Finset.univ : Finset (Fin n)) = ⊤ := by
+    ext a; simp [mem_supp]
+  rw [hsupp, inf_top_eq, finrank_affVals hspan, Finset.card_univ, Fintype.card_fin] at h
+  omega
+
+lemma five_le {W : Fin n → E 4} (hspan : affineSpan ℝ (range W) = ⊤) : 5 ≤ n := by
+  have h1 := finrank_affVals hspan
+  have h2 := Submodule.finrank_le (affVals W)
+  rw [Module.finrank_fin_fun] at h2
+  omega
+
+/-- **Rows of labelled 4-polytopes with at most seven vertices.** -/
+theorem rowOf_mem_smallRows {W : Fin n → E 4} (hn : n ≤ 7) (hinj : Function.Injective W)
+    (hext : ∀ j, W j ∈ (convexHull ℝ (range W)).extremePoints ℝ)
+    (hspan : affineSpan ℝ (range W) = ⊤) :
+    rowOf (convexHull ℝ (range W)) ∈ smallRows := by
+  classical
+  have h5 := five_le hspan
+  obtain ⟨g0, hg0⟩ := exists_isGale hspan (by omega)
+  obtain ⟨g1, hg1, hnorm⟩ := exists_normal hg0
+  have hc1 := codeFor_codeOf hnorm
+  set m := (slopes g1).card
+  -- sort the codes
+  set σ := Tuple.sort (codeOf g1)
+  set W' := W ∘ σ
+  set g := g1 ∘ σ
+  set c := codeOf g1 ∘ σ
+  have hg : IsGale W' g := hg1.perm σ
+  have hc : CodeFor g c m := hc1.perm σ
+  have hmono : Monotone c := Tuple.monotone_sort _
+  have hrange : range W' = range W := EquivLike.range_comp W σ
+  have hinj' : Function.Injective W' := hinj.comp σ.injective
+  have hspan' : affineSpan ℝ (range W') = ⊤ := by rw [hrange]; exact hspan
+  have hext' : ∀ j, W' j ∈ (convexHull ℝ (range W')).extremePoints ℝ := by
+    intro j; rw [hrange]; exact hext (σ j)
+  have hvert : ∀ j, IsFaceIdx W' {j} := isFaceIdx_singleton hinj' hext'
+  -- the kernel certificate
+  have hmem := ofFn_mem_gen hc hmono
+  have hck := check_all h5 hn _ hmem
+  -- the rank condition holds
+  have hrank : min (nlines (List.ofFn c)) 2 = n - 5 := by
+    rw [hc.nlines_eq, ← hc.crank_univ, ← hc.finrank_span_image]
+    have := finrank_span_univ hspan' hg
+    omega
+  -- vertices are certified
+  have hvpd : ∀ j : Fin n, ∃ a : Fin n → ℝ,
+      (∀ i : Fin n, ((tab n).co j).testBit i = true → 0 < a i) ∧
+      (∀ i : Fin n, ((tab n).co j).testBit i = false → a i = 0) ∧ ∑ i, a i • g i = 0 := by
+    intro j
+    have h := (isFaceIdx_ofMask_iff hg (2 ^ (j : ℕ))).1 (by
+      have hj : ofMask n (2 ^ (j : ℕ)) = {j} := by
+        ext i; rw [mem_ofMask, Nat.testBit_two_pow, Finset.mem_singleton, decide_eq_true_eq]
+        exact ⟨fun h => Fin.ext h.symm, fun h => by rw [h]⟩
+      rw [hj]; exact hvert j)
+    exact h
+  unfold Tab.check at hck
+  dsimp only at hck
+  split_ifs at hck with h1 hv
+  · -- the rank condition holds, so this branch is impossible
+    exfalso
+    rw [show (tab n).n = n from rfl, hrank] at h1
+    simp at h1
+  · -- valid branch: completeness and the row
+    rw [Bool.and_eq_true, beq_iff_eq, decide_eq_true_eq] at hck
+    obtain ⟨hfull, hrow⟩ := hck
+    have hcomp : ∀ S < 2 ^ n, ((tab n).covV (circuits (List.ofFn c))).testBit S = true ∨
+        ((tab n).farV (candidates (List.ofFn c))).testBit S = true := by
+      intro S hS
+      have := congrArg (fun x => x.testBit S) hfull
+      simp only [Nat.testBit_lor, tab_full_testBit, hS, decide_true, Bool.or_eq_true] at this
+      exact this
+    have hrowEq := rowOf_eq hspan' hinj' hvert hg hc hcomp
+    rw [show convexHull ℝ (range W) = convexHull ℝ (range W') by rw [hrange], hrowEq]
+    exact hrow
+  · -- invalid branch: impossible, a vertex would be refuted
+    exfalso
+    rw [List.any_eq_true] at hck
+    obtain ⟨j, hj, hjb⟩ := hck
+    rw [List.mem_range] at hj
+    rw [Bool.and_eq_true] at hjb
+    obtain ⟨pn, hpn, hN, i, hP, hS⟩ := farkas_spec hjb.2
+    have hi : i < n := by
+      obtain ⟨i', -, σ', hA | hB⟩ := mem_candidates hpn
+      · rw [hA, testBit_maskOf, List.length_ofFn, Bool.and_eq_true, decide_eq_true_eq] at hP
+        exact hP.1
+      · rw [hB, testBit_maskOf, List.length_ofFn, Bool.and_eq_true, decide_eq_true_eq] at hP
+        exact hP.1
+    exact hc.not_posDep_of_farkas hc.nlines_eq
+      ⟨pn, hpn, fun i' hi' => hN i' hi', ⟨i, hi⟩, hP, hS⟩ (hvpd ⟨j, hj⟩)
+
+/-- Transport to the standard space of the right dimension. -/
+theorem rowOf_mem_smallRows_of_interior {k : ℕ} (hk : k = 4) {V : Finset (E k)}
+    (h0 : (0 : E k) ∈ interior (convexHull ℝ (V : Set (E k))))
+    (hn : fvec (convexHull ℝ (V : Set (E k))) 0 ≤ 7) :
+    rowOf (convexHull ℝ (V : Set (E k))) ∈ smallRows := by
+  classical
+  subst hk
+  set K := convexHull ℝ (V : Set (E 4))
+  have hX := extremePoints_finite V
+  set XF := hX.toFinset
+  let W : Fin XF.card → E 4 := fun i => (XF.equivFin.symm i : E 4)
+  have hinj : Function.Injective W := fun i j h =>
+    XF.equivFin.symm.injective (Subtype.ext h)
+  have hrange : range W = K.extremePoints ℝ := by
+    ext x
+    constructor
+    · rintro ⟨i, rfl⟩; exact hX.mem_toFinset.1 (XF.equivFin.symm i).2
+    · intro hx
+      exact ⟨XF.equivFin ⟨x, hX.mem_toFinset.2 hx⟩, by simp [W]⟩
+  have hK : convexHull ℝ (range W) = K := by rw [hrange]; exact convexHull_extremePoints_eq V
+  have hcard : XF.card ≤ 7 := by
+    rw [fvec_zero_eq] at hn
+    rwa [Set.ncard_eq_toFinset_card _ hX] at hn
+  have hext : ∀ j, W j ∈ (convexHull ℝ (range W)).extremePoints ℝ := by
+    intro j; rw [hK, ← hrange]; exact mem_range_self j
+  have hspan : affineSpan ℝ (range W) = ⊤ := by
+    rw [← affineSpan_convexHull, hK]
+    exact (convex_convexHull ℝ _).interior_nonempty_iff_affineSpan_eq_top.1 ⟨0, h0⟩
+  have := rowOf_mem_smallRows hcard hinj hext hspan
+  rwa [hK] at this
+
+/-- **Every 4-polytope with at most seven vertices has a row in `smallRows`.** -/
+theorem small_classification_proof : ∀ R, IsRealRow R → R.n ≤ 7 → R ∈ smallRows := by
+  rintro R ⟨d, Q, ⟨V, hQ⟩, hdim, rfl⟩ hn
+  have hne : Q.Nonempty := by
+    by_contra h
+    rw [Set.not_nonempty_iff_eq_empty] at h
+    rw [h] at hdim
+    unfold dim at hdim
+    rw [vectorSpan_empty, finrank_bot] at hdim
+    omega
+  obtain ⟨p, hp, V', hV', h0⟩ := exists_good_affEmb hQ hne
+  have hrow : rowOf Q = rowOf (convexHull ℝ (V' : Set (E (dim Q)))) := by
+    simp only [rowOf, ← hV', ← fvec_affEmb hp, ← flag2_affEmb hp]
+  rw [hrow] at hn ⊢
+  exact rowOf_mem_smallRows_of_interior hdim h0 hn
+
+end Kalai5.Gale

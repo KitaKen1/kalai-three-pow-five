@@ -1,0 +1,86 @@
+{
+  "status": "PASS: explicit table equals guarded enumeration, ordinary Lean kernel",
+  "rows": 47,
+  "profiles": 1914,
+  "entries_per_profile": 9,
+  "source_sha256": "1294e13e36a89d80942e6180ee2e097f07d6056d3ac21be68d72b12fb074331f",
+  "table_source_sha256": "91a4f792a6b6e420d1b077197a63871f4260cf08076d6f75f5e75be4dc6aa993",
+  "method": "One ordinary-kernel equality proof shared by downstream finite computations",
+  "native_decide": false,
+  "generation_only_rewrites": [
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveAntipodalProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveExactPrismProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveSupportProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveLowWeightRidgesProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveNegativeGapProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveCapacityProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveContextProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveFullFacetProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveNineSupportProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositivePolygonProfiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.G2S6Profile",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.G2S4Profiles",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositivePolygonWeight",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveFullPolygon",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveNineTetra",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.TwoPairPositiveFullPyramid",
+      "rewrites": 1
+    },
+    {
+      "module": "Kalai5.Endpoints.G2S2LastProfile",
+      "rewrites": 1
+    }
+  ],
+  "readable_source_modified": false,
+  "early_replacements": [
+    "Kalai5.TwoPairPositiveProfile.profile_counts=Kalai5.TwoPairPositiveProfile.profile_counts_memo",
+    "Kalai5.TwoPairPositiveProfile.profileV12_counts=Kalai5.TwoPairPositiveProfile.profileV12_counts_memo",
+    "Kalai5.TwoPairPositiveProfile.profileQ3_prismBudget_counts=Kalai5.TwoPairPositiveProfile.profileQ3_prismBudget_counts_memo"
+  ]
+}
