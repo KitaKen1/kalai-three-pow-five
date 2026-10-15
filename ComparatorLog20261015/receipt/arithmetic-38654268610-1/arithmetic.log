@@ -1,0 +1,36 @@
+Checking mathematical-certificate-data.json
+Passed: 76 exact cost certificates
+Checking extended-certificate-data.json
+Passed: 285 exact cost certificates
+Checking quad-certificate-data.json
+Passed: 7 exact cost certificates
+Checking weighted20-certificate-data.json
+Passed: 71 exact cost certificates
+Checking low18-certificate-data.json
+Passed: 276 exact cost certificates
+Checking positive-certificate-data.json
+Passed: 27 exact cost certificates
+Checking all cube-lift integer identities and sign trees
+Passed: 14-vertex cube-lift certificates
+Passed: 16-vertex cube-lift certificates
+Checking verify_mathematics.py
+Passed: verify_mathematics.py
+Checking check_coverage.py
+Passed: check_coverage.py
+Checking check_extended_coverage.py
+Passed: check_extended_coverage.py
+Checking check_ridge_counts.py
+Passed: check_ridge_counts.py
+Checking check_one_pair.py
+Passed: check_one_pair.py
+Checking check_two_pair_zero.py
+Passed: check_two_pair_zero.py
+Checking check_positive_profiles.py
+Passed: check_positive_profiles.py
+Checking check_positive_geometry.py
+Passed: check_positive_geometry.py
+Checking check_signed_carriers.py
+Passed: check_signed_carriers.py
+Checking check_interval_sections.py
+Passed: check_interval_sections.py
+All finite checks passed (742 exact cost certificates). Whole geometric theorem: not verified by this program.

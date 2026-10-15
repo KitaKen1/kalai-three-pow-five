@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "target": "Kalai.three_pow_five",
+  "archive_completed": true,
+  "declarations": 42660,
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "native_decide": false,
+  "kernel_checking": "forced on"
+}

@@ -1,0 +1,7 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "FCSolution",
+  "enable_nanoda": false,
+  "theorem_names": ["Kalai.three_pow_five"],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

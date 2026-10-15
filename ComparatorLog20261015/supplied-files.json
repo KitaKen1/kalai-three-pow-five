@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-15T01:48:03.047770+00:00",
+  "files": [
+    {
+      "supplied_filename": "comparator-38654268610-1.zip",
+      "archived_file": "artifacts/11940142835-comparator-38654268610-1.zip",
+      "sha256": "3ef8f959fd5434c78764d20b2de5d8aa9f5a66697adb3da25d4e455d47b91d97",
+      "byte_identical": true,
+      "matches_github_artifact_digest": true
+    },
+    {
+      "supplied_filename": "replay-38654268610-1.zip",
+      "archived_file": "artifacts/11940031579-replay-38654268610-1.zip",
+      "sha256": "c9f55788ed13f591625439883349c17bf6221912f9f17b0cc891db168d5ae18d",
+      "byte_identical": true,
+      "matches_github_artifact_digest": true
+    },
+    {
+      "supplied_filename": "build-38654268610-1.zip",
+      "archived_file": "artifacts/11937524121-build-38654268610-1.zip",
+      "sha256": "887dcd546f85f3f46a2fa350dcf70c4de001915dba32ae16bc383c5034362020",
+      "byte_identical": true,
+      "matches_github_artifact_digest": true
+    },
+    {
+      "supplied_filename": "arithmetic-38654268610-1.zip",
+      "archived_file": "artifacts/11935319654-arithmetic-38654268610-1.zip",
+      "sha256": "7bc15dba6adfcd7f6f591cc739fde993b4bb1ce63e54c6c8fe39f2aa6ab57281",
+      "byte_identical": true,
+      "matches_github_artifact_digest": true
+    },
+    {
+      "supplied_filename": "logs_104747770824.zip",
+      "archived_file": "github/workflow-logs.zip",
+      "sha256": "7dd1a62c371b77f2426a85a68a35633eae8fda329806eb1ebdaea900bdb5ff2b",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 # 公開までの手順
 
-FCの v4.33.1 固定環境でprivate CIが成功しました。対象はコミット
-`e2732a7961dc6b1ffeb42fe036a6d2561428bdd1`、run `38573608382` のattempt 1です。
-証明の全量検証・Comparator・独立再検証・算術チェックをすべて通過しています。
-[成功記録](private-ci/README.md)を保存し、同じ証明とchecker設定をpublicで再検証します。
-public CIの成功は、その実行結果を確認してから記録します。
+FCの v4.33.1 固定環境でprivate・publicの両方のCIが成功しました。
+publicの対象はコミット `38bc3bb25949bc33de05bbd169a6012aa0b05165`、
+[run 38654268610](https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610)
+のattempt 1です。証明の全量検証・Comparator・独立再検証・算術チェックをすべて通過し、
+最終公理は `propext`・`Classical.choice`・`Quot.sound` の3つだけです。
+[公開CIの原本ログとZIP](../ComparatorLog20261015/README.md)を保存しました。
+以前の[private成功記録](private-ci/README.md)も別途残しています。
 
 ## 1. ローカルで確認する
 
@@ -56,15 +58,15 @@ workflowはbuild、comparator、replay、arithmeticの4つのartifactを90日保
 各artifactに実際のログ、公理一覧、入力ハッシュなどが入ります。
 GitHub側の保持期間の上限が短い場合は、その設定が優先します。
 
-public成功後に、実際のrun ID、attempt、40文字のコミットを指定して保存します。
-次の大文字の部分は実値へ置き換えます。
+今回の公開CIを保存したコマンドは次のとおりです。保存先は既に存在するため、
+再取得する場合は `--output` に別の新しいフォルダを指定します。
 
 ```sh
 python3 verification/archive-run.py \
   --repo KitaKen1/kalai-three-pow-five \
-  --run RUN_ID --attempt ATTEMPT \
-  --expected-commit COMMIT_SHA \
-  --output ComparatorLogYYYYMMDD \
+  --run 38654268610 --attempt 1 \
+  --expected-commit 38bc3bb25949bc33de05bbd169a6012aa0b05165 \
+  --output ComparatorLog20261015 \
   --public-success-only
 ```
 

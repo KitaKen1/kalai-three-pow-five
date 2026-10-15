@@ -1,0 +1,83 @@
+﻿2026-10-15T00:16:27.6390970Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-15T00:16:27.6392035Z with:
+2026-10-15T00:16:27.6392697Z   persist-credentials: false
+2026-10-15T00:16:27.6393275Z   repository: KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:27.6397195Z   token: ***
+2026-10-15T00:16:27.6397634Z   ssh-strict: true
+2026-10-15T00:16:27.6398072Z   ssh-user: git
+2026-10-15T00:16:27.6398496Z   clean: true
+2026-10-15T00:16:27.6398954Z   sparse-checkout-cone-mode: true
+2026-10-15T00:16:27.6399483Z   fetch-depth: 1
+2026-10-15T00:16:27.6399922Z   fetch-tags: false
+2026-10-15T00:16:27.6400405Z   show-progress: true
+2026-10-15T00:16:27.6400847Z   lfs: false
+2026-10-15T00:16:27.6401253Z   submodules: false
+2026-10-15T00:16:27.6401692Z   set-safe-directory: true
+2026-10-15T00:16:27.6402194Z   allow-unsafe-pr-checkout: false
+2026-10-15T00:16:27.6403175Z ##[endgroup]
+2026-10-15T00:16:27.7349983Z Syncing repository: KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:27.7352037Z ##[group]Getting Git version info
+2026-10-15T00:16:27.7353299Z Working directory is '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-15T00:16:27.7354465Z [command]/usr/bin/git version
+2026-10-15T00:16:27.7463924Z git version 2.55.0
+2026-10-15T00:16:27.7484827Z ##[endgroup]
+2026-10-15T00:16:27.7498317Z Temporarily overriding HOME='/home/runner/work/_temp/5bd1168e-8b55-4657-88f4-38186fccc989' before making global git config changes
+2026-10-15T00:16:27.7503019Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-15T00:16:27.7504851Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-15T00:16:27.7557565Z Deleting the contents of '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-15T00:16:27.7561693Z ##[group]Initializing the repository
+2026-10-15T00:16:27.7566162Z [command]/usr/bin/git init /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-15T00:16:27.7697320Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-15T00:16:27.7698438Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-15T00:16:27.7699983Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-15T00:16:27.7701343Z hint: call:
+2026-10-15T00:16:27.7702207Z hint:
+2026-10-15T00:16:27.7703365Z hint: 	git config --global init.defaultBranch <name>
+2026-10-15T00:16:27.7704030Z hint:
+2026-10-15T00:16:27.7704647Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-15T00:16:27.7705589Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-15T00:16:27.7706341Z hint:
+2026-10-15T00:16:27.7706762Z hint: 	git branch -m <name>
+2026-10-15T00:16:27.7707241Z hint:
+2026-10-15T00:16:27.7708034Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-15T00:16:27.7709605Z Initialized empty Git repository in /home/runner/work/kalai-three-pow-five/kalai-three-pow-five/.git/
+2026-10-15T00:16:27.7713081Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:27.7767144Z ##[endgroup]
+2026-10-15T00:16:27.7767949Z ##[group]Disabling automatic garbage collection
+2026-10-15T00:16:27.7770619Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-15T00:16:27.7800280Z ##[endgroup]
+2026-10-15T00:16:27.7801019Z ##[group]Setting up auth
+2026-10-15T00:16:27.7806826Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-15T00:16:27.7835315Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-15T00:16:27.8260916Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-15T00:16:27.8291561Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-15T00:16:27.8506882Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-15T00:16:27.8540588Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-15T00:16:27.8771182Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-15T00:16:27.8806380Z ##[endgroup]
+2026-10-15T00:16:27.8807332Z ##[group]Fetching the repository
+2026-10-15T00:16:27.8820734Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +38bc3bb25949bc33de05bbd169a6012aa0b05165:refs/remotes/origin/main
+2026-10-15T00:16:28.9791768Z From https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:28.9794549Z  * [new ref]         38bc3bb25949bc33de05bbd169a6012aa0b05165 -> origin/main
+2026-10-15T00:16:28.9798892Z ##[endgroup]
+2026-10-15T00:16:28.9800667Z ##[group]Determining the checkout info
+2026-10-15T00:16:28.9802708Z ##[endgroup]
+2026-10-15T00:16:28.9805907Z [command]/usr/bin/git sparse-checkout disable
+2026-10-15T00:16:28.9859792Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-15T00:16:28.9890984Z ##[group]Checking out the ref
+2026-10-15T00:16:28.9894755Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-15T00:16:29.8089153Z Switched to a new branch 'main'
+2026-10-15T00:16:29.8094976Z branch 'main' set up to track 'origin/main'.
+2026-10-15T00:16:29.8125533Z ##[endgroup]
+2026-10-15T00:16:29.8175122Z [command]/usr/bin/git log -1 --format=%H
+2026-10-15T00:16:29.8199656Z 38bc3bb25949bc33de05bbd169a6012aa0b05165
+2026-10-15T00:16:29.8209338Z ##[group]Removing auth
+2026-10-15T00:16:29.8213828Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-15T00:16:29.8243758Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-15T00:16:29.8459376Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-15T00:16:29.8484001Z http.https://github.com/.extraheader
+2026-10-15T00:16:29.8491860Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-15T00:16:29.8522583Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-15T00:16:29.8735857Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-15T00:16:29.8763589Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-15T00:16:29.8973616Z ##[endgroup]

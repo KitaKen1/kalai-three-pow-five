@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "repository": "KitaKen1/kalai-three-pow-five",
+  "run_id": 38654268610,
+  "run_attempt": 1,
+  "tested_commit": "38bc3bb25949bc33de05bbd169a6012aa0b05165",
+  "run_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610",
+  "completed_at_utc": "2026-10-15T01:20:52Z",
+  "workflow_elapsed_seconds": 6757,
+  "target": "Kalai.three_pow_five",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "declarations": 42660,
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "native_decide": false,
+  "build_elapsed_seconds": 2619.29,
+  "fresh_replay_elapsed_seconds": 2862.74,
+  "jobs": [
+    {
+      "name": "arithmetic",
+      "id": 116160186521,
+      "conclusion": "success",
+      "started_at": "2026-10-14T23:28:18Z",
+      "completed_at": "2026-10-14T23:30:07Z",
+      "html_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/job/116160186521"
+    },
+    {
+      "name": "build",
+      "id": 116160186877,
+      "conclusion": "success",
+      "started_at": "2026-10-14T23:28:18Z",
+      "completed_at": "2026-10-15T00:16:24Z",
+      "html_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/job/116160186877"
+    },
+    {
+      "name": "comparator",
+      "id": 116175741159,
+      "conclusion": "success",
+      "started_at": "2026-10-15T00:16:26Z",
+      "completed_at": "2026-10-15T01:20:47Z",
+      "html_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/job/116175741159"
+    },
+    {
+      "name": "replay",
+      "id": 116175741164,
+      "conclusion": "success",
+      "started_at": "2026-10-15T00:16:26Z",
+      "completed_at": "2026-10-15T01:06:54Z",
+      "html_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/job/116175741164"
+    },
+    {
+      "name": "verification_status",
+      "id": 116195250707,
+      "conclusion": "success",
+      "started_at": "2026-10-15T01:20:50Z",
+      "completed_at": "2026-10-15T01:20:52Z",
+      "html_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/job/116195250707"
+    }
+  ],
+  "supplied_zip_files_byte_identical": true,
+  "browser_completion": "unverified"
+}

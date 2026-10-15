@@ -1,0 +1,46 @@
+{
+  "repository": "KitaKen1/kalai-three-pow-five",
+  "run_id": 38654268610,
+  "run_attempt": 1,
+  "tested_commit": "38bc3bb25949bc33de05bbd169a6012aa0b05165",
+  "run_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610",
+  "conclusion": "success",
+  "proof_source_map_sha256": "e203c042dbb05f3bdfa03cf0cee4bbe39ffc70f160a32459a903a5ab991e7092",
+  "publication_manifest_sha256": "66591a566229719e122f7eaa6269c8d4f2492215f835c4b49ae5b12b74f8f0bd",
+  "artifacts": [
+    {
+      "id": 11940142835,
+      "name": "comparator-38654268610-1",
+      "file": "artifacts/11940142835-comparator-38654268610-1.zip",
+      "sha256": "3ef8f959fd5434c78764d20b2de5d8aa9f5a66697adb3da25d4e455d47b91d97",
+      "github_digest": "sha256:3ef8f959fd5434c78764d20b2de5d8aa9f5a66697adb3da25d4e455d47b91d97",
+      "digest_matches": true
+    },
+    {
+      "id": 11940031579,
+      "name": "replay-38654268610-1",
+      "file": "artifacts/11940031579-replay-38654268610-1.zip",
+      "sha256": "c9f55788ed13f591625439883349c17bf6221912f9f17b0cc891db168d5ae18d",
+      "github_digest": "sha256:c9f55788ed13f591625439883349c17bf6221912f9f17b0cc891db168d5ae18d",
+      "digest_matches": true
+    },
+    {
+      "id": 11937524121,
+      "name": "build-38654268610-1",
+      "file": "artifacts/11937524121-build-38654268610-1.zip",
+      "sha256": "887dcd546f85f3f46a2fa350dcf70c4de001915dba32ae16bc383c5034362020",
+      "github_digest": "sha256:887dcd546f85f3f46a2fa350dcf70c4de001915dba32ae16bc383c5034362020",
+      "digest_matches": true
+    },
+    {
+      "id": 11935319654,
+      "name": "arithmetic-38654268610-1",
+      "file": "artifacts/11935319654-arithmetic-38654268610-1.zip",
+      "sha256": "7bc15dba6adfcd7f6f591cc739fde993b4bb1ce63e54c6c8fe39f2aa6ab57281",
+      "github_digest": "sha256:7bc15dba6adfcd7f6f591cc739fde993b4bb1ce63e54c6c8fe39f2aa6ab57281",
+      "digest_matches": true
+    }
+  ],
+  "retrieved_at_utc": "2026-10-15T01:47:02.088114+00:00",
+  "note": "Original ZIPs, GitHub digests, metadata and logs retained. Local hashes are not a signed GitHub attestation."
+}

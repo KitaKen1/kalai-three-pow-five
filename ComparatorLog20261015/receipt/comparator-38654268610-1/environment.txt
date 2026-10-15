@@ -1,0 +1,7 @@
+repository=KitaKen1/kalai-three-pow-five
+run=38654268610
+attempt=1
+tested_commit=38bc3bb25949bc33de05bbd169a6012aa0b05165
+started_utc=2026-10-15T00:20:36Z
+sandbox: unprivileged uid/gid, RestrictAddressFamilies=~AF_UNIX, NoNewPrivileges=yes
+Linux runnervmmprz5 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux

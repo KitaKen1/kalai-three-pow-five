@@ -1,0 +1,4 @@
+﻿2026-10-15T00:20:24.8263378Z ##[group]Run tar -xf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"
+2026-10-15T00:20:24.8264068Z [36;1mtar -xf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"[0m
+2026-10-15T00:20:24.8323286Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:20:24.8323652Z ##[endgroup]

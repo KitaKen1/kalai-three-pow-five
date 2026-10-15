@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "complete_target_build": true,
+  "target": "FCSolution",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "proof_source_map_sha256": "e203c042dbb05f3bdfa03cf0cee4bbe39ffc70f160a32459a903a5ab991e7092",
+  "method": "explicit proof declarations, ordinary kernel replay",
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "archive_declarations": 42660,
+  "native_decide": false
+}

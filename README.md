@@ -17,12 +17,11 @@ This repository presents a proposed proof of the dimension-five case,
 $`s(P)\geq3^5=243`$. A proof sketch follows; the
 [PDF manuscript](PDF/kalai-three-pow-five.pdf) contains the detailed proof.
 
-An earlier Lean proof of the same statement passed public CI on rc3.
-This package uses the pinned FC environment, Lean `v4.33.1`.
-The optimized proof archive passed complete private CI, including Comparator
-and independent kernel replay, using only the standard three axioms.
-The same proof and checker configuration are being verified in
-[public CI](https://github.com/KitaKen1/kalai-three-pow-five/actions/workflows/comparator.yml).
+The Lean proof passed
+[public CI](https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610)
+in the pinned FC environment, Lean `v4.33.1`, including Comparator and independent
+kernel replay. It uses only the standard three axioms. The
+[verification logs](ComparatorLog20261015/README.md) are preserved in this repository.
 The two main components are:
 
 1. [FClikelean/](FClikelean/) records the general conjecture and its dimension-restricted variants.
@@ -174,7 +173,8 @@ FC-style target; no accepted upstream FC file is claimed here.
 | [FClikelean/](FClikelean/) | Four FC-style statement drafts; only dimension five has this project's external proof |
 | [lean/comparator/](lean/comparator/) | Pinned checker inputs, scripts and verification guide |
 | [.github/workflows/](.github/workflows/) | Build, Comparator, fresh kernel replay and finite arithmetic jobs |
-| [lean4web/](lean4web/) | Byte-identical copy of the privately verified FC archive; browser completion is unverified |
+| [lean4web/](lean4web/) | Byte-identical copy of the CI-verified FC archive; browser completion is unverified |
+| [ComparatorLog20261015/](ComparatorLog20261015/) | Successful public CI: original ZIPs, logs, axiom reports and provenance |
 | [certificates/](certificates/) | Integer cost tables and compressed JSON cube-lift records |
 | [verification/](verification/) | Exact arithmetic and finite case checks |
 | [evidence/](evidence/) | Verification reports and file hashes |
@@ -208,14 +208,18 @@ The [prior verification record](verification/prior-run/production-verification.j
 and [log](verification/prior-run/production-verification.log) identify that
 separate repository, version, commit and run. They do not verify this FC port.
 
-**The FC archive passed all private verification jobs.** The
-[successful-run record](verification/private-ci/README.md) includes the actual
-[axiom output](verification/private-ci/axioms.log) and Comparator acceptance.
+**The FC archive passed all public verification jobs on 15 October 2026.**
+[Run 38654268610, attempt 1](https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610)
+tested commit [`38bc3bb`](https://github.com/KitaKen1/kalai-three-pow-five/commit/38bc3bb25949bc33de05bbd169a6012aa0b05165).
+The [permanent record](ComparatorLog20261015/README.md) includes the actual
+[axiom output](ComparatorLog20261015/receipt/comparator-38654268610-1/axioms.log)
+and [Comparator acceptance](ComparatorLog20261015/receipt/comparator-38654268610-1/comparator.log).
 All 42,660 declarations were replayed; the final axioms are exactly
 `propext`, `Classical.choice` and `Quot.sound`.
-The source build took 59m23s, and independent fresh replay took 58m12s.
-With Comparator running alongside fresh replay, total CI time was about 2h13m.
-Public CI runs the same proof, target, pins and checker code on this repository.
+The proof build took 43m39s, and independent fresh replay took 47m43s.
+With Comparator running alongside fresh replay, total CI time was about 1h53m.
+The earlier [private verification record](verification/private-ci/README.md)
+is retained separately.
 Browser completion remains unverified. Full local archive replay was omitted;
 the [local record](verification/local-fc/fast-archive/verification.json) records
 that distinction. The earlier smoke checks remain documented
@@ -246,25 +250,27 @@ kernel replay. A separate job runs `leanchecker --fresh FCSolution`.
 The two checking jobs run in parallel after the build. Finite arithmetic
 checks run independently, and the final status requires every job to succeed.
 
-Private CI on `KitaKen1/ci-test-sandbox` succeeded. Public CI on
-`KitaKen1/kalai-three-pow-five` verifies the same proof and checker
-configuration. [Publication steps](verification/PUBLICATION.md) describe
-the transition without replacing either repository's existing history.
+Private CI on `KitaKen1/ci-test-sandbox` and public CI on
+`KitaKen1/kalai-three-pow-five` both succeeded with the same proof and checker
+configuration. [Publication steps](verification/PUBLICATION.md) record the
+transition and the successful public run.
 
 ### Results within 90 days
 
 The workflow retains four attempt-specific artifacts for 90 days: build,
 Comparator, fresh replay and arithmetic receipts. Their logs include actual
 axiom reports and identify the tested inputs. The
-[private success receipts](verification/private-ci/README.md) are retained here;
-public run results appear in the Actions link above.
+[public success receipts](ComparatorLog20261015/receipt/) are also retained in
+the repository, independently of the Actions retention period.
 
 ### Permanent archive
 
-After public CI succeeds, [archive-run.py](verification/archive-run.py) can
-retain the original ZIPs, complete logs, run metadata, receipts and GitHub
-artifact digests in a dated folder. No new archive is claimed before the
-corresponding successful run exists.
+[ComparatorLog20261015/](ComparatorLog20261015/README.md) preserves the original
+ZIPs, complete logs, run metadata, receipts and GitHub artifact digests from
+the successful public run. [archive-run.py](verification/archive-run.py)
+retrieved and validated the archive. All five author-supplied ZIPs match the
+retrieved files byte for byte. The archive identifies the exact tested commit;
+its later addition does not change the verified proof.
 
 ## Recompute the finite checks
 

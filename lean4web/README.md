@@ -8,8 +8,8 @@ The source map and hash are in [source-map.json](source-map.json).
 
 It is byte-identical to `lean/KalaiFast.lean`, about 43.6 MiB. Its proof terms
 were generated in the FC environment, and every decoded declaration is checked
-by Lean's ordinary kernel. Complete private CI, Comparator and independent
-fresh replay passed; [receipts](../verification/private-ci/README.md) identify
+by Lean's ordinary kernel. Complete public CI, Comparator and independent
+fresh replay passed; [receipts](../ComparatorLog20261015/README.md) identify
 the exact verified archive. Browser completion is unverified. Earlier rc3/rc4 browser candidates
 stopped before the final audit; their native CI success did not establish
 browser completion.

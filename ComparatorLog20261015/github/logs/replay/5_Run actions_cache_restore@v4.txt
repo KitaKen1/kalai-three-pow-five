@@ -1,0 +1,17 @@
+﻿2026-10-15T00:19:07.5701547Z ##[group]Run actions/cache/restore@v4
+2026-10-15T00:19:07.5702057Z with:
+2026-10-15T00:19:07.5702607Z   path: lean/.lake/build
+2026-10-15T00:19:07.5703172Z   key: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1
+2026-10-15T00:19:07.5703807Z   fail-on-cache-miss: true
+2026-10-15T00:19:07.5704225Z   enableCrossOsArchive: false
+2026-10-15T00:19:07.5704621Z   lookup-only: false
+2026-10-15T00:19:07.5704963Z ##[endgroup]
+2026-10-15T00:19:07.6757726Z (node:3181) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-15T00:19:07.6759114Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-15T00:19:07.7986326Z Cache hit for: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1
+2026-10-15T00:19:07.8090246Z (node:3181) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-15T00:19:08.3833570Z Received 121871367 of 121871367 (100.0%), 210.6 MBs/sec
+2026-10-15T00:19:08.3836631Z Cache Size: ~116 MB (121871367 B)
+2026-10-15T00:19:08.3880307Z [command]/usr/bin/tar -xf /home/runner/work/_temp/eff257ce-2e54-464d-8613-291a50546a3a/cache.tzst -P -C /home/runner/work/kalai-three-pow-five/kalai-three-pow-five --use-compress-program unzstd
+2026-10-15T00:19:09.1159746Z Cache restored successfully
+2026-10-15T00:19:09.1328435Z Cache restored from key: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1

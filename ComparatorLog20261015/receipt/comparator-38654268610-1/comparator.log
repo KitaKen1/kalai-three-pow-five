@@ -1,0 +1,192 @@
+Running as unit: run-u22.service
+Building Challenge
+⚠ [2379/2380] Replayed Challenge
+warning: Challenge.lean:9:8: declaration uses `sorry`
+Build completed successfully (2380 jobs).
+Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Challenge
+Building FCSolution
+ℹ [3261/3263] Replayed KalaiFast
+info: KalaiFast.lean:474:0: KALAI_BLOCK_DONE count=500 inflate_ms=1050 replay_ms=2886
+info: KalaiFast.lean:475:0: KALAI_REPLAY_DONE 500
+info: KalaiFast.lean:478:0: KALAI_BLOCK_DONE count=500 inflate_ms=514 replay_ms=972
+info: KalaiFast.lean:479:0: KALAI_REPLAY_DONE 1000
+info: KalaiFast.lean:482:0: KALAI_BLOCK_DONE count=500 inflate_ms=313 replay_ms=627
+info: KalaiFast.lean:483:0: KALAI_REPLAY_DONE 1500
+info: KalaiFast.lean:486:0: KALAI_BLOCK_DONE count=500 inflate_ms=366 replay_ms=21001
+info: KalaiFast.lean:487:0: KALAI_REPLAY_DONE 2000
+info: KalaiFast.lean:490:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=27498
+info: KalaiFast.lean:491:0: KALAI_REPLAY_DONE 2500
+info: KalaiFast.lean:494:0: KALAI_BLOCK_DONE count=500 inflate_ms=140 replay_ms=12744
+info: KalaiFast.lean:495:0: KALAI_REPLAY_DONE 3000
+info: KalaiFast.lean:498:0: KALAI_BLOCK_DONE count=500 inflate_ms=156 replay_ms=23189
+info: KalaiFast.lean:499:0: KALAI_REPLAY_DONE 3500
+info: KalaiFast.lean:502:0: KALAI_BLOCK_DONE count=500 inflate_ms=134 replay_ms=17222
+info: KalaiFast.lean:503:0: KALAI_REPLAY_DONE 4000
+info: KalaiFast.lean:506:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=7906
+info: KalaiFast.lean:507:0: KALAI_REPLAY_DONE 4500
+info: KalaiFast.lean:510:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=15552
+info: KalaiFast.lean:511:0: KALAI_REPLAY_DONE 5000
+info: KalaiFast.lean:514:0: KALAI_BLOCK_DONE count=500 inflate_ms=112 replay_ms=7091
+info: KalaiFast.lean:515:0: KALAI_REPLAY_DONE 5500
+info: KalaiFast.lean:518:0: KALAI_BLOCK_DONE count=500 inflate_ms=114 replay_ms=18759
+info: KalaiFast.lean:519:0: KALAI_REPLAY_DONE 6000
+info: KalaiFast.lean:522:0: KALAI_BLOCK_DONE count=500 inflate_ms=162 replay_ms=10381
+info: KalaiFast.lean:523:0: KALAI_REPLAY_DONE 6500
+info: KalaiFast.lean:526:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20351
+info: KalaiFast.lean:527:0: KALAI_REPLAY_DONE 7000
+info: KalaiFast.lean:530:0: KALAI_BLOCK_DONE count=500 inflate_ms=132 replay_ms=9598
+info: KalaiFast.lean:531:0: KALAI_REPLAY_DONE 7500
+info: KalaiFast.lean:534:0: KALAI_BLOCK_DONE count=500 inflate_ms=138 replay_ms=17508
+info: KalaiFast.lean:535:0: KALAI_REPLAY_DONE 8000
+info: KalaiFast.lean:538:0: KALAI_BLOCK_DONE count=500 inflate_ms=127 replay_ms=7616
+info: KalaiFast.lean:539:0: KALAI_REPLAY_DONE 8500
+info: KalaiFast.lean:542:0: KALAI_BLOCK_DONE count=500 inflate_ms=119 replay_ms=8475
+info: KalaiFast.lean:543:0: KALAI_REPLAY_DONE 9000
+info: KalaiFast.lean:546:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20656
+info: KalaiFast.lean:547:0: KALAI_REPLAY_DONE 9500
+info: KalaiFast.lean:550:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=12042
+info: KalaiFast.lean:551:0: KALAI_REPLAY_DONE 10000
+info: KalaiFast.lean:554:0: KALAI_BLOCK_DONE count=500 inflate_ms=143 replay_ms=11279
+info: KalaiFast.lean:555:0: KALAI_REPLAY_DONE 10500
+info: KalaiFast.lean:558:0: KALAI_BLOCK_DONE count=500 inflate_ms=704 replay_ms=25038
+info: KalaiFast.lean:559:0: KALAI_REPLAY_DONE 11000
+info: KalaiFast.lean:562:0: KALAI_BLOCK_DONE count=500 inflate_ms=1781 replay_ms=5195
+info: KalaiFast.lean:563:0: KALAI_REPLAY_DONE 11500
+info: KalaiFast.lean:566:0: KALAI_BLOCK_DONE count=500 inflate_ms=1554 replay_ms=5027
+info: KalaiFast.lean:567:0: KALAI_REPLAY_DONE 12000
+info: KalaiFast.lean:570:0: KALAI_BLOCK_DONE count=500 inflate_ms=94 replay_ms=115341
+info: KalaiFast.lean:571:0: KALAI_REPLAY_DONE 12500
+info: KalaiFast.lean:574:0: KALAI_BLOCK_DONE count=500 inflate_ms=41 replay_ms=91722
+info: KalaiFast.lean:575:0: KALAI_REPLAY_DONE 13000
+info: KalaiFast.lean:578:0: KALAI_BLOCK_DONE count=500 inflate_ms=976 replay_ms=41985
+info: KalaiFast.lean:579:0: KALAI_REPLAY_DONE 13500
+info: KalaiFast.lean:582:0: KALAI_BLOCK_DONE count=500 inflate_ms=1529 replay_ms=4961
+info: KalaiFast.lean:583:0: KALAI_REPLAY_DONE 14000
+info: KalaiFast.lean:586:0: KALAI_BLOCK_DONE count=500 inflate_ms=1742 replay_ms=6141
+info: KalaiFast.lean:587:0: KALAI_REPLAY_DONE 14500
+info: KalaiFast.lean:590:0: KALAI_BLOCK_DONE count=500 inflate_ms=1327 replay_ms=66082
+info: KalaiFast.lean:591:0: KALAI_REPLAY_DONE 15000
+info: KalaiFast.lean:594:0: KALAI_BLOCK_DONE count=500 inflate_ms=783 replay_ms=119149
+info: KalaiFast.lean:595:0: KALAI_REPLAY_DONE 15500
+info: KalaiFast.lean:598:0: KALAI_BLOCK_DONE count=500 inflate_ms=488 replay_ms=786
+info: KalaiFast.lean:599:0: KALAI_REPLAY_DONE 16000
+info: KalaiFast.lean:602:0: KALAI_BLOCK_DONE count=500 inflate_ms=207 replay_ms=398
+info: KalaiFast.lean:603:0: KALAI_REPLAY_DONE 16500
+info: KalaiFast.lean:606:0: KALAI_BLOCK_DONE count=500 inflate_ms=205 replay_ms=407
+info: KalaiFast.lean:607:0: KALAI_REPLAY_DONE 17000
+info: KalaiFast.lean:610:0: KALAI_BLOCK_DONE count=500 inflate_ms=235 replay_ms=484
+info: KalaiFast.lean:611:0: KALAI_REPLAY_DONE 17500
+info: KalaiFast.lean:614:0: KALAI_BLOCK_DONE count=500 inflate_ms=218 replay_ms=410
+info: KalaiFast.lean:615:0: KALAI_REPLAY_DONE 18000
+info: KalaiFast.lean:618:0: KALAI_BLOCK_DONE count=500 inflate_ms=161 replay_ms=321
+info: KalaiFast.lean:619:0: KALAI_REPLAY_DONE 18500
+info: KalaiFast.lean:622:0: KALAI_BLOCK_DONE count=500 inflate_ms=147 replay_ms=306
+info: KalaiFast.lean:623:0: KALAI_REPLAY_DONE 19000
+info: KalaiFast.lean:626:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=263
+info: KalaiFast.lean:627:0: KALAI_REPLAY_DONE 19500
+info: KalaiFast.lean:630:0: KALAI_BLOCK_DONE count=500 inflate_ms=767 replay_ms=5143
+info: KalaiFast.lean:631:0: KALAI_REPLAY_DONE 20000
+info: KalaiFast.lean:634:0: KALAI_BLOCK_DONE count=500 inflate_ms=81 replay_ms=17473
+info: KalaiFast.lean:635:0: KALAI_REPLAY_DONE 20500
+info: KalaiFast.lean:638:0: KALAI_BLOCK_DONE count=500 inflate_ms=93 replay_ms=18522
+info: KalaiFast.lean:639:0: KALAI_REPLAY_DONE 21000
+info: KalaiFast.lean:642:0: KALAI_BLOCK_DONE count=500 inflate_ms=105 replay_ms=19627
+info: KalaiFast.lean:643:0: KALAI_REPLAY_DONE 21500
+info: KalaiFast.lean:646:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=17640
+info: KalaiFast.lean:647:0: KALAI_REPLAY_DONE 22000
+info: KalaiFast.lean:650:0: KALAI_BLOCK_DONE count=500 inflate_ms=49 replay_ms=24757
+info: KalaiFast.lean:651:0: KALAI_REPLAY_DONE 22500
+info: KalaiFast.lean:654:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=22967
+info: KalaiFast.lean:655:0: KALAI_REPLAY_DONE 23000
+info: KalaiFast.lean:658:0: KALAI_BLOCK_DONE count=500 inflate_ms=52 replay_ms=26180
+info: KalaiFast.lean:659:0: KALAI_REPLAY_DONE 23500
+info: KalaiFast.lean:662:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=50574
+info: KalaiFast.lean:663:0: KALAI_REPLAY_DONE 24000
+info: KalaiFast.lean:666:0: KALAI_BLOCK_DONE count=500 inflate_ms=47 replay_ms=46074
+info: KalaiFast.lean:667:0: KALAI_REPLAY_DONE 24500
+info: KalaiFast.lean:670:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=57167
+info: KalaiFast.lean:671:0: KALAI_REPLAY_DONE 25000
+info: KalaiFast.lean:674:0: KALAI_BLOCK_DONE count=500 inflate_ms=46 replay_ms=58670
+info: KalaiFast.lean:675:0: KALAI_REPLAY_DONE 25500
+info: KalaiFast.lean:678:0: KALAI_BLOCK_DONE count=500 inflate_ms=39 replay_ms=48289
+info: KalaiFast.lean:679:0: KALAI_REPLAY_DONE 26000
+info: KalaiFast.lean:682:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=53664
+info: KalaiFast.lean:683:0: KALAI_REPLAY_DONE 26500
+info: KalaiFast.lean:686:0: KALAI_BLOCK_DONE count=500 inflate_ms=67 replay_ms=50860
+info: KalaiFast.lean:687:0: KALAI_REPLAY_DONE 27000
+info: KalaiFast.lean:690:0: KALAI_BLOCK_DONE count=500 inflate_ms=64 replay_ms=48205
+info: KalaiFast.lean:691:0: KALAI_REPLAY_DONE 27500
+info: KalaiFast.lean:694:0: KALAI_BLOCK_DONE count=500 inflate_ms=60 replay_ms=40019
+info: KalaiFast.lean:695:0: KALAI_REPLAY_DONE 28000
+info: KalaiFast.lean:698:0: KALAI_BLOCK_DONE count=500 inflate_ms=54 replay_ms=58754
+info: KalaiFast.lean:699:0: KALAI_REPLAY_DONE 28500
+info: KalaiFast.lean:702:0: KALAI_BLOCK_DONE count=500 inflate_ms=43 replay_ms=150106
+info: KalaiFast.lean:703:0: KALAI_REPLAY_DONE 29000
+info: KalaiFast.lean:706:0: KALAI_BLOCK_DONE count=500 inflate_ms=42 replay_ms=112863
+info: KalaiFast.lean:707:0: KALAI_REPLAY_DONE 29500
+info: KalaiFast.lean:710:0: KALAI_BLOCK_DONE count=500 inflate_ms=266 replay_ms=85443
+info: KalaiFast.lean:711:0: KALAI_REPLAY_DONE 30000
+info: KalaiFast.lean:714:0: KALAI_BLOCK_DONE count=500 inflate_ms=792 replay_ms=110624
+info: KalaiFast.lean:715:0: KALAI_REPLAY_DONE 30500
+info: KalaiFast.lean:718:0: KALAI_BLOCK_DONE count=500 inflate_ms=1459 replay_ms=8663
+info: KalaiFast.lean:719:0: KALAI_REPLAY_DONE 31000
+info: KalaiFast.lean:722:0: KALAI_BLOCK_DONE count=500 inflate_ms=1022 replay_ms=7841
+info: KalaiFast.lean:723:0: KALAI_REPLAY_DONE 31500
+info: KalaiFast.lean:726:0: KALAI_BLOCK_DONE count=500 inflate_ms=1767 replay_ms=11236
+info: KalaiFast.lean:727:0: KALAI_REPLAY_DONE 32000
+info: KalaiFast.lean:730:0: KALAI_BLOCK_DONE count=500 inflate_ms=1965 replay_ms=38692
+info: KalaiFast.lean:731:0: KALAI_REPLAY_DONE 32500
+info: KalaiFast.lean:734:0: KALAI_BLOCK_DONE count=500 inflate_ms=2025 replay_ms=16950
+info: KalaiFast.lean:735:0: KALAI_REPLAY_DONE 33000
+info: KalaiFast.lean:738:0: KALAI_BLOCK_DONE count=500 inflate_ms=1865 replay_ms=16371
+info: KalaiFast.lean:739:0: KALAI_REPLAY_DONE 33500
+info: KalaiFast.lean:742:0: KALAI_BLOCK_DONE count=500 inflate_ms=1924 replay_ms=12954
+info: KalaiFast.lean:743:0: KALAI_REPLAY_DONE 34000
+info: KalaiFast.lean:746:0: KALAI_BLOCK_DONE count=500 inflate_ms=1926 replay_ms=7706
+info: KalaiFast.lean:747:0: KALAI_REPLAY_DONE 34500
+info: KalaiFast.lean:750:0: KALAI_BLOCK_DONE count=500 inflate_ms=1247 replay_ms=3871
+info: KalaiFast.lean:751:0: KALAI_REPLAY_DONE 35000
+info: KalaiFast.lean:754:0: KALAI_BLOCK_DONE count=500 inflate_ms=1642 replay_ms=4977
+info: KalaiFast.lean:755:0: KALAI_REPLAY_DONE 35500
+info: KalaiFast.lean:758:0: KALAI_BLOCK_DONE count=500 inflate_ms=1719 replay_ms=107060
+info: KalaiFast.lean:759:0: KALAI_REPLAY_DONE 36000
+info: KalaiFast.lean:762:0: KALAI_BLOCK_DONE count=500 inflate_ms=1429 replay_ms=128814
+info: KalaiFast.lean:763:0: KALAI_REPLAY_DONE 36500
+info: KalaiFast.lean:766:0: KALAI_BLOCK_DONE count=500 inflate_ms=1684 replay_ms=80943
+info: KalaiFast.lean:767:0: KALAI_REPLAY_DONE 37000
+info: KalaiFast.lean:770:0: KALAI_BLOCK_DONE count=500 inflate_ms=1154 replay_ms=11007
+info: KalaiFast.lean:771:0: KALAI_REPLAY_DONE 37500
+info: KalaiFast.lean:774:0: KALAI_BLOCK_DONE count=500 inflate_ms=836 replay_ms=67441
+info: KalaiFast.lean:775:0: KALAI_REPLAY_DONE 38000
+info: KalaiFast.lean:778:0: KALAI_BLOCK_DONE count=500 inflate_ms=1333 replay_ms=8703
+info: KalaiFast.lean:779:0: KALAI_REPLAY_DONE 38500
+info: KalaiFast.lean:782:0: KALAI_BLOCK_DONE count=500 inflate_ms=2701 replay_ms=18011
+info: KalaiFast.lean:783:0: KALAI_REPLAY_DONE 39000
+info: KalaiFast.lean:786:0: KALAI_BLOCK_DONE count=500 inflate_ms=2328 replay_ms=12412
+info: KalaiFast.lean:787:0: KALAI_REPLAY_DONE 39500
+info: KalaiFast.lean:790:0: KALAI_BLOCK_DONE count=500 inflate_ms=1479 replay_ms=11359
+info: KalaiFast.lean:791:0: KALAI_REPLAY_DONE 40000
+info: KalaiFast.lean:794:0: KALAI_BLOCK_DONE count=500 inflate_ms=1624 replay_ms=11456
+info: KalaiFast.lean:795:0: KALAI_REPLAY_DONE 40500
+info: KalaiFast.lean:798:0: KALAI_BLOCK_DONE count=500 inflate_ms=1647 replay_ms=12494
+info: KalaiFast.lean:799:0: KALAI_REPLAY_DONE 41000
+info: KalaiFast.lean:802:0: KALAI_BLOCK_DONE count=500 inflate_ms=1462 replay_ms=10157
+info: KalaiFast.lean:803:0: KALAI_REPLAY_DONE 41500
+info: KalaiFast.lean:806:0: KALAI_BLOCK_DONE count=500 inflate_ms=1640 replay_ms=10696
+info: KalaiFast.lean:807:0: KALAI_REPLAY_DONE 42000
+info: KalaiFast.lean:810:0: KALAI_BLOCK_DONE count=500 inflate_ms=1563 replay_ms=10634
+info: KalaiFast.lean:811:0: KALAI_REPLAY_DONE 42500
+info: KalaiFast.lean:814:0: KALAI_BLOCK_DONE count=160 inflate_ms=516 replay_ms=2670
+info: KalaiFast.lean:815:0: KALAI_REPLAY_DONE 42660
+info: KalaiFast.lean:845:0: 'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3263 jobs).
+Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from FCSolution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 59min 47.287s
+CPU time consumed: 59min 51.712s
+Memory peak: 6.2M
+Memory swap peak: 0B

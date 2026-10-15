@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "declarations": 3,
+  "axioms": [],
+  "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+  "fixture_sha256": "623eb956f7c43f3f26699eea504befac647cc59a0313c6273818494bbb8f3937",
+  "checks": [
+    "distinct source modules retain distinct names and values",
+    "references resolve to both renamed declarations",
+    "imported private names unchanged"
+  ],
+  "full_archive_replayed": false
+}

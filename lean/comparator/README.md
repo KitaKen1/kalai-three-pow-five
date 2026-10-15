@@ -49,13 +49,14 @@ run on a local Mac or self-hosted runner.
 Every build starts the FC archive replay from source. Build products are
 passed to the independent checker jobs only after complete replay and axiom
 audits succeed. An intermediate completion marker is insufficient.
-Private CI passed all jobs: source build 59m23s, fresh replay 58m12s, and
-approximately 2h13m total including setup and Comparator. Public CI rechecks
-the same proof and checker configuration. See [receipts](../../verification/private-ci/README.md).
+Public CI passed all jobs in run `38654268610`, attempt 1: proof build 43m39s,
+fresh replay 47m43s, and approximately 1h53m total including setup and Comparator.
+See the [permanent receipts](../../ComparatorLog20261015/README.md) for the
+tested commit, original artifact ZIPs, actual axiom output and Comparator log.
 
 Four attempt-specific artifacts retain logs and receipts for 90 days.
-[Publication steps](../../verification/PUBLICATION.md) describe the planned
-private/public checks and later permanent archive.
-The optimized FC archive passed complete private CI and Comparator.
-A separate public run supplies publicly accessible verification. The older successful rc3
+[Publication steps](../../verification/PUBLICATION.md) describe the
+private/public checks and permanent archive.
+The optimized FC archive passed complete private and public CI and Comparator.
+The older successful rc3
 run is documented in [prior-run/](../../verification/prior-run/).

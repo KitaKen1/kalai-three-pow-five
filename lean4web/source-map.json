@@ -1,6 +1,6 @@
 {
   "experimental": true,
-  "full_compilation": "PASS: complete ordinary-kernel replay in private CI38573608382 attempt1",
+  "full_compilation": "PASS: complete ordinary-kernel replay in public CI38654268610 attempt1",
   "generator": "lean/scripts/make_grouped_replay.py",
   "source_root": "Kalai.three_pow_five",
   "target": "Kalai.three_pow_five",
@@ -784,8 +784,23 @@
     "run_id": 38573608382,
     "attempt": 1,
     "tested_commit": "e2732a7961dc6b1ffeb42fe036a6d2561428bdd1",
-    "receipt": "verification/private-ci/summary.json",
-    "public_ci": "pending separate public run"
+    "receipt": "verification/private-ci/summary.json"
   },
-  "local_full_replay": "not run: verification and timing performed in private CI"
+  "local_full_replay": "not run: verification and timing performed in private CI",
+  "public_ci_verification": {
+    "status": "PASS",
+    "repository": "KitaKen1/kalai-three-pow-five",
+    "run_id": 38654268610,
+    "run_attempt": 1,
+    "tested_commit": "38bc3bb25949bc33de05bbd169a6012aa0b05165",
+    "run_url": "https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610",
+    "completed_at_utc": "2026-10-15T01:20:52Z",
+    "archive_sha256": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "receipt": "ComparatorLog20261015/summary.json"
+  }
 }

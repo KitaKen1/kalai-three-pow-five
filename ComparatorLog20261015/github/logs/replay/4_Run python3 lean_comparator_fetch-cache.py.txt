@@ -1,0 +1,83 @@
+﻿2026-10-15T00:17:47.4088175Z ##[group]Run python3 lean/comparator/fetch-cache.py
+2026-10-15T00:17:47.4088646Z [36;1mpython3 lean/comparator/fetch-cache.py[0m
+2026-10-15T00:17:47.4151684Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:17:47.4152048Z ##[endgroup]
+2026-10-15T00:17:53.0352939Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T00:17:53.3606548Z info: downloading https://releases.lean-lang.org/lean4/v4.33.1/lean-4.33.1-linux.tar.zst
+2026-10-15T00:17:56.9693932Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.33.1
+2026-10-15T00:18:03.5120010Z info: mathlib: cloning https://github.com/leanprover-community/mathlib4
+2026-10-15T00:18:33.2754380Z info: mathlib: checking out revision '0df444a360eaa60ab8c11dca51a86af692955474'
+2026-10-15T00:18:35.3071915Z info: plausible: cloning https://github.com/leanprover-community/plausible
+2026-10-15T00:18:35.4873047Z info: plausible: checking out revision 'b7eb3304aeae834b12dda98993a37f6a41f6f0bb'
+2026-10-15T00:18:35.4991415Z info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+2026-10-15T00:18:35.6863300Z info: LeanSearchClient: checking out revision '5f4d51b81cbd3f6b32b156bfad9056621a040404'
+2026-10-15T00:18:35.6975059Z info: importGraph: cloning https://github.com/leanprover-community/import-graph
+2026-10-15T00:18:35.9359107Z info: importGraph: checking out revision '16f02aa7642864af59f1ff0e384a015994db9118'
+2026-10-15T00:18:35.9531206Z info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+2026-10-15T00:18:36.3328472Z info: proofwidgets: checking out revision '4be2e3d5087eeb272cf5a8853b8f9dd025ef5957'
+2026-10-15T00:18:36.9573884Z info: aesop: cloning https://github.com/leanprover-community/aesop
+2026-10-15T00:18:37.4579669Z info: aesop: checking out revision '3448c0bcc5ce01b2d1546e483ec3620e32df3d0e'
+2026-10-15T00:18:37.4754795Z info: Qq: cloning https://github.com/leanprover-community/quote4
+2026-10-15T00:18:37.7111354Z info: Qq: checking out revision '92c15be17b7caf78c2ad767ec40f89052d908d81'
+2026-10-15T00:18:37.7246461Z info: batteries: cloning https://github.com/leanprover-community/batteries
+2026-10-15T00:18:41.6053819Z info: batteries: checking out revision '4488d40d070b9700d4d5a6aa342f0d40c31b2a2d'
+2026-10-15T00:18:41.6432693Z info: Cli: cloning https://github.com/leanprover/lean4-cli
+2026-10-15T00:18:41.8558455Z info: Cli: checking out revision '6130a47896ce867c6a4a55373441e59e565bad0f'
+2026-10-15T00:18:42.4776843Z ✔ [3/27] Built Cache.Cli (293ms)
+2026-10-15T00:18:42.4777924Z ✔ [4/27] Built Cache.Lean (378ms)
+2026-10-15T00:18:42.6795597Z ✔ [7/27] Built Cache.Cli:c.o (240ms)
+2026-10-15T00:18:42.7797043Z ✔ [8/27] Built Cache.Lean:c.o (239ms)
+2026-10-15T00:18:42.8798693Z ✔ [9/27] Built Cache.Infra (450ms)
+2026-10-15T00:18:43.1801724Z ✔ [10/27] Built Cache.Infra:c.o (233ms)
+2026-10-15T00:18:43.3813728Z ✔ [11/27] Built Batteries.Tactic.OpenPrivate (914ms)
+2026-10-15T00:18:44.6819370Z ✔ [12/27] Built Batteries.Tactic.OpenPrivate:c.o (1.3s)
+2026-10-15T00:18:44.7820693Z ✔ [13/27] Built Cache.IO (1.4s)
+2026-10-15T00:18:45.5830110Z ✔ [14/27] Built Cache.Hashing (765ms)
+2026-10-15T00:18:46.1837612Z ✔ [15/27] Built Cache.Hashing:c.o (641ms)
+2026-10-15T00:18:46.4841318Z ✔ [16/27] Built Cache.IO:c.o (1.7s)
+2026-10-15T00:18:47.6864207Z ✔ [17/27] Built Cache.Requests (2.1s)
+2026-10-15T00:18:48.1865495Z ✔ [18/27] Built Cache.Marker (535ms)
+2026-10-15T00:18:48.3868003Z ✔ [19/27] Built Cache.Marker:c.o (127ms)
+2026-10-15T00:18:48.9874758Z ✔ [20/27] Built Cache.Query (725ms)
+2026-10-15T00:18:49.3869256Z ✔ [21/27] Built Cache.Query:c.o (467ms)
+2026-10-15T00:18:49.7874793Z ✔ [22/27] Built Cache.Warning (810ms)
+2026-10-15T00:18:50.1879943Z ✔ [23/27] Built Cache.Warning:c.o (411ms)
+2026-10-15T00:18:50.6887441Z ✔ [24/27] Built Cache.Requests:c.o (3.0s)
+2026-10-15T00:18:50.9889888Z ✔ [25/27] Built Cache.Main (1.3s)
+2026-10-15T00:18:51.9900978Z ✔ [26/27] Built Cache.Main:c.o (965ms)
+2026-10-15T00:18:52.6910968Z ✔ [27/27] Built cache:exe (701ms)
+2026-10-15T00:18:55.3771477Z Current branch: HEAD
+2026-10-15T00:18:55.3772812Z Using cache from origin: (some leanprover-community/mathlib4)
+2026-10-15T00:18:55.3773790Z Attempting to download 3245 file(s) from leanprover-community/mathlib4 cache at https://lakecache.blob.core.windows.net/mathlib4-master
+2026-10-15T00:18:56.5866026Z 
+2026-10-15T00:18:56.6868051Z Downloaded: 1 file(s) [attempted 1/3245 = 0%, 26 KB/s], Decompressed: 0
+2026-10-15T00:18:56.7870274Z Downloaded: 83 file(s) [attempted 83/3245 = 2%, 1839 KB/s], Decompressed: 11
+2026-10-15T00:18:56.8915362Z Downloaded: 187 file(s) [attempted 187/3245 = 5%, 345 KB/s], Decompressed: 40
+2026-10-15T00:18:56.9973347Z Downloaded: 297 file(s) [attempted 297/3245 = 9%, 2132 KB/s], Decompressed: 40
+2026-10-15T00:18:57.0980272Z Downloaded: 414 file(s) [attempted 414/3245 = 12%, 2867 KB/s], Decompressed: 40
+2026-10-15T00:18:57.2007573Z Downloaded: 532 file(s) [attempted 532/3245 = 16%, 411 KB/s], Decompressed: 128
+2026-10-15T00:18:57.3020351Z Downloaded: 656 file(s) [attempted 656/3245 = 20%, 844 KB/s], Decompressed: 128
+2026-10-15T00:18:57.4034744Z Downloaded: 777 file(s) [attempted 777/3245 = 23%, 719 KB/s], Decompressed: 128
+2026-10-15T00:18:57.5030422Z Downloaded: 887 file(s) [attempted 887/3245 = 27%, 1088 KB/s], Decompressed: 128
+2026-10-15T00:18:57.6033204Z Downloaded: 1003 file(s) [attempted 1003/3245 = 30%, 767 KB/s], Decompressed: 128
+2026-10-15T00:18:57.7039600Z Downloaded: 1122 file(s) [attempted 1122/3245 = 34%, 911 KB/s], Decompressed: 128
+2026-10-15T00:18:57.8059140Z Downloaded: 1245 file(s) [attempted 1245/3245 = 38%, 2878 KB/s], Decompressed: 128
+2026-10-15T00:18:57.9066894Z Downloaded: 1369 file(s) [attempted 1369/3245 = 42%, 485 KB/s], Decompressed: 128
+2026-10-15T00:18:58.0096881Z Downloaded: 1490 file(s) [attempted 1490/3245 = 45%, 1474 KB/s], Decompressed: 128
+2026-10-15T00:18:58.1120023Z Downloaded: 1595 file(s) [attempted 1595/3245 = 49%, 1187 KB/s], Decompressed: 128
+2026-10-15T00:18:58.2122333Z Downloaded: 1709 file(s) [attempted 1709/3245 = 52%, 2360 KB/s], Decompressed: 128
+2026-10-15T00:18:58.3153996Z Downloaded: 1827 file(s) [attempted 1827/3245 = 56%, 1801 KB/s], Decompressed: 128
+2026-10-15T00:18:58.4200605Z Downloaded: 1958 file(s) [attempted 1958/3245 = 60%, 1160 KB/s], Decompressed: 460
+2026-10-15T00:18:58.5203549Z Downloaded: 2090 file(s) [attempted 2090/3245 = 64%, 372 KB/s], Decompressed: 460
+2026-10-15T00:18:58.6214720Z Downloaded: 2214 file(s) [attempted 2214/3245 = 68%, 384 KB/s], Decompressed: 460
+2026-10-15T00:18:58.7252615Z Downloaded: 2340 file(s) [attempted 2340/3245 = 72%, 3185 KB/s], Decompressed: 460
+2026-10-15T00:18:58.8255487Z Downloaded: 2470 file(s) [attempted 2470/3245 = 76%, 1627 KB/s], Decompressed: 460
+2026-10-15T00:18:58.9274217Z Downloaded: 2607 file(s) [attempted 2607/3245 = 80%, 229 KB/s], Decompressed: 460
+2026-10-15T00:18:59.0304769Z Downloaded: 2731 file(s) [attempted 2731/3245 = 84%, 436 KB/s], Decompressed: 460
+2026-10-15T00:18:59.1298998Z Downloaded: 2859 file(s) [attempted 2859/3245 = 88%, 601 KB/s], Decompressed: 460
+2026-10-15T00:18:59.2306784Z Downloaded: 2991 file(s) [attempted 2991/3245 = 92%, 234 KB/s], Decompressed: 460
+2026-10-15T00:18:59.3332766Z Downloaded: 3108 file(s) [attempted 3108/3245 = 95%, 5090 KB/s], Decompressed: 460
+2026-10-15T00:18:59.4034782Z Downloaded: 3231 file(s) [attempted 3231/3245 = 99%, 2885 KB/s], Decompressed: 460
+2026-10-15T00:18:59.4035758Z Downloaded: 3245 file(s) [attempted 3245/3245 = 100%, 2885 KB/s], Decompressed: 460
+2026-10-15T00:19:07.4790048Z Decompressed 3245 file(s)
+2026-10-15T00:19:07.4790502Z Already decompressed 3245 file(s)

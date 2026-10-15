@@ -1,0 +1,9 @@
+﻿2026-10-15T00:19:52.1884689Z ##[group]Run lake build Challenge
+2026-10-15T00:19:52.1885034Z [36;1mlake build Challenge[0m
+2026-10-15T00:19:52.1885346Z [36;1mmkdir -p "$RUNNER_TEMP/kalai-trusted-challenge"[0m
+2026-10-15T00:19:52.1885971Z [36;1mfind .lake/build -type f -name 'Challenge.*' -print0 | tar --null -T - -cf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"[0m
+2026-10-15T00:19:52.1944735Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:19:52.1945080Z ##[endgroup]
+2026-10-15T00:19:55.2979735Z ⚠ [2379/2380] Built Challenge (1.7s)
+2026-10-15T00:19:55.2980349Z warning: Challenge.lean:9:8: declaration uses `sorry`
+2026-10-15T00:19:55.3088124Z Build completed successfully (2380 jobs).

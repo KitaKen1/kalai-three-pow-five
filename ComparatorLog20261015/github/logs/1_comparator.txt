@@ -1,0 +1,638 @@
+﻿2026-10-15T00:16:27.5551079Z Current runner version: '2.337.0'
+2026-10-15T00:16:27.5577895Z ##[group]Runner Image Provisioner
+2026-10-15T00:16:27.5578955Z Hosted Compute Agent
+2026-10-15T00:16:27.5579625Z Version: 20261002.596
+2026-10-15T00:16:27.5580343Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-15T00:16:27.5581148Z Build Date: 2026-10-02T22:28:27Z
+2026-10-15T00:16:27.5581925Z Worker ID: {8f8412fc-a278-46dd-b844-a8060705ee46}
+2026-10-15T00:16:27.5583086Z Region: westus3
+2026-10-15T00:16:27.5583714Z Cloud: Azure
+2026-10-15T00:16:27.5584302Z ##[endgroup]
+2026-10-15T00:16:27.5586060Z ##[group]Operating System
+2026-10-15T00:16:27.5586849Z Ubuntu
+2026-10-15T00:16:27.5588049Z 24.04.5
+2026-10-15T00:16:27.5588819Z LTS
+2026-10-15T00:16:27.5589495Z ##[endgroup]
+2026-10-15T00:16:27.5590228Z ##[group]Runner Image
+2026-10-15T00:16:27.5590966Z Image: ubuntu-24.04
+2026-10-15T00:16:27.5591637Z Version: 20261004.327.1
+2026-10-15T00:16:27.5593009Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-15T00:16:27.5594688Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-15T00:16:27.5595745Z ##[endgroup]
+2026-10-15T00:16:27.5597044Z ##[group]GITHUB_TOKEN Permissions
+2026-10-15T00:16:27.5599840Z Contents: read
+2026-10-15T00:16:27.5600614Z Metadata: read
+2026-10-15T00:16:27.5601311Z ##[endgroup]
+2026-10-15T00:16:27.5603721Z Secret source: Actions
+2026-10-15T00:16:27.5604911Z Cache mode: write
+2026-10-15T00:16:27.5605676Z Prepare workflow directory
+2026-10-15T00:16:27.6031706Z Prepare all required actions
+2026-10-15T00:16:27.6079700Z Getting action download info
+2026-10-15T00:16:27.9436033Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-15T00:16:28.0386182Z Download action repository 'actions/setup-go@v5' (SHA:40f1582b2485089dde7abd97c1529aa768e1baff)
+2026-10-15T00:16:28.8554949Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+2026-10-15T00:16:28.9494150Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-15T00:16:29.1639740Z Complete job name: comparator
+2026-10-15T00:16:29.2488112Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-15T00:16:29.2489359Z with:
+2026-10-15T00:16:29.2489850Z   persist-credentials: false
+2026-10-15T00:16:29.2490452Z   repository: KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:29.2494788Z   token: ***
+2026-10-15T00:16:29.2495262Z   ssh-strict: true
+2026-10-15T00:16:29.2495744Z   ssh-user: git
+2026-10-15T00:16:29.2496224Z   clean: true
+2026-10-15T00:16:29.2496730Z   sparse-checkout-cone-mode: true
+2026-10-15T00:16:29.2497513Z   fetch-depth: 1
+2026-10-15T00:16:29.2497993Z   fetch-tags: false
+2026-10-15T00:16:29.2498493Z   show-progress: true
+2026-10-15T00:16:29.2498999Z   lfs: false
+2026-10-15T00:16:29.2499450Z   submodules: false
+2026-10-15T00:16:29.2499975Z   set-safe-directory: true
+2026-10-15T00:16:29.2500540Z   allow-unsafe-pr-checkout: false
+2026-10-15T00:16:29.2501407Z ##[endgroup]
+2026-10-15T00:16:29.3521553Z Syncing repository: KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:29.3523565Z ##[group]Getting Git version info
+2026-10-15T00:16:29.3524528Z Working directory is '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-15T00:16:29.3525800Z [command]/usr/bin/git version
+2026-10-15T00:16:29.3611553Z git version 2.55.0
+2026-10-15T00:16:29.3633483Z ##[endgroup]
+2026-10-15T00:16:29.3648178Z Temporarily overriding HOME='/home/runner/work/_temp/929ac05b-4f66-483f-aa92-f8db586132fd' before making global git config changes
+2026-10-15T00:16:29.3650341Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-15T00:16:29.3653079Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-15T00:16:29.3706661Z Deleting the contents of '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-15T00:16:29.3711601Z ##[group]Initializing the repository
+2026-10-15T00:16:29.3715874Z [command]/usr/bin/git init /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-15T00:16:29.3862718Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-15T00:16:29.3864037Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-15T00:16:29.3865197Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-15T00:16:29.3866117Z hint: call:
+2026-10-15T00:16:29.3866613Z hint:
+2026-10-15T00:16:29.3867699Z hint: 	git config --global init.defaultBranch <name>
+2026-10-15T00:16:29.3868551Z hint:
+2026-10-15T00:16:29.3869802Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-15T00:16:29.3871909Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-15T00:16:29.3873699Z hint:
+2026-10-15T00:16:29.3874700Z hint: 	git branch -m <name>
+2026-10-15T00:16:29.3875794Z hint:
+2026-10-15T00:16:29.3877652Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-15T00:16:29.3880076Z Initialized empty Git repository in /home/runner/work/kalai-three-pow-five/kalai-three-pow-five/.git/
+2026-10-15T00:16:29.3884050Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:29.3972929Z ##[endgroup]
+2026-10-15T00:16:29.3975070Z ##[group]Disabling automatic garbage collection
+2026-10-15T00:16:29.3977361Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-15T00:16:29.4005221Z ##[endgroup]
+2026-10-15T00:16:29.4006033Z ##[group]Setting up auth
+2026-10-15T00:16:29.4012760Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-15T00:16:29.4044198Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-15T00:16:29.4436545Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-15T00:16:29.4467314Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-15T00:16:29.4685159Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-15T00:16:29.4714554Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-15T00:16:29.4932204Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-15T00:16:29.4968345Z ##[endgroup]
+2026-10-15T00:16:29.4969360Z ##[group]Fetching the repository
+2026-10-15T00:16:29.4977769Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +38bc3bb25949bc33de05bbd169a6012aa0b05165:refs/remotes/origin/main
+2026-10-15T00:16:31.5014278Z From https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-15T00:16:31.5017302Z  * [new ref]         38bc3bb25949bc33de05bbd169a6012aa0b05165 -> origin/main
+2026-10-15T00:16:31.5022133Z ##[endgroup]
+2026-10-15T00:16:31.5023881Z ##[group]Determining the checkout info
+2026-10-15T00:16:31.5026285Z ##[endgroup]
+2026-10-15T00:16:31.5028111Z [command]/usr/bin/git sparse-checkout disable
+2026-10-15T00:16:31.5080380Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-15T00:16:31.5109511Z ##[group]Checking out the ref
+2026-10-15T00:16:31.5113130Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-15T00:16:32.3398639Z Switched to a new branch 'main'
+2026-10-15T00:16:32.3402473Z branch 'main' set up to track 'origin/main'.
+2026-10-15T00:16:32.3504814Z ##[endgroup]
+2026-10-15T00:16:32.3507392Z [command]/usr/bin/git log -1 --format=%H
+2026-10-15T00:16:32.3508350Z 38bc3bb25949bc33de05bbd169a6012aa0b05165
+2026-10-15T00:16:32.3515031Z ##[group]Removing auth
+2026-10-15T00:16:32.3520656Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-15T00:16:32.3555430Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-15T00:16:32.3775820Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-15T00:16:32.3800316Z http.https://github.com/.extraheader
+2026-10-15T00:16:32.3807678Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-15T00:16:32.3838873Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-15T00:16:32.4057315Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-15T00:16:32.4086818Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-15T00:16:32.4302783Z ##[endgroup]
+2026-10-15T00:16:32.4516930Z ##[group]Run python3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt
+2026-10-15T00:16:32.4518073Z [36;1mpython3 lean/comparator/check-inputs.py --receipt-dir comparator-receipt[0m
+2026-10-15T00:16:32.4792906Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:16:32.4793397Z ##[endgroup]
+2026-10-15T00:16:38.2154044Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T00:16:38.2267986Z ##[group]Run bash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 16 20
+2026-10-15T00:16:38.2268824Z [36;1mbash lean/comparator/prepare-runner.sh && bash lean/comparator/add-swap.sh 16 20[0m
+2026-10-15T00:16:38.2329905Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:16:38.2330286Z ##[endgroup]
+2026-10-15T00:18:11.2666627Z info: downloading installer
+2026-10-15T00:18:11.7344417Z 4
+2026-10-15T00:18:11.7361266Z                total        used        free      shared  buff/cache   available
+2026-10-15T00:18:11.7361823Z Mem:            15Gi       1.0Gi        10Gi        45Mi       4.4Gi        14Gi
+2026-10-15T00:18:11.7362230Z Swap:          3.0Gi          0B       3.0Gi
+2026-10-15T00:18:11.7386422Z Filesystem      Size  Used Avail Use% Mounted on
+2026-10-15T00:18:11.7386890Z /dev/root       145G   33G  112G  23% /
+2026-10-15T00:18:11.7957948Z                total        used        free      shared  buff/cache   available
+2026-10-15T00:18:11.7958843Z Mem:            15Gi       1.0Gi        10Gi        45Mi       4.4Gi        14Gi
+2026-10-15T00:18:11.7959613Z Swap:           18Gi          0B        18Gi
+2026-10-15T00:18:11.7973442Z NAME              TYPE SIZE USED PRIO
+2026-10-15T00:18:11.7974062Z /swapfile         file   3G   0B   -2
+2026-10-15T00:18:11.7974547Z /kalai-swap-26490 file  16G   0B   -3
+2026-10-15T00:18:11.8070929Z ##[group]Run actions/setup-go@v5
+2026-10-15T00:18:11.8071221Z with:
+2026-10-15T00:18:11.8071424Z   go-version: stable
+2026-10-15T00:18:11.8071653Z   check-latest: false
+2026-10-15T00:18:11.8074101Z   token: ***
+2026-10-15T00:18:11.8074295Z   cache: true
+2026-10-15T00:18:11.8074491Z ##[endgroup]
+2026-10-15T00:18:11.9419879Z Setup go version spec stable
+2026-10-15T00:18:11.9534801Z (node:2809) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-15T00:18:11.9535783Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-15T00:18:12.8690450Z stable version resolved as 1.27.2
+2026-10-15T00:18:12.8699258Z Attempting to download 1.27.2...
+2026-10-15T00:18:12.8700038Z matching 1.27.2...
+2026-10-15T00:18:12.8724741Z Acquiring 1.27.2 from https://github.com/actions/go-versions/releases/download/1.27.2-37875086547/go-1.27.2-linux-x64.tar.gz
+2026-10-15T00:18:13.4417028Z Extracting Go...
+2026-10-15T00:18:13.4548580Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/13bee309-07f5-4a3a-abe9-138d73c642fd -f /home/runner/work/_temp/8cb09250-a486-462d-9ce7-3e7def7c8cda
+2026-10-15T00:18:15.1254153Z Successfully extracted go to /home/runner/work/_temp/13bee309-07f5-4a3a-abe9-138d73c642fd
+2026-10-15T00:18:15.1255131Z Adding to the cache ...
+2026-10-15T00:18:20.8888529Z Successfully cached go to /opt/hostedtoolcache/go/1.27.2/x64
+2026-10-15T00:18:20.8892100Z Added go to the path
+2026-10-15T00:18:20.8894872Z Successfully set up Go version stable
+2026-10-15T00:18:20.9118258Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOMODCACHE
+2026-10-15T00:18:20.9156264Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOCACHE
+2026-10-15T00:18:20.9196980Z /home/runner/go/pkg/mod
+2026-10-15T00:18:20.9215856Z /home/runner/.cache/go-build
+2026-10-15T00:18:20.9247473Z ##[warning]Restore cache failed: Dependencies file is not found in /home/runner/work/kalai-three-pow-five/kalai-three-pow-five. Supported file pattern: go.sum
+2026-10-15T00:18:20.9275975Z go version go1.27.2 linux/amd64
+2026-10-15T00:18:20.9276190Z 
+2026-10-15T00:18:20.9276546Z ##[group]go env
+2026-10-15T00:18:21.0770441Z AR='ar'
+2026-10-15T00:18:21.0770816Z CC='gcc'
+2026-10-15T00:18:21.0771165Z CGO_CFLAGS='-O2 -g'
+2026-10-15T00:18:21.0771553Z CGO_CPPFLAGS=''
+2026-10-15T00:18:21.0771933Z CGO_CXXFLAGS='-O2 -g'
+2026-10-15T00:18:21.0772300Z CGO_ENABLED='1'
+2026-10-15T00:18:21.0772648Z CGO_FFLAGS='-O2 -g'
+2026-10-15T00:18:21.0773002Z CGO_LDFLAGS='-O2 -g'
+2026-10-15T00:18:21.0773365Z CXX='g++'
+2026-10-15T00:18:21.0773685Z GCCGO='gccgo'
+2026-10-15T00:18:21.0774044Z GO111MODULE=''
+2026-10-15T00:18:21.0774370Z GOAMD64='v1'
+2026-10-15T00:18:21.0774690Z GOARCH='amd64'
+2026-10-15T00:18:21.0775064Z GOAUTH='netrc'
+2026-10-15T00:18:21.0775416Z GOBIN='/home/runner/go/bin'
+2026-10-15T00:18:21.0775975Z GOCACHE='/home/runner/.cache/go-build'
+2026-10-15T00:18:21.0776299Z GOCACHEPROG=''
+2026-10-15T00:18:21.0776508Z GODEBUG=''
+2026-10-15T00:18:21.0776738Z GOENV='/home/runner/.config/go/env'
+2026-10-15T00:18:21.0777001Z GOEXE=''
+2026-10-15T00:18:21.0777517Z GOEXPERIMENT=''
+2026-10-15T00:18:21.0777726Z GOFIPS140='off'
+2026-10-15T00:18:21.0777923Z GOFLAGS=''
+2026-10-15T00:18:21.0778592Z GOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build1412178119=/tmp/go-build -gno-record-gcc-switches'
+2026-10-15T00:18:21.0779260Z GOHOSTARCH='amd64'
+2026-10-15T00:18:21.0779469Z GOHOSTOS='linux'
+2026-10-15T00:18:21.0779673Z GOINSECURE=''
+2026-10-15T00:18:21.0779872Z GOMOD='/dev/null'
+2026-10-15T00:18:21.0780112Z GOMODCACHE='/home/runner/go/pkg/mod'
+2026-10-15T00:18:21.0780379Z GONOPROXY=''
+2026-10-15T00:18:21.0780581Z GONOSUMDB=''
+2026-10-15T00:18:21.0780768Z GOOS='linux'
+2026-10-15T00:18:21.0780969Z GOPACKAGESDRIVER=''
+2026-10-15T00:18:21.0781206Z GOPATH='/home/runner/go'
+2026-10-15T00:18:21.0781478Z GOPRIVATE=''
+2026-10-15T00:18:21.0781737Z GOPROXY='https://proxy.golang.org,direct'
+2026-10-15T00:18:21.0782365Z GOROOT='/opt/hostedtoolcache/go/1.27.2/x64'
+2026-10-15T00:18:21.0782675Z GOSUMDB='sum.golang.org'
+2026-10-15T00:18:21.0782905Z GOTELEMETRY='local'
+2026-10-15T00:18:21.0783170Z GOTELEMETRYDIR='/home/runner/.config/go/telemetry'
+2026-10-15T00:18:21.0783471Z GOTMPDIR=''
+2026-10-15T00:18:21.0783664Z GOTOOLCHAIN='auto'
+2026-10-15T00:18:21.0783976Z GOTOOLDIR='/opt/hostedtoolcache/go/1.27.2/x64/pkg/tool/linux_amd64'
+2026-10-15T00:18:21.0784324Z GOVCS=''
+2026-10-15T00:18:21.0784515Z GOVERSION='go1.27.2'
+2026-10-15T00:18:21.0784719Z GOWORK=''
+2026-10-15T00:18:21.0784916Z PKG_CONFIG='pkg-config'
+2026-10-15T00:18:21.0785061Z 
+2026-10-15T00:18:21.0785441Z ##[endgroup]
+2026-10-15T00:18:21.1010415Z ##[group]Run python3 lean/comparator/fetch-cache.py
+2026-10-15T00:18:21.1010847Z [36;1mpython3 lean/comparator/fetch-cache.py[0m
+2026-10-15T00:18:21.1070179Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:18:21.1070793Z ##[endgroup]
+2026-10-15T00:18:26.7798132Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T00:18:27.5569434Z info: downloading https://releases.lean-lang.org/lean4/v4.33.1/lean-4.33.1-linux.tar.zst
+2026-10-15T00:18:33.2808876Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.33.1
+2026-10-15T00:18:40.3192553Z info: mathlib: cloning https://github.com/leanprover-community/mathlib4
+2026-10-15T00:19:13.1703969Z info: mathlib: checking out revision '0df444a360eaa60ab8c11dca51a86af692955474'
+2026-10-15T00:19:15.2648379Z info: plausible: cloning https://github.com/leanprover-community/plausible
+2026-10-15T00:19:15.8715928Z info: plausible: checking out revision 'b7eb3304aeae834b12dda98993a37f6a41f6f0bb'
+2026-10-15T00:19:15.8843481Z info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+2026-10-15T00:19:16.4111765Z info: LeanSearchClient: checking out revision '5f4d51b81cbd3f6b32b156bfad9056621a040404'
+2026-10-15T00:19:16.4231785Z info: importGraph: cloning https://github.com/leanprover-community/import-graph
+2026-10-15T00:19:17.1695240Z info: importGraph: checking out revision '16f02aa7642864af59f1ff0e384a015994db9118'
+2026-10-15T00:19:17.1868578Z info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+2026-10-15T00:19:18.4555752Z info: proofwidgets: checking out revision '4be2e3d5087eeb272cf5a8853b8f9dd025ef5957'
+2026-10-15T00:19:19.1392188Z info: aesop: cloning https://github.com/leanprover-community/aesop
+2026-10-15T00:19:20.3709702Z info: aesop: checking out revision '3448c0bcc5ce01b2d1546e483ec3620e32df3d0e'
+2026-10-15T00:19:20.3896185Z info: Qq: cloning https://github.com/leanprover-community/quote4
+2026-10-15T00:19:20.9927614Z info: Qq: checking out revision '92c15be17b7caf78c2ad767ec40f89052d908d81'
+2026-10-15T00:19:21.0051302Z info: batteries: cloning https://github.com/leanprover-community/batteries
+2026-10-15T00:19:25.5466021Z info: batteries: checking out revision '4488d40d070b9700d4d5a6aa342f0d40c31b2a2d'
+2026-10-15T00:19:25.5840882Z info: Cli: cloning https://github.com/leanprover/lean4-cli
+2026-10-15T00:19:26.1304749Z info: Cli: checking out revision '6130a47896ce867c6a4a55373441e59e565bad0f'
+2026-10-15T00:19:26.8481619Z ✔ [2/13] Built Cache.Cli (323ms)
+2026-10-15T00:19:26.8483125Z ✔ [3/13] Built Cache.Lean (366ms)
+2026-10-15T00:19:27.1476376Z ✔ [7/27] Built Cache.Cli:c.o (228ms)
+2026-10-15T00:19:27.1477339Z ✔ [8/27] Built Cache.Lean:c.o (249ms)
+2026-10-15T00:19:27.3481157Z ✔ [9/27] Built Cache.Infra (465ms)
+2026-10-15T00:19:27.6474174Z ✔ [10/27] Built Cache.Infra:c.o (246ms)
+2026-10-15T00:19:27.8476533Z ✔ [11/27] Built Batteries.Tactic.OpenPrivate (962ms)
+2026-10-15T00:19:29.2499843Z ✔ [12/27] Built Batteries.Tactic.OpenPrivate:c.o (1.4s)
+2026-10-15T00:19:29.3501317Z ✔ [13/27] Built Cache.IO (1.5s)
+2026-10-15T00:19:30.1519701Z ✔ [14/27] Built Cache.Hashing (767ms)
+2026-10-15T00:19:30.8533825Z ✔ [15/27] Built Cache.Hashing:c.o (735ms)
+2026-10-15T00:19:31.3537740Z ✔ [16/27] Built Cache.IO:c.o (2.0s)
+2026-10-15T00:19:32.1548697Z ✔ [17/27] Built Cache.Requests (2.1s)
+2026-10-15T00:19:32.7546838Z ✔ [18/27] Built Cache.Marker (564ms)
+2026-10-15T00:19:32.9549517Z ✔ [19/27] Built Cache.Marker:c.o (191ms)
+2026-10-15T00:19:33.4555775Z ✔ [20/27] Built Cache.Query (762ms)
+2026-10-15T00:19:33.9562758Z ✔ [21/27] Built Cache.Query:c.o (486ms)
+2026-10-15T00:19:34.3567842Z ✔ [22/27] Built Cache.Warning (879ms)
+2026-10-15T00:19:34.7571957Z ✔ [23/27] Built Cache.Warning:c.o (431ms)
+2026-10-15T00:19:35.2578261Z ✔ [24/27] Built Cache.Requests:c.o (3.1s)
+2026-10-15T00:19:35.6581995Z ✔ [25/27] Built Cache.Main (1.3s)
+2026-10-15T00:19:36.6594025Z ✔ [26/27] Built Cache.Main:c.o (1.0s)
+2026-10-15T00:19:37.4631820Z ✔ [27/27] Built cache:exe (743ms)
+2026-10-15T00:19:40.1815080Z Current branch: HEAD
+2026-10-15T00:19:40.1815707Z Using cache from origin: (some leanprover-community/mathlib4)
+2026-10-15T00:19:40.1817267Z Attempting to download 3245 file(s) from leanprover-community/mathlib4 cache at https://lakecache.blob.core.windows.net/mathlib4-master
+2026-10-15T00:19:41.4426350Z 
+2026-10-15T00:19:41.5421736Z Downloaded: 1 file(s) [attempted 1/3245 = 0%, 23 KB/s], Decompressed: 0
+2026-10-15T00:19:41.6440804Z Downloaded: 73 file(s) [attempted 73/3245 = 2%, 253 KB/s], Decompressed: 13
+2026-10-15T00:19:41.7443599Z Downloaded: 157 file(s) [attempted 157/3245 = 4%, 1807 KB/s], Decompressed: 35
+2026-10-15T00:19:41.8474898Z Downloaded: 234 file(s) [attempted 234/3245 = 7%, 144 KB/s], Decompressed: 89
+2026-10-15T00:19:41.9476878Z Downloaded: 321 file(s) [attempted 321/3245 = 9%, 1730 KB/s], Decompressed: 89
+2026-10-15T00:19:42.0473502Z Downloaded: 409 file(s) [attempted 409/3245 = 12%, 359 KB/s], Decompressed: 89
+2026-10-15T00:19:42.1486989Z Downloaded: 507 file(s) [attempted 507/3245 = 15%, 581 KB/s], Decompressed: 89
+2026-10-15T00:19:42.2578534Z Downloaded: 603 file(s) [attempted 603/3245 = 18%, 1756 KB/s], Decompressed: 89
+2026-10-15T00:19:42.3558110Z Downloaded: 698 file(s) [attempted 698/3245 = 21%, 228 KB/s], Decompressed: 222
+2026-10-15T00:19:42.4575577Z Downloaded: 803 file(s) [attempted 803/3245 = 24%, 611 KB/s], Decompressed: 222
+2026-10-15T00:19:42.5611825Z Downloaded: 908 file(s) [attempted 908/3245 = 27%, 359 KB/s], Decompressed: 222
+2026-10-15T00:19:42.6698459Z Downloaded: 1006 file(s) [attempted 1006/3245 = 31%, 237 KB/s], Decompressed: 222
+2026-10-15T00:19:42.7701195Z Downloaded: 1078 file(s) [attempted 1078/3245 = 33%, 144 KB/s], Decompressed: 222
+2026-10-15T00:19:42.8710144Z Downloaded: 1172 file(s) [attempted 1172/3245 = 36%, 1004 KB/s], Decompressed: 222
+2026-10-15T00:19:42.9704724Z Downloaded: 1274 file(s) [attempted 1274/3245 = 39%, 325 KB/s], Decompressed: 222
+2026-10-15T00:19:43.0718585Z Downloaded: 1370 file(s) [attempted 1370/3245 = 42%, 1390 KB/s], Decompressed: 222
+2026-10-15T00:19:43.1705517Z Downloaded: 1443 file(s) [attempted 1443/3245 = 44%, 1360 KB/s], Decompressed: 222
+2026-10-15T00:19:43.2707962Z Downloaded: 1530 file(s) [attempted 1530/3245 = 47%, 928 KB/s], Decompressed: 222
+2026-10-15T00:19:43.3718867Z Downloaded: 1621 file(s) [attempted 1621/3245 = 49%, 2268 KB/s], Decompressed: 222
+2026-10-15T00:19:43.4784266Z Downloaded: 1681 file(s) [attempted 1681/3245 = 51%, 1807 KB/s], Decompressed: 222
+2026-10-15T00:19:43.5819754Z Downloaded: 1780 file(s) [attempted 1780/3245 = 54%, 133 KB/s], Decompressed: 222
+2026-10-15T00:19:43.6888946Z Downloaded: 1884 file(s) [attempted 1884/3245 = 58%, 204 KB/s], Decompressed: 638
+2026-10-15T00:19:43.8016608Z Downloaded: 1989 file(s) [attempted 1989/3245 = 61%, 2802 KB/s], Decompressed: 638
+2026-10-15T00:19:43.9035563Z Downloaded: 2092 file(s) [attempted 2092/3245 = 64%, 147 KB/s], Decompressed: 638
+2026-10-15T00:19:44.0055420Z Downloaded: 2190 file(s) [attempted 2190/3245 = 67%, 6130 KB/s], Decompressed: 638
+2026-10-15T00:19:44.1177831Z Downloaded: 2271 file(s) [attempted 2271/3245 = 69%, 4104 KB/s], Decompressed: 638
+2026-10-15T00:19:44.2238623Z Downloaded: 2371 file(s) [attempted 2371/3245 = 73%, 654 KB/s], Decompressed: 638
+2026-10-15T00:19:44.3288976Z Downloaded: 2469 file(s) [attempted 2469/3245 = 76%, 401 KB/s], Decompressed: 638
+2026-10-15T00:19:44.4340871Z Downloaded: 2534 file(s) [attempted 2534/3245 = 78%, 964 KB/s], Decompressed: 638
+2026-10-15T00:19:44.5425734Z Downloaded: 2632 file(s) [attempted 2632/3245 = 81%, 155 KB/s], Decompressed: 638
+2026-10-15T00:19:44.6457635Z Downloaded: 2732 file(s) [attempted 2732/3245 = 84%, 247 KB/s], Decompressed: 638
+2026-10-15T00:19:44.7687031Z Downloaded: 2798 file(s) [attempted 2798/3245 = 86%, 3403 KB/s], Decompressed: 638
+2026-10-15T00:19:44.8687655Z Downloaded: 2895 file(s) [attempted 2895/3245 = 89%, 1104 KB/s], Decompressed: 638
+2026-10-15T00:19:44.9689766Z Downloaded: 2993 file(s) [attempted 2993/3245 = 92%, 285 KB/s], Decompressed: 638
+2026-10-15T00:19:45.0827331Z Downloaded: 3066 file(s) [attempted 3066/3245 = 94%, 1513 KB/s], Decompressed: 638
+2026-10-15T00:19:45.2421714Z Downloaded: 3149 file(s) [attempted 3149/3245 = 97%, 2661 KB/s], Decompressed: 638
+2026-10-15T00:19:45.2492385Z Downloaded: 3245 file(s) [attempted 3245/3245 = 100%, 4340 KB/s], Decompressed: 638
+2026-10-15T00:19:45.2493711Z Downloaded: 3245 file(s) [attempted 3245/3245 = 100%, 4340 KB/s], Decompressed: 638
+2026-10-15T00:19:52.1226755Z Decompressed 3245 file(s)
+2026-10-15T00:19:52.1227519Z Already decompressed 3245 file(s)
+2026-10-15T00:19:52.1884700Z ##[group]Run lake build Challenge
+2026-10-15T00:19:52.1885037Z [36;1mlake build Challenge[0m
+2026-10-15T00:19:52.1885349Z [36;1mmkdir -p "$RUNNER_TEMP/kalai-trusted-challenge"[0m
+2026-10-15T00:19:52.1885974Z [36;1mfind .lake/build -type f -name 'Challenge.*' -print0 | tar --null -T - -cf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"[0m
+2026-10-15T00:19:52.1944742Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:19:52.1945083Z ##[endgroup]
+2026-10-15T00:19:55.2979773Z ⚠ [2379/2380] Built Challenge (1.7s)
+2026-10-15T00:19:55.2980355Z warning: Challenge.lean:9:8: declaration uses `sorry`
+2026-10-15T00:19:55.3088147Z Build completed successfully (2380 jobs).
+2026-10-15T00:19:55.3548655Z ##[group]Run bash lean/comparator/install-tools.sh
+2026-10-15T00:19:55.3549068Z [36;1mbash lean/comparator/install-tools.sh[0m
+2026-10-15T00:19:55.3606604Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:19:55.3606948Z env:
+2026-10-15T00:19:55.3607489Z   COMPARATOR_TOOLS: /home/runner/work/_temp/kalai-comparator-tools
+2026-10-15T00:19:55.3607847Z ##[endgroup]
+2026-10-15T00:19:56.2840719Z go: downloading github.com/urfave/cli/v3 v3.6.2
+2026-10-15T00:19:56.2873656Z go: downloading github.com/landlock-lsm/go-landlock v0.9.0
+2026-10-15T00:19:56.3817497Z go: downloading golang.org/x/sys v0.40.0
+2026-10-15T00:19:56.3818744Z go: downloading kernel.org/pub/linux/libs/security/libcap/psx v1.2.77
+2026-10-15T00:20:07.2255285Z info: lean4export: cloning https://github.com/leanprover/lean4export
+2026-10-15T00:20:08.3863501Z info: lean4export: checking out revision '15f6055e299ad5b89345e533cc2192f4cc00f659'
+2026-10-15T00:20:08.6920497Z ✔ [2/16] Built Comparator.Util (264ms)
+2026-10-15T00:20:08.7921404Z ✔ [5/16] Built Comparator.Util:c.o (135ms)
+2026-10-15T00:20:10.0935107Z ✔ [6/16] Built Export.Parse (1.4s)
+2026-10-15T00:20:10.5941085Z ✔ [7/16] Built Comparator.Axioms (489ms)
+2026-10-15T00:20:11.0978733Z ✔ [8/16] Built Comparator.Axioms:c.o (513ms)
+2026-10-15T00:20:11.3963319Z ✔ [9/16] Built Comparator.Compare (758ms)
+2026-10-15T00:20:11.8008434Z ✔ [10/16] Built Comparator (438ms)
+2026-10-15T00:20:11.8981346Z ✔ [11/16] Built Comparator.Compare:c.o (494ms)
+2026-10-15T00:20:11.8982292Z ✔ [12/16] Built Comparator:c.o (111ms)
+2026-10-15T00:20:13.2996685Z ✔ [13/16] Built Main (1.5s)
+2026-10-15T00:20:14.0004765Z ✔ [14/16] Built Main:c.o (741ms)
+2026-10-15T00:20:14.3007965Z ✔ [15/16] Built Export.Parse:c.o (4.2s)
+2026-10-15T00:20:15.0022539Z ✔ [16/16] Built comparator:exe (704ms)
+2026-10-15T00:20:15.0029095Z Build completed successfully (16 jobs).
+2026-10-15T00:20:17.1493011Z ✔ [2/6] Built Export (2.1s)
+2026-10-15T00:20:18.0503110Z ✔ [3/6] Built Main (845ms)
+2026-10-15T00:20:18.2505040Z ✔ [4/6] Built Main:c.o (215ms)
+2026-10-15T00:20:19.9515500Z ✔ [5/6] Built Export:c.o (2.7s)
+2026-10-15T00:20:20.8532427Z ✔ [6/6] Built lean4export:exe (935ms)
+2026-10-15T00:20:20.8537660Z Build completed successfully (6 jobs).
+2026-10-15T00:20:22.0187269Z ##[group]Run actions/cache/restore@v4
+2026-10-15T00:20:22.0187580Z with:
+2026-10-15T00:20:22.0187791Z   path: lean/.lake/build
+2026-10-15T00:20:22.0188131Z   key: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1
+2026-10-15T00:20:22.0188538Z   fail-on-cache-miss: true
+2026-10-15T00:20:22.0188783Z   enableCrossOsArchive: false
+2026-10-15T00:20:22.0189027Z   lookup-only: false
+2026-10-15T00:20:22.0189232Z ##[endgroup]
+2026-10-15T00:20:22.1334655Z (node:4722) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-15T00:20:22.1335674Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-15T00:20:22.3442591Z Cache hit for: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1
+2026-10-15T00:20:22.3551016Z (node:4722) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-15T00:20:23.5663736Z Received 41943040 of 121871367 (34.4%), 40.0 MBs/sec
+2026-10-15T00:20:24.1678014Z Received 121871367 of 121871367 (100.0%), 72.6 MBs/sec
+2026-10-15T00:20:24.1680912Z Cache Size: ~116 MB (121871367 B)
+2026-10-15T00:20:24.1811488Z [command]/usr/bin/tar -xf /home/runner/work/_temp/62df70c7-1b8b-437e-9758-5cb8c2fc66ed/cache.tzst -P -C /home/runner/work/kalai-three-pow-five/kalai-three-pow-five --use-compress-program unzstd
+2026-10-15T00:20:24.7828389Z Cache restored successfully
+2026-10-15T00:20:24.7968630Z Cache restored from key: kalai-38bc3bb25949bc33de05bbd169a6012aa0b05165-38654268610-1
+2026-10-15T00:20:24.8263389Z ##[group]Run tar -xf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"
+2026-10-15T00:20:24.8264072Z [36;1mtar -xf "$RUNNER_TEMP/kalai-trusted-challenge/files.tar"[0m
+2026-10-15T00:20:24.8323295Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:20:24.8323655Z ##[endgroup]
+2026-10-15T00:20:24.8791506Z ##[group]Run bash lean/comparator/run-check.sh
+2026-10-15T00:20:24.8791891Z [36;1mbash lean/comparator/run-check.sh[0m
+2026-10-15T00:20:24.8848781Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:20:24.8849125Z env:
+2026-10-15T00:20:24.8849424Z   COMPARATOR_TOOLS: /home/runner/work/_temp/kalai-comparator-tools
+2026-10-15T00:20:24.8849796Z ##[endgroup]
+2026-10-15T00:20:35.3203976Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T00:20:36.4708472Z Running as unit: run-u22.service
+2026-10-15T00:20:37.1336279Z Building Challenge
+2026-10-15T00:20:38.5485552Z ⚠ [2379/2380] Replayed Challenge
+2026-10-15T00:20:38.5486170Z warning: Challenge.lean:9:8: declaration uses `sorry`
+2026-10-15T00:20:38.5573456Z Build completed successfully (2380 jobs).
+2026-10-15T00:20:42.1636045Z Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Challenge
+2026-10-15T00:20:42.1637896Z Building FCSolution
+2026-10-15T00:20:44.0788800Z ℹ [3261/3263] Replayed KalaiFast
+2026-10-15T00:20:44.0789931Z info: KalaiFast.lean:474:0: KALAI_BLOCK_DONE count=500 inflate_ms=1050 replay_ms=2886
+2026-10-15T00:20:44.0791080Z info: KalaiFast.lean:475:0: KALAI_REPLAY_DONE 500
+2026-10-15T00:20:44.0792154Z info: KalaiFast.lean:478:0: KALAI_BLOCK_DONE count=500 inflate_ms=514 replay_ms=972
+2026-10-15T00:20:44.0793170Z info: KalaiFast.lean:479:0: KALAI_REPLAY_DONE 1000
+2026-10-15T00:20:44.0793835Z info: KalaiFast.lean:482:0: KALAI_BLOCK_DONE count=500 inflate_ms=313 replay_ms=627
+2026-10-15T00:20:44.0794484Z info: KalaiFast.lean:483:0: KALAI_REPLAY_DONE 1500
+2026-10-15T00:20:44.0795169Z info: KalaiFast.lean:486:0: KALAI_BLOCK_DONE count=500 inflate_ms=366 replay_ms=21001
+2026-10-15T00:20:44.0795828Z info: KalaiFast.lean:487:0: KALAI_REPLAY_DONE 2000
+2026-10-15T00:20:44.0796548Z info: KalaiFast.lean:490:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=27498
+2026-10-15T00:20:44.0797579Z info: KalaiFast.lean:491:0: KALAI_REPLAY_DONE 2500
+2026-10-15T00:20:44.0798420Z info: KalaiFast.lean:494:0: KALAI_BLOCK_DONE count=500 inflate_ms=140 replay_ms=12744
+2026-10-15T00:20:44.0799240Z info: KalaiFast.lean:495:0: KALAI_REPLAY_DONE 3000
+2026-10-15T00:20:44.0800373Z info: KalaiFast.lean:498:0: KALAI_BLOCK_DONE count=500 inflate_ms=156 replay_ms=23189
+2026-10-15T00:20:44.0801153Z info: KalaiFast.lean:499:0: KALAI_REPLAY_DONE 3500
+2026-10-15T00:20:44.0801828Z info: KalaiFast.lean:502:0: KALAI_BLOCK_DONE count=500 inflate_ms=134 replay_ms=17222
+2026-10-15T00:20:44.0802444Z info: KalaiFast.lean:503:0: KALAI_REPLAY_DONE 4000
+2026-10-15T00:20:44.0803047Z info: KalaiFast.lean:506:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=7906
+2026-10-15T00:20:44.0803959Z info: KalaiFast.lean:507:0: KALAI_REPLAY_DONE 4500
+2026-10-15T00:20:44.0804557Z info: KalaiFast.lean:510:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=15552
+2026-10-15T00:20:44.0805161Z info: KalaiFast.lean:511:0: KALAI_REPLAY_DONE 5000
+2026-10-15T00:20:44.0805747Z info: KalaiFast.lean:514:0: KALAI_BLOCK_DONE count=500 inflate_ms=112 replay_ms=7091
+2026-10-15T00:20:44.0806337Z info: KalaiFast.lean:515:0: KALAI_REPLAY_DONE 5500
+2026-10-15T00:20:44.0806926Z info: KalaiFast.lean:518:0: KALAI_BLOCK_DONE count=500 inflate_ms=114 replay_ms=18759
+2026-10-15T00:20:44.0827810Z info: KalaiFast.lean:519:0: KALAI_REPLAY_DONE 6000
+2026-10-15T00:20:44.0828509Z info: KalaiFast.lean:522:0: KALAI_BLOCK_DONE count=500 inflate_ms=162 replay_ms=10381
+2026-10-15T00:20:44.0829116Z info: KalaiFast.lean:523:0: KALAI_REPLAY_DONE 6500
+2026-10-15T00:20:44.0829769Z info: KalaiFast.lean:526:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20351
+2026-10-15T00:20:44.0830387Z info: KalaiFast.lean:527:0: KALAI_REPLAY_DONE 7000
+2026-10-15T00:20:44.0830975Z info: KalaiFast.lean:530:0: KALAI_BLOCK_DONE count=500 inflate_ms=132 replay_ms=9598
+2026-10-15T00:20:44.0831889Z info: KalaiFast.lean:531:0: KALAI_REPLAY_DONE 7500
+2026-10-15T00:20:44.0832498Z info: KalaiFast.lean:534:0: KALAI_BLOCK_DONE count=500 inflate_ms=138 replay_ms=17508
+2026-10-15T00:20:44.0833101Z info: KalaiFast.lean:535:0: KALAI_REPLAY_DONE 8000
+2026-10-15T00:20:44.0833687Z info: KalaiFast.lean:538:0: KALAI_BLOCK_DONE count=500 inflate_ms=127 replay_ms=7616
+2026-10-15T00:20:44.0834278Z info: KalaiFast.lean:539:0: KALAI_REPLAY_DONE 8500
+2026-10-15T00:20:44.0834865Z info: KalaiFast.lean:542:0: KALAI_BLOCK_DONE count=500 inflate_ms=119 replay_ms=8475
+2026-10-15T00:20:44.0835462Z info: KalaiFast.lean:543:0: KALAI_REPLAY_DONE 9000
+2026-10-15T00:20:44.0836054Z info: KalaiFast.lean:546:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20656
+2026-10-15T00:20:44.0836657Z info: KalaiFast.lean:547:0: KALAI_REPLAY_DONE 9500
+2026-10-15T00:20:44.0847493Z info: KalaiFast.lean:550:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=12042
+2026-10-15T00:20:44.0848116Z info: KalaiFast.lean:551:0: KALAI_REPLAY_DONE 10000
+2026-10-15T00:20:44.0848715Z info: KalaiFast.lean:554:0: KALAI_BLOCK_DONE count=500 inflate_ms=143 replay_ms=11279
+2026-10-15T00:20:44.0849315Z info: KalaiFast.lean:555:0: KALAI_REPLAY_DONE 10500
+2026-10-15T00:20:44.0849964Z info: KalaiFast.lean:558:0: KALAI_BLOCK_DONE count=500 inflate_ms=704 replay_ms=25038
+2026-10-15T00:20:44.0850565Z info: KalaiFast.lean:559:0: KALAI_REPLAY_DONE 11000
+2026-10-15T00:20:44.0851162Z info: KalaiFast.lean:562:0: KALAI_BLOCK_DONE count=500 inflate_ms=1781 replay_ms=5195
+2026-10-15T00:20:44.0851759Z info: KalaiFast.lean:563:0: KALAI_REPLAY_DONE 11500
+2026-10-15T00:20:44.0852348Z info: KalaiFast.lean:566:0: KALAI_BLOCK_DONE count=500 inflate_ms=1554 replay_ms=5027
+2026-10-15T00:20:44.0852948Z info: KalaiFast.lean:567:0: KALAI_REPLAY_DONE 12000
+2026-10-15T00:20:44.0853560Z info: KalaiFast.lean:570:0: KALAI_BLOCK_DONE count=500 inflate_ms=94 replay_ms=115341
+2026-10-15T00:20:44.0854158Z info: KalaiFast.lean:571:0: KALAI_REPLAY_DONE 12500
+2026-10-15T00:20:44.0854762Z info: KalaiFast.lean:574:0: KALAI_BLOCK_DONE count=500 inflate_ms=41 replay_ms=91722
+2026-10-15T00:20:44.0855356Z info: KalaiFast.lean:575:0: KALAI_REPLAY_DONE 13000
+2026-10-15T00:20:44.0855949Z info: KalaiFast.lean:578:0: KALAI_BLOCK_DONE count=500 inflate_ms=976 replay_ms=41985
+2026-10-15T00:20:44.0856547Z info: KalaiFast.lean:579:0: KALAI_REPLAY_DONE 13500
+2026-10-15T00:20:44.0857321Z info: KalaiFast.lean:582:0: KALAI_BLOCK_DONE count=500 inflate_ms=1529 replay_ms=4961
+2026-10-15T00:20:44.0857928Z info: KalaiFast.lean:583:0: KALAI_REPLAY_DONE 14000
+2026-10-15T00:20:44.0858517Z info: KalaiFast.lean:586:0: KALAI_BLOCK_DONE count=500 inflate_ms=1742 replay_ms=6141
+2026-10-15T00:20:44.0859133Z info: KalaiFast.lean:587:0: KALAI_REPLAY_DONE 14500
+2026-10-15T00:20:44.0859960Z info: KalaiFast.lean:590:0: KALAI_BLOCK_DONE count=500 inflate_ms=1327 replay_ms=66082
+2026-10-15T00:20:44.0860580Z info: KalaiFast.lean:591:0: KALAI_REPLAY_DONE 15000
+2026-10-15T00:20:44.0861187Z info: KalaiFast.lean:594:0: KALAI_BLOCK_DONE count=500 inflate_ms=783 replay_ms=119149
+2026-10-15T00:20:44.0861804Z info: KalaiFast.lean:595:0: KALAI_REPLAY_DONE 15500
+2026-10-15T00:20:44.0862392Z info: KalaiFast.lean:598:0: KALAI_BLOCK_DONE count=500 inflate_ms=488 replay_ms=786
+2026-10-15T00:20:44.0863000Z info: KalaiFast.lean:599:0: KALAI_REPLAY_DONE 16000
+2026-10-15T00:20:44.0863715Z info: KalaiFast.lean:602:0: KALAI_BLOCK_DONE count=500 inflate_ms=207 replay_ms=398
+2026-10-15T00:20:44.0864348Z info: KalaiFast.lean:603:0: KALAI_REPLAY_DONE 16500
+2026-10-15T00:20:44.0865169Z info: KalaiFast.lean:606:0: KALAI_BLOCK_DONE count=500 inflate_ms=205 replay_ms=407
+2026-10-15T00:20:44.0865651Z info: KalaiFast.lean:607:0: KALAI_REPLAY_DONE 17000
+2026-10-15T00:20:44.0866100Z info: KalaiFast.lean:610:0: KALAI_BLOCK_DONE count=500 inflate_ms=235 replay_ms=484
+2026-10-15T00:20:44.0866563Z info: KalaiFast.lean:611:0: KALAI_REPLAY_DONE 17500
+2026-10-15T00:20:44.0867009Z info: KalaiFast.lean:614:0: KALAI_BLOCK_DONE count=500 inflate_ms=218 replay_ms=410
+2026-10-15T00:20:44.0867973Z info: KalaiFast.lean:615:0: KALAI_REPLAY_DONE 18000
+2026-10-15T00:20:44.0868430Z info: KalaiFast.lean:618:0: KALAI_BLOCK_DONE count=500 inflate_ms=161 replay_ms=321
+2026-10-15T00:20:44.0868868Z info: KalaiFast.lean:619:0: KALAI_REPLAY_DONE 18500
+2026-10-15T00:20:44.0869292Z info: KalaiFast.lean:622:0: KALAI_BLOCK_DONE count=500 inflate_ms=147 replay_ms=306
+2026-10-15T00:20:44.0869719Z info: KalaiFast.lean:623:0: KALAI_REPLAY_DONE 19000
+2026-10-15T00:20:44.0870142Z info: KalaiFast.lean:626:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=263
+2026-10-15T00:20:44.0870572Z info: KalaiFast.lean:627:0: KALAI_REPLAY_DONE 19500
+2026-10-15T00:20:44.0871004Z info: KalaiFast.lean:630:0: KALAI_BLOCK_DONE count=500 inflate_ms=767 replay_ms=5143
+2026-10-15T00:20:44.0871940Z info: KalaiFast.lean:631:0: KALAI_REPLAY_DONE 20000
+2026-10-15T00:20:44.0872787Z info: KalaiFast.lean:634:0: KALAI_BLOCK_DONE count=500 inflate_ms=81 replay_ms=17473
+2026-10-15T00:20:44.0873865Z info: KalaiFast.lean:635:0: KALAI_REPLAY_DONE 20500
+2026-10-15T00:20:44.0874443Z info: KalaiFast.lean:638:0: KALAI_BLOCK_DONE count=500 inflate_ms=93 replay_ms=18522
+2026-10-15T00:20:44.0875165Z info: KalaiFast.lean:639:0: KALAI_REPLAY_DONE 21000
+2026-10-15T00:20:44.0875702Z info: KalaiFast.lean:642:0: KALAI_BLOCK_DONE count=500 inflate_ms=105 replay_ms=19627
+2026-10-15T00:20:44.0876275Z info: KalaiFast.lean:643:0: KALAI_REPLAY_DONE 21500
+2026-10-15T00:20:44.0876863Z info: KalaiFast.lean:646:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=17640
+2026-10-15T00:20:44.0877733Z info: KalaiFast.lean:647:0: KALAI_REPLAY_DONE 22000
+2026-10-15T00:20:44.0878349Z info: KalaiFast.lean:650:0: KALAI_BLOCK_DONE count=500 inflate_ms=49 replay_ms=24757
+2026-10-15T00:20:44.0878890Z info: KalaiFast.lean:651:0: KALAI_REPLAY_DONE 22500
+2026-10-15T00:20:44.0890098Z info: KalaiFast.lean:654:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=22967
+2026-10-15T00:20:44.0890940Z info: KalaiFast.lean:655:0: KALAI_REPLAY_DONE 23000
+2026-10-15T00:20:44.0891719Z info: KalaiFast.lean:658:0: KALAI_BLOCK_DONE count=500 inflate_ms=52 replay_ms=26180
+2026-10-15T00:20:44.0892489Z info: KalaiFast.lean:659:0: KALAI_REPLAY_DONE 23500
+2026-10-15T00:20:44.0893259Z info: KalaiFast.lean:662:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=50574
+2026-10-15T00:20:44.0894047Z info: KalaiFast.lean:663:0: KALAI_REPLAY_DONE 24000
+2026-10-15T00:20:44.0894835Z info: KalaiFast.lean:666:0: KALAI_BLOCK_DONE count=500 inflate_ms=47 replay_ms=46074
+2026-10-15T00:20:44.0895673Z info: KalaiFast.lean:667:0: KALAI_REPLAY_DONE 24500
+2026-10-15T00:20:44.0896504Z info: KalaiFast.lean:670:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=57167
+2026-10-15T00:20:44.0897619Z info: KalaiFast.lean:671:0: KALAI_REPLAY_DONE 25000
+2026-10-15T00:20:44.0898466Z info: KalaiFast.lean:674:0: KALAI_BLOCK_DONE count=500 inflate_ms=46 replay_ms=58670
+2026-10-15T00:20:44.0899656Z info: KalaiFast.lean:675:0: KALAI_REPLAY_DONE 25500
+2026-10-15T00:20:44.0900519Z info: KalaiFast.lean:678:0: KALAI_BLOCK_DONE count=500 inflate_ms=39 replay_ms=48289
+2026-10-15T00:20:44.0901396Z info: KalaiFast.lean:679:0: KALAI_REPLAY_DONE 26000
+2026-10-15T00:20:44.0902299Z info: KalaiFast.lean:682:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=53664
+2026-10-15T00:20:44.0903160Z info: KalaiFast.lean:683:0: KALAI_REPLAY_DONE 26500
+2026-10-15T00:20:44.0903951Z info: KalaiFast.lean:686:0: KALAI_BLOCK_DONE count=500 inflate_ms=67 replay_ms=50860
+2026-10-15T00:20:44.0904770Z info: KalaiFast.lean:687:0: KALAI_REPLAY_DONE 27000
+2026-10-15T00:20:44.0905575Z info: KalaiFast.lean:690:0: KALAI_BLOCK_DONE count=500 inflate_ms=64 replay_ms=48205
+2026-10-15T00:20:44.0906420Z info: KalaiFast.lean:691:0: KALAI_REPLAY_DONE 27500
+2026-10-15T00:20:44.0907508Z info: KalaiFast.lean:694:0: KALAI_BLOCK_DONE count=500 inflate_ms=60 replay_ms=40019
+2026-10-15T00:20:44.0908352Z info: KalaiFast.lean:695:0: KALAI_REPLAY_DONE 28000
+2026-10-15T00:20:44.0909160Z info: KalaiFast.lean:698:0: KALAI_BLOCK_DONE count=500 inflate_ms=54 replay_ms=58754
+2026-10-15T00:20:44.0910255Z info: KalaiFast.lean:699:0: KALAI_REPLAY_DONE 28500
+2026-10-15T00:20:44.0911105Z info: KalaiFast.lean:702:0: KALAI_BLOCK_DONE count=500 inflate_ms=43 replay_ms=150106
+2026-10-15T00:20:44.0911964Z info: KalaiFast.lean:703:0: KALAI_REPLAY_DONE 29000
+2026-10-15T00:20:44.0912794Z info: KalaiFast.lean:706:0: KALAI_BLOCK_DONE count=500 inflate_ms=42 replay_ms=112863
+2026-10-15T00:20:44.0913591Z info: KalaiFast.lean:707:0: KALAI_REPLAY_DONE 29500
+2026-10-15T00:20:44.0914417Z info: KalaiFast.lean:710:0: KALAI_BLOCK_DONE count=500 inflate_ms=266 replay_ms=85443
+2026-10-15T00:20:44.0915263Z info: KalaiFast.lean:711:0: KALAI_REPLAY_DONE 30000
+2026-10-15T00:20:44.0916088Z info: KalaiFast.lean:714:0: KALAI_BLOCK_DONE count=500 inflate_ms=792 replay_ms=110624
+2026-10-15T00:20:44.0916962Z info: KalaiFast.lean:715:0: KALAI_REPLAY_DONE 30500
+2026-10-15T00:20:44.0918051Z info: KalaiFast.lean:718:0: KALAI_BLOCK_DONE count=500 inflate_ms=1459 replay_ms=8663
+2026-10-15T00:20:44.0918903Z info: KalaiFast.lean:719:0: KALAI_REPLAY_DONE 31000
+2026-10-15T00:20:44.0919729Z info: KalaiFast.lean:722:0: KALAI_BLOCK_DONE count=500 inflate_ms=1022 replay_ms=7841
+2026-10-15T00:20:44.0920551Z info: KalaiFast.lean:723:0: KALAI_REPLAY_DONE 31500
+2026-10-15T00:20:44.0921408Z info: KalaiFast.lean:726:0: KALAI_BLOCK_DONE count=500 inflate_ms=1767 replay_ms=11236
+2026-10-15T00:20:44.0922302Z info: KalaiFast.lean:727:0: KALAI_REPLAY_DONE 32000
+2026-10-15T00:20:44.0923184Z info: KalaiFast.lean:730:0: KALAI_BLOCK_DONE count=500 inflate_ms=1965 replay_ms=38692
+2026-10-15T00:20:44.0924092Z info: KalaiFast.lean:731:0: KALAI_REPLAY_DONE 32500
+2026-10-15T00:20:44.0924956Z info: KalaiFast.lean:734:0: KALAI_BLOCK_DONE count=500 inflate_ms=2025 replay_ms=16950
+2026-10-15T00:20:44.0925838Z info: KalaiFast.lean:735:0: KALAI_REPLAY_DONE 33000
+2026-10-15T00:20:44.0926739Z info: KalaiFast.lean:738:0: KALAI_BLOCK_DONE count=500 inflate_ms=1865 replay_ms=16371
+2026-10-15T00:20:44.0927902Z info: KalaiFast.lean:739:0: KALAI_REPLAY_DONE 33500
+2026-10-15T00:20:44.0928807Z info: KalaiFast.lean:742:0: KALAI_BLOCK_DONE count=500 inflate_ms=1924 replay_ms=12954
+2026-10-15T00:20:44.0929552Z info: KalaiFast.lean:743:0: KALAI_REPLAY_DONE 34000
+2026-10-15T00:20:44.0930037Z info: KalaiFast.lean:746:0: KALAI_BLOCK_DONE count=500 inflate_ms=1926 replay_ms=7706
+2026-10-15T00:20:44.0930518Z info: KalaiFast.lean:747:0: KALAI_REPLAY_DONE 34500
+2026-10-15T00:20:44.0930972Z info: KalaiFast.lean:750:0: KALAI_BLOCK_DONE count=500 inflate_ms=1247 replay_ms=3871
+2026-10-15T00:20:44.0931422Z info: KalaiFast.lean:751:0: KALAI_REPLAY_DONE 35000
+2026-10-15T00:20:44.0931869Z info: KalaiFast.lean:754:0: KALAI_BLOCK_DONE count=500 inflate_ms=1642 replay_ms=4977
+2026-10-15T00:20:44.0932314Z info: KalaiFast.lean:755:0: KALAI_REPLAY_DONE 35500
+2026-10-15T00:20:44.0933607Z info: KalaiFast.lean:758:0: KALAI_BLOCK_DONE count=500 inflate_ms=1719 replay_ms=107060
+2026-10-15T00:20:44.0934370Z info: KalaiFast.lean:759:0: KALAI_REPLAY_DONE 36000
+2026-10-15T00:20:44.0934855Z info: KalaiFast.lean:762:0: KALAI_BLOCK_DONE count=500 inflate_ms=1429 replay_ms=128814
+2026-10-15T00:20:44.0935391Z info: KalaiFast.lean:763:0: KALAI_REPLAY_DONE 36500
+2026-10-15T00:20:44.0935857Z info: KalaiFast.lean:766:0: KALAI_BLOCK_DONE count=500 inflate_ms=1684 replay_ms=80943
+2026-10-15T00:20:44.0936341Z info: KalaiFast.lean:767:0: KALAI_REPLAY_DONE 37000
+2026-10-15T00:20:44.0936826Z info: KalaiFast.lean:770:0: KALAI_BLOCK_DONE count=500 inflate_ms=1154 replay_ms=11007
+2026-10-15T00:20:44.0937659Z info: KalaiFast.lean:771:0: KALAI_REPLAY_DONE 37500
+2026-10-15T00:20:44.0938393Z info: KalaiFast.lean:774:0: KALAI_BLOCK_DONE count=500 inflate_ms=836 replay_ms=67441
+2026-10-15T00:20:44.0939243Z info: KalaiFast.lean:775:0: KALAI_REPLAY_DONE 38000
+2026-10-15T00:20:44.0940046Z info: KalaiFast.lean:778:0: KALAI_BLOCK_DONE count=500 inflate_ms=1333 replay_ms=8703
+2026-10-15T00:20:44.0940543Z info: KalaiFast.lean:779:0: KALAI_REPLAY_DONE 38500
+2026-10-15T00:20:44.0941392Z info: KalaiFast.lean:782:0: KALAI_BLOCK_DONE count=500 inflate_ms=2701 replay_ms=18011
+2026-10-15T00:20:44.0941926Z info: KalaiFast.lean:783:0: KALAI_REPLAY_DONE 39000
+2026-10-15T00:20:44.0942392Z info: KalaiFast.lean:786:0: KALAI_BLOCK_DONE count=500 inflate_ms=2328 replay_ms=12412
+2026-10-15T00:20:44.0942856Z info: KalaiFast.lean:787:0: KALAI_REPLAY_DONE 39500
+2026-10-15T00:20:44.0943303Z info: KalaiFast.lean:790:0: KALAI_BLOCK_DONE count=500 inflate_ms=1479 replay_ms=11359
+2026-10-15T00:20:44.0943754Z info: KalaiFast.lean:791:0: KALAI_REPLAY_DONE 40000
+2026-10-15T00:20:44.0944214Z info: KalaiFast.lean:794:0: KALAI_BLOCK_DONE count=500 inflate_ms=1624 replay_ms=11456
+2026-10-15T00:20:44.0944660Z info: KalaiFast.lean:795:0: KALAI_REPLAY_DONE 40500
+2026-10-15T00:20:44.0945099Z info: KalaiFast.lean:798:0: KALAI_BLOCK_DONE count=500 inflate_ms=1647 replay_ms=12494
+2026-10-15T00:20:44.0945555Z info: KalaiFast.lean:799:0: KALAI_REPLAY_DONE 41000
+2026-10-15T00:20:44.0946007Z info: KalaiFast.lean:802:0: KALAI_BLOCK_DONE count=500 inflate_ms=1462 replay_ms=10157
+2026-10-15T00:20:44.0946459Z info: KalaiFast.lean:803:0: KALAI_REPLAY_DONE 41500
+2026-10-15T00:20:44.0946899Z info: KalaiFast.lean:806:0: KALAI_BLOCK_DONE count=500 inflate_ms=1640 replay_ms=10696
+2026-10-15T00:20:44.0947721Z info: KalaiFast.lean:807:0: KALAI_REPLAY_DONE 42000
+2026-10-15T00:20:44.0948168Z info: KalaiFast.lean:810:0: KALAI_BLOCK_DONE count=500 inflate_ms=1563 replay_ms=10634
+2026-10-15T00:20:44.0948612Z info: KalaiFast.lean:811:0: KALAI_REPLAY_DONE 42500
+2026-10-15T00:20:44.0949044Z info: KalaiFast.lean:814:0: KALAI_BLOCK_DONE count=160 inflate_ms=516 replay_ms=2670
+2026-10-15T00:20:44.0949485Z info: KalaiFast.lean:815:0: KALAI_REPLAY_DONE 42660
+2026-10-15T00:20:44.0950042Z info: KalaiFast.lean:845:0: 'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T00:20:44.0950593Z Build completed successfully (3263 jobs).
+2026-10-15T01:20:23.6195937Z Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from FCSolution
+2026-10-15T01:20:23.6197552Z Running Lean default kernel on solution.
+2026-10-15T01:20:23.6197920Z Lean default kernel accepts the solution
+2026-10-15T01:20:23.6198236Z Your solution is okay!
+2026-10-15T01:20:23.7729343Z Finished with result: success
+2026-10-15T01:20:23.7729993Z Main processes terminated with: code=exited/status=0
+2026-10-15T01:20:23.7730577Z Service runtime: 59min 47.287s
+2026-10-15T01:20:23.7731061Z CPU time consumed: 59min 51.712s
+2026-10-15T01:20:23.7731523Z Memory peak: 6.2M
+2026-10-15T01:20:23.7731899Z Memory swap peak: 0B
+2026-10-15T01:20:34.1515731Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T01:20:43.0782458Z 'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T01:20:43.0783276Z 'Kalai5.kalai_three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T01:20:43.2651573Z {
+2026-10-15T01:20:43.2652047Z   "status": "PASS",
+2026-10-15T01:20:43.2652455Z   "targets": {
+2026-10-15T01:20:43.2652899Z     "Kalai.three_pow_five": [
+2026-10-15T01:20:43.2653422Z       "Classical.choice",
+2026-10-15T01:20:43.2653880Z       "Quot.sound",
+2026-10-15T01:20:43.2654285Z       "propext"
+2026-10-15T01:20:43.2654629Z     ],
+2026-10-15T01:20:43.2655049Z     "Kalai5.kalai_three_pow_five": [
+2026-10-15T01:20:43.2655587Z       "Classical.choice",
+2026-10-15T01:20:43.2656042Z       "Quot.sound",
+2026-10-15T01:20:43.2656433Z       "propext"
+2026-10-15T01:20:43.2656760Z     ]
+2026-10-15T01:20:43.2657459Z   },
+2026-10-15T01:20:43.2657821Z   "sorryAx": false,
+2026-10-15T01:20:43.2658227Z   "new_axioms": false
+2026-10-15T01:20:43.2658615Z }
+2026-10-15T01:20:43.2813141Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-15T01:20:43.2813571Z with:
+2026-10-15T01:20:43.2813789Z   name: comparator-38654268610-1
+2026-10-15T01:20:43.2814061Z   path: comparator-receipt/
+2026-10-15T01:20:43.2814310Z   retention-days: 90
+2026-10-15T01:20:43.2814535Z   if-no-files-found: error
+2026-10-15T01:20:43.2814777Z   compression-level: 6
+2026-10-15T01:20:43.2814997Z   overwrite: false
+2026-10-15T01:20:43.2815226Z   include-hidden-files: false
+2026-10-15T01:20:43.2815469Z ##[endgroup]
+2026-10-15T01:20:43.6183753Z (node:5623) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-15T01:20:43.6185108Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-15T01:20:43.6279305Z With the provided path, there will be 16 files uploaded
+2026-10-15T01:20:43.6285130Z Artifact name is valid!
+2026-10-15T01:20:43.6286538Z Root directory input is valid!
+2026-10-15T01:20:43.9812572Z Beginning upload of artifact content to blob storage
+2026-10-15T01:20:44.0278813Z (node:5623) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-15T01:20:44.3089686Z Uploaded bytes 13684
+2026-10-15T01:20:44.3750645Z Finished uploading artifact content to blob storage!
+2026-10-15T01:20:44.3751592Z SHA256 digest of uploaded artifact zip is 3ef8f959fd5434c78764d20b2de5d8aa9f5a66697adb3da25d4e455d47b91d97
+2026-10-15T01:20:44.3758087Z Finalizing artifact upload
+2026-10-15T01:20:44.6399258Z Artifact comparator-38654268610-1.zip successfully finalized. Artifact ID 11940142835
+2026-10-15T01:20:44.6400745Z Artifact comparator-38654268610-1 has been successfully uploaded! Final size is 13684 bytes. Artifact ID is 11940142835
+2026-10-15T01:20:44.6407292Z Artifact download URL: https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/artifacts/11940142835
+2026-10-15T01:20:44.6584380Z Post job cleanup.
+2026-10-15T01:20:44.7854328Z (node:5635) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-15T01:20:44.7855664Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-15T01:20:44.7936254Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOMODCACHE
+2026-10-15T01:20:44.7978881Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOCACHE
+2026-10-15T01:20:44.8006256Z /home/runner/go/pkg/mod
+2026-10-15T01:20:44.8036721Z /home/runner/.cache/go-build
+2026-10-15T01:20:44.8041472Z Primary key was not generated. Please check the log messages above for more errors or information
+2026-10-15T01:20:44.8175926Z Post job cleanup.
+2026-10-15T01:20:44.9106401Z [command]/usr/bin/git version
+2026-10-15T01:20:44.9148509Z git version 2.55.0
+2026-10-15T01:20:44.9189630Z Temporarily overriding HOME='/home/runner/work/_temp/dc8ab751-318c-475a-8d5f-6c4fa28be5a0' before making global git config changes
+2026-10-15T01:20:44.9190949Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-15T01:20:44.9197420Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-15T01:20:44.9242725Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-15T01:20:44.9276843Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-15T01:20:44.9533157Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-15T01:20:44.9566490Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-15T01:20:44.9793190Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-15T01:20:44.9823753Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-15T01:20:45.0184396Z Cleaning up orphan processes
+2026-10-15T01:20:45.0704594Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache/restore@v4, actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-go@v5, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -5,7 +5,7 @@
   "publication_repository": "KitaKen1/kalai-three-pow-five",
   "private_repository": "KitaKen1/ci-test-sandbox",
   "private_branch": "kalai-publication-test",
-  "fc_target_status": "Proposed local target; no accepted upstream FC file or new CI success claimed.",
+  "fc_target_status": "Proposed local target; public CI38654268610 attempt1 passed; no accepted upstream FC file claimed.",
   "targets": [
     "Kalai.three_pow_five"
   ],
@@ -33,7 +33,7 @@
     "lean/Kalai5/FormalConjectures.lean": "c78e0a8fd9ef61ed1386de3eef5eec4ec764a385da05c784c39651fdc7fcbded",
     "lean/KalaiFast.lean": "8ac2f8973c5aa526253d49e05e05115178f1fed53d9a99920730fcbceff6d90b",
     "lean/comparator.json": "937c0c044c715845ea13df70a8282b341cd134355ff546f0092e13ce0f88b683",
-    "lean/comparator/README.md": "67cfbabde822bdd3c676953f7578eed5a89e7af0f37e6b96501ea33093a45e49",
+    "lean/comparator/README.md": "722b9862f6d443d6312b59e91c2d53da1956779a576266c8ca02e971ac93947b",
     "lean/comparator/TARGET-CORRESPONDENCE.md": "d0c306bc54b5eac4c590ae8cfe36c77cb3395ac1d86c4be78dafce7a00c3d1d5",
     "lean/comparator/add-swap.sh": "917056e2edbe385b286d8df84fce387d1decdd7fc8680443b1fd13db8825e517",
     "lean/comparator/audit.py": "43f1f6d75292f019a1138e30ec70b7fd7a1f41d76677853dcf52a5777503af4a",
@@ -50,20 +50,20 @@
     "lean/comparator/proof-source-map.json": "e203c042dbb05f3bdfa03cf0cee4bbe39ffc70f160a32459a903a5ab991e7092",
     "lean/comparator/refresh-manifest.py": "a89d8ff1206a507a297ba8eb18fbc56c3dad82991d92020ef92022a20387ea5d",
     "lean/comparator/run-check.sh": "218db16038efc8503877006b79b5be4176e48f64e5c041869630740eef5f37c5",
-    "lean/fast-manifest.json": "8dabd35450433400e180058e6852a11fa54e55a84f460d99d93262a43898c950",
+    "lean/fast-manifest.json": "d5d57e032bbdbe239e577729e1760b45688042df1441e5979e4623acd04f74e9",
     "lean/lake-manifest.json": "245eeb3801298428c9f7361415017b5237e6ba300a2c31d9b58bf9cca5425af0",
     "lean/lakefile.toml": "30008b00cda58e789e6cc54f6df161bb18f175349f0879c1456a5662d20edca6",
     "lean/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
     "lean4web/lake-manifest.json": "d12e8db684d1e02defc60929c626d3814b6f4ba083825a4ba617b1facf014d77",
     "lean4web/lakefile.toml": "d3a33df6db3c1ed1263025050fa39ae653d98208819fc7e94c1118d8ce4c7b42",
     "lean4web/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
-    "lean4web/source-map.json": "8dabd35450433400e180058e6852a11fa54e55a84f460d99d93262a43898c950",
+    "lean4web/source-map.json": "d5d57e032bbdbe239e577729e1760b45688042df1441e5979e4623acd04f74e9",
     "leanWithoutComparator/lake-manifest.json": "046e7326280a81151abac32bf656d19f4a8da596da2ee7c09471ea390ccdb09a",
     "leanWithoutComparator/lakefile.toml": "a9eab5b9d891697fcc1527bf75ad413d49dce0488ba9777a4d60a74fc4ef6ba1",
     "leanWithoutComparator/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
   },
   "fc_upstream_toolchain": "leanprover/lean4:v4.33.1",
-  "fc_checkout_compatibility": "PASS: complete FC archive, Comparator and independent kernel replay in private CI38573608382 attempt1.",
+  "fc_checkout_compatibility": "PASS: complete FC archive, Comparator and independent kernel replay in public CI38654268610 attempt1.",
   "proof_source_map_sha256": "e203c042dbb05f3bdfa03cf0cee4bbe39ffc70f160a32459a903a5ab991e7092",
   "toolchain_patches": {
     "comparator": {

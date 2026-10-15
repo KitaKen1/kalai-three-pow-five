@@ -1,0 +1,201 @@
+﻿2026-10-14T23:28:18.8183504Z Current runner version: '2.337.0'
+2026-10-14T23:28:18.8211005Z ##[group]Runner Image Provisioner
+2026-10-14T23:28:18.8211896Z Hosted Compute Agent
+2026-10-14T23:28:18.8212515Z Version: 20261002.596
+2026-10-14T23:28:18.8213185Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-14T23:28:18.8214156Z Build Date: 2026-10-02T22:28:27Z
+2026-10-14T23:28:18.8214884Z Worker ID: {166480d4-a2b2-4ce4-9542-f71e52b0d1b4}
+2026-10-14T23:28:18.8215624Z Region: centralus
+2026-10-14T23:28:18.8216187Z Cloud: Azure
+2026-10-14T23:28:18.8216754Z ##[endgroup]
+2026-10-14T23:28:18.8218351Z ##[group]Operating System
+2026-10-14T23:28:18.8219028Z Ubuntu
+2026-10-14T23:28:18.8219543Z 24.04.5
+2026-10-14T23:28:18.8220127Z LTS
+2026-10-14T23:28:18.8220676Z ##[endgroup]
+2026-10-14T23:28:18.8221251Z ##[group]Runner Image
+2026-10-14T23:28:18.8221903Z Image: ubuntu-24.04
+2026-10-14T23:28:18.8222443Z Version: 20261004.327.1
+2026-10-14T23:28:18.8224091Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-14T23:28:18.8226238Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-14T23:28:18.8227264Z ##[endgroup]
+2026-10-14T23:28:18.8228355Z ##[group]GITHUB_TOKEN Permissions
+2026-10-14T23:28:18.8230572Z Contents: read
+2026-10-14T23:28:18.8231157Z Metadata: read
+2026-10-14T23:28:18.8231830Z ##[endgroup]
+2026-10-14T23:28:18.8234736Z Secret source: Actions
+2026-10-14T23:28:18.8235859Z Cache mode: write
+2026-10-14T23:28:18.8236914Z Prepare workflow directory
+2026-10-14T23:28:18.8642426Z Prepare all required actions
+2026-10-14T23:28:18.8692236Z Getting action download info
+2026-10-14T23:28:19.1258297Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-14T23:28:19.9129456Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-14T23:28:20.3616377Z Complete job name: arithmetic
+2026-10-14T23:28:20.5649990Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-14T23:28:20.5651096Z with:
+2026-10-14T23:28:20.5651562Z   persist-credentials: false
+2026-10-14T23:28:20.5652126Z   repository: KitaKen1/kalai-three-pow-five
+2026-10-14T23:28:20.5656500Z   token: ***
+2026-10-14T23:28:20.5656944Z   ssh-strict: true
+2026-10-14T23:28:20.5657383Z   ssh-user: git
+2026-10-14T23:28:20.5657809Z   clean: true
+2026-10-14T23:28:20.5658252Z   sparse-checkout-cone-mode: true
+2026-10-14T23:28:20.5658779Z   fetch-depth: 1
+2026-10-14T23:28:20.5659213Z   fetch-tags: false
+2026-10-14T23:28:20.5659658Z   show-progress: true
+2026-10-14T23:28:20.5660112Z   lfs: false
+2026-10-14T23:28:20.5660532Z   submodules: false
+2026-10-14T23:28:20.5660983Z   set-safe-directory: true
+2026-10-14T23:28:20.5661487Z   allow-unsafe-pr-checkout: false
+2026-10-14T23:28:20.5662287Z ##[endgroup]
+2026-10-14T23:28:20.6721225Z Syncing repository: KitaKen1/kalai-three-pow-five
+2026-10-14T23:28:20.6723620Z ##[group]Getting Git version info
+2026-10-14T23:28:20.6725067Z Working directory is '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-14T23:28:20.6726382Z [command]/usr/bin/git version
+2026-10-14T23:28:20.7175383Z git version 2.55.0
+2026-10-14T23:28:20.7201091Z ##[endgroup]
+2026-10-14T23:28:20.7217326Z Temporarily overriding HOME='/home/runner/work/_temp/15f9f286-c7b8-4b49-b78c-218e4c750324' before making global git config changes
+2026-10-14T23:28:20.7218750Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-14T23:28:20.7222990Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-14T23:28:20.7580993Z Deleting the contents of '/home/runner/work/kalai-three-pow-five/kalai-three-pow-five'
+2026-10-14T23:28:20.7592148Z ##[group]Initializing the repository
+2026-10-14T23:28:20.7601220Z [command]/usr/bin/git init /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-14T23:28:20.8082279Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-14T23:28:20.8084173Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-14T23:28:20.8085758Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-14T23:28:20.8086996Z hint: call:
+2026-10-14T23:28:20.8087851Z hint:
+2026-10-14T23:28:20.8088724Z hint: 	git config --global init.defaultBranch <name>
+2026-10-14T23:28:20.8089759Z hint:
+2026-10-14T23:28:20.8090786Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-14T23:28:20.8092366Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-14T23:28:20.8093331Z hint:
+2026-10-14T23:28:20.8093974Z hint: 	git branch -m <name>
+2026-10-14T23:28:20.8094641Z hint:
+2026-10-14T23:28:20.8095275Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-14T23:28:20.8096706Z Initialized empty Git repository in /home/runner/work/kalai-three-pow-five/kalai-three-pow-five/.git/
+2026-10-14T23:28:20.8100515Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-14T23:28:21.1054271Z ##[endgroup]
+2026-10-14T23:28:21.1055555Z ##[group]Disabling automatic garbage collection
+2026-10-14T23:28:21.1059108Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-14T23:28:21.2174353Z ##[endgroup]
+2026-10-14T23:28:21.2175153Z ##[group]Setting up auth
+2026-10-14T23:28:21.2181400Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-14T23:28:21.2216152Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-14T23:28:21.4365199Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-14T23:28:21.4399685Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-14T23:28:21.4624378Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-14T23:28:21.4656452Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-14T23:28:21.4881804Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-14T23:28:21.4919962Z ##[endgroup]
+2026-10-14T23:28:21.4922142Z ##[group]Fetching the repository
+2026-10-14T23:28:21.4929778Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +38bc3bb25949bc33de05bbd169a6012aa0b05165:refs/remotes/origin/main
+2026-10-14T23:28:22.9902436Z From https://github.com/KitaKen1/kalai-three-pow-five
+2026-10-14T23:28:22.9903160Z  * [new ref]         38bc3bb25949bc33de05bbd169a6012aa0b05165 -> origin/main
+2026-10-14T23:28:22.9906205Z ##[endgroup]
+2026-10-14T23:28:22.9906676Z ##[group]Determining the checkout info
+2026-10-14T23:28:22.9908470Z ##[endgroup]
+2026-10-14T23:28:22.9914175Z [command]/usr/bin/git sparse-checkout disable
+2026-10-14T23:28:22.9968136Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-14T23:28:22.9997132Z ##[group]Checking out the ref
+2026-10-14T23:28:23.0001426Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-14T23:28:23.8295189Z Switched to a new branch 'main'
+2026-10-14T23:28:23.8300510Z branch 'main' set up to track 'origin/main'.
+2026-10-14T23:28:23.8334339Z ##[endgroup]
+2026-10-14T23:28:23.8385033Z [command]/usr/bin/git log -1 --format=%H
+2026-10-14T23:28:23.8408144Z 38bc3bb25949bc33de05bbd169a6012aa0b05165
+2026-10-14T23:28:23.8418864Z ##[group]Removing auth
+2026-10-14T23:28:23.8424536Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-14T23:28:23.8461519Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-14T23:28:23.8704436Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-14T23:28:23.8733435Z http.https://github.com/.extraheader
+2026-10-14T23:28:23.8743205Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-14T23:28:23.8778494Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-14T23:28:23.9031508Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-14T23:28:23.9064758Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-14T23:28:23.9304669Z ##[endgroup]
+2026-10-14T23:28:23.9518200Z ##[group]Run python3 lean/comparator/check-inputs.py --receipt-dir math-receipt
+2026-10-14T23:28:23.9518875Z [36;1mpython3 lean/comparator/check-inputs.py --receipt-dir math-receipt[0m
+2026-10-14T23:28:23.9810259Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-14T23:28:23.9810709Z ##[endgroup]
+2026-10-14T23:28:29.6185223Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-14T23:28:29.6301750Z ##[group]Run python3 -m verification 2>&1 | tee math-receipt/arithmetic.log
+2026-10-14T23:28:29.6302367Z [36;1mpython3 -m verification 2>&1 | tee math-receipt/arithmetic.log[0m
+2026-10-14T23:28:29.6302814Z [36;1mcp evidence/finite-checks.json math-receipt/[0m
+2026-10-14T23:28:29.6303170Z [36;1mprintf 'PASS\n' > math-receipt/status.txt[0m
+2026-10-14T23:28:29.6364484Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-14T23:28:29.6364848Z ##[endgroup]
+2026-10-14T23:28:29.6886349Z Checking mathematical-certificate-data.json
+2026-10-14T23:28:36.8701505Z Passed: 76 exact cost certificates
+2026-10-14T23:28:36.8701967Z Checking extended-certificate-data.json
+2026-10-14T23:28:52.8757432Z Passed: 285 exact cost certificates
+2026-10-14T23:28:52.8759613Z Checking quad-certificate-data.json
+2026-10-14T23:28:54.6584466Z Passed: 7 exact cost certificates
+2026-10-14T23:28:54.6585224Z Checking weighted20-certificate-data.json
+2026-10-14T23:29:02.0593027Z Passed: 71 exact cost certificates
+2026-10-14T23:29:02.0593721Z Checking low18-certificate-data.json
+2026-10-14T23:29:19.7775921Z Passed: 276 exact cost certificates
+2026-10-14T23:29:25.6612093Z Checking positive-certificate-data.json
+2026-10-14T23:29:25.6612684Z Passed: 27 exact cost certificates
+2026-10-14T23:29:25.6613260Z Checking all cube-lift integer identities and sign trees
+2026-10-14T23:29:26.4070103Z Passed: 14-vertex cube-lift certificates
+2026-10-14T23:29:32.4346883Z Passed: 16-vertex cube-lift certificates
+2026-10-14T23:29:32.4360525Z Checking verify_mathematics.py
+2026-10-14T23:29:33.6648084Z Passed: verify_mathematics.py
+2026-10-14T23:29:33.6648747Z Checking check_coverage.py
+2026-10-14T23:29:34.0088099Z Passed: check_coverage.py
+2026-10-14T23:29:34.0088651Z Checking check_extended_coverage.py
+2026-10-14T23:29:37.5251818Z Passed: check_extended_coverage.py
+2026-10-14T23:29:37.5252354Z Checking check_ridge_counts.py
+2026-10-14T23:29:37.5586236Z Passed: check_ridge_counts.py
+2026-10-14T23:29:37.5586788Z Checking check_one_pair.py
+2026-10-14T23:29:37.6925950Z Passed: check_one_pair.py
+2026-10-14T23:29:37.6926493Z Checking check_two_pair_zero.py
+2026-10-14T23:29:39.7581395Z Passed: check_two_pair_zero.py
+2026-10-14T23:29:39.7582055Z Checking check_positive_profiles.py
+2026-10-14T23:29:41.0010840Z Passed: check_positive_profiles.py
+2026-10-14T23:29:41.0011432Z Checking check_positive_geometry.py
+2026-10-14T23:29:41.5686826Z Passed: check_positive_geometry.py
+2026-10-14T23:29:41.5687239Z Checking check_signed_carriers.py
+2026-10-14T23:30:03.0396803Z Passed: check_signed_carriers.py
+2026-10-14T23:30:03.0398294Z Checking check_interval_sections.py
+2026-10-14T23:30:04.0584166Z Passed: check_interval_sections.py
+2026-10-14T23:30:04.0699133Z All finite checks passed (742 exact cost certificates). Whole geometric theorem: not verified by this program.
+2026-10-14T23:30:04.1352887Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-14T23:30:04.1353325Z with:
+2026-10-14T23:30:04.1353539Z   name: arithmetic-38654268610-1
+2026-10-14T23:30:04.1354000Z   path: math-receipt/
+2026-10-14T23:30:04.1354223Z   retention-days: 90
+2026-10-14T23:30:04.1354445Z   if-no-files-found: error
+2026-10-14T23:30:04.1354675Z   compression-level: 6
+2026-10-14T23:30:04.1354886Z   overwrite: false
+2026-10-14T23:30:04.1355107Z   include-hidden-files: false
+2026-10-14T23:30:04.1355347Z ##[endgroup]
+2026-10-14T23:30:04.3078190Z (node:2440) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-14T23:30:04.3078959Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-14T23:30:04.3145258Z With the provided path, there will be 8 files uploaded
+2026-10-14T23:30:04.3150566Z Artifact name is valid!
+2026-10-14T23:30:04.3151334Z Root directory input is valid!
+2026-10-14T23:30:04.5939578Z Beginning upload of artifact content to blob storage
+2026-10-14T23:30:04.6236678Z (node:2440) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-14T23:30:04.7400599Z Uploaded bytes 8466
+2026-10-14T23:30:04.7771045Z Finished uploading artifact content to blob storage!
+2026-10-14T23:30:04.7772091Z SHA256 digest of uploaded artifact zip is 7bc15dba6adfcd7f6f591cc739fde993b4bb1ce63e54c6c8fe39f2aa6ab57281
+2026-10-14T23:30:04.7774124Z Finalizing artifact upload
+2026-10-14T23:30:05.0291345Z Artifact arithmetic-38654268610-1.zip successfully finalized. Artifact ID 11935319654
+2026-10-14T23:30:05.0292401Z Artifact arithmetic-38654268610-1 has been successfully uploaded! Final size is 8466 bytes. Artifact ID is 11935319654
+2026-10-14T23:30:05.0299576Z Artifact download URL: https://github.com/KitaKen1/kalai-three-pow-five/actions/runs/38654268610/artifacts/11935319654
+2026-10-14T23:30:05.0485215Z Post job cleanup.
+2026-10-14T23:30:05.1385943Z [command]/usr/bin/git version
+2026-10-14T23:30:05.1425421Z git version 2.55.0
+2026-10-14T23:30:05.1464408Z Temporarily overriding HOME='/home/runner/work/_temp/80c9b0e7-6091-4a72-b149-a92e2f85414a' before making global git config changes
+2026-10-14T23:30:05.1465279Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-14T23:30:05.1470188Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/kalai-three-pow-five/kalai-three-pow-five
+2026-10-14T23:30:05.1508376Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-14T23:30:05.1542417Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-14T23:30:05.1766745Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-14T23:30:05.1801823Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-14T23:30:05.2020672Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-14T23:30:05.2051802Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-14T23:30:05.2407756Z Cleaning up orphan processes
+2026-10-14T23:30:05.2676807Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,219 @@
+﻿2026-10-15T00:20:24.8791497Z ##[group]Run bash lean/comparator/run-check.sh
+2026-10-15T00:20:24.8791888Z [36;1mbash lean/comparator/run-check.sh[0m
+2026-10-15T00:20:24.8848773Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-15T00:20:24.8849122Z env:
+2026-10-15T00:20:24.8849422Z   COMPARATOR_TOOLS: /home/runner/work/_temp/kalai-comparator-tools
+2026-10-15T00:20:24.8849794Z ##[endgroup]
+2026-10-15T00:20:35.3203923Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T00:20:36.4708427Z Running as unit: run-u22.service
+2026-10-15T00:20:37.1336246Z Building Challenge
+2026-10-15T00:20:38.5485515Z ⚠ [2379/2380] Replayed Challenge
+2026-10-15T00:20:38.5486165Z warning: Challenge.lean:9:8: declaration uses `sorry`
+2026-10-15T00:20:38.5573436Z Build completed successfully (2380 jobs).
+2026-10-15T00:20:42.1635936Z Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Challenge
+2026-10-15T00:20:42.1637886Z Building FCSolution
+2026-10-15T00:20:44.0788754Z ℹ [3261/3263] Replayed KalaiFast
+2026-10-15T00:20:44.0789913Z info: KalaiFast.lean:474:0: KALAI_BLOCK_DONE count=500 inflate_ms=1050 replay_ms=2886
+2026-10-15T00:20:44.0791072Z info: KalaiFast.lean:475:0: KALAI_REPLAY_DONE 500
+2026-10-15T00:20:44.0792148Z info: KalaiFast.lean:478:0: KALAI_BLOCK_DONE count=500 inflate_ms=514 replay_ms=972
+2026-10-15T00:20:44.0793165Z info: KalaiFast.lean:479:0: KALAI_REPLAY_DONE 1000
+2026-10-15T00:20:44.0793833Z info: KalaiFast.lean:482:0: KALAI_BLOCK_DONE count=500 inflate_ms=313 replay_ms=627
+2026-10-15T00:20:44.0794482Z info: KalaiFast.lean:483:0: KALAI_REPLAY_DONE 1500
+2026-10-15T00:20:44.0795166Z info: KalaiFast.lean:486:0: KALAI_BLOCK_DONE count=500 inflate_ms=366 replay_ms=21001
+2026-10-15T00:20:44.0795825Z info: KalaiFast.lean:487:0: KALAI_REPLAY_DONE 2000
+2026-10-15T00:20:44.0796535Z info: KalaiFast.lean:490:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=27498
+2026-10-15T00:20:44.0797567Z info: KalaiFast.lean:491:0: KALAI_REPLAY_DONE 2500
+2026-10-15T00:20:44.0798412Z info: KalaiFast.lean:494:0: KALAI_BLOCK_DONE count=500 inflate_ms=140 replay_ms=12744
+2026-10-15T00:20:44.0799234Z info: KalaiFast.lean:495:0: KALAI_REPLAY_DONE 3000
+2026-10-15T00:20:44.0800364Z info: KalaiFast.lean:498:0: KALAI_BLOCK_DONE count=500 inflate_ms=156 replay_ms=23189
+2026-10-15T00:20:44.0801149Z info: KalaiFast.lean:499:0: KALAI_REPLAY_DONE 3500
+2026-10-15T00:20:44.0801825Z info: KalaiFast.lean:502:0: KALAI_BLOCK_DONE count=500 inflate_ms=134 replay_ms=17222
+2026-10-15T00:20:44.0802441Z info: KalaiFast.lean:503:0: KALAI_REPLAY_DONE 4000
+2026-10-15T00:20:44.0803043Z info: KalaiFast.lean:506:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=7906
+2026-10-15T00:20:44.0803955Z info: KalaiFast.lean:507:0: KALAI_REPLAY_DONE 4500
+2026-10-15T00:20:44.0804547Z info: KalaiFast.lean:510:0: KALAI_BLOCK_DONE count=500 inflate_ms=110 replay_ms=15552
+2026-10-15T00:20:44.0805154Z info: KalaiFast.lean:511:0: KALAI_REPLAY_DONE 5000
+2026-10-15T00:20:44.0805744Z info: KalaiFast.lean:514:0: KALAI_BLOCK_DONE count=500 inflate_ms=112 replay_ms=7091
+2026-10-15T00:20:44.0806334Z info: KalaiFast.lean:515:0: KALAI_REPLAY_DONE 5500
+2026-10-15T00:20:44.0806924Z info: KalaiFast.lean:518:0: KALAI_BLOCK_DONE count=500 inflate_ms=114 replay_ms=18759
+2026-10-15T00:20:44.0827802Z info: KalaiFast.lean:519:0: KALAI_REPLAY_DONE 6000
+2026-10-15T00:20:44.0828504Z info: KalaiFast.lean:522:0: KALAI_BLOCK_DONE count=500 inflate_ms=162 replay_ms=10381
+2026-10-15T00:20:44.0829113Z info: KalaiFast.lean:523:0: KALAI_REPLAY_DONE 6500
+2026-10-15T00:20:44.0829765Z info: KalaiFast.lean:526:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20351
+2026-10-15T00:20:44.0830384Z info: KalaiFast.lean:527:0: KALAI_REPLAY_DONE 7000
+2026-10-15T00:20:44.0830971Z info: KalaiFast.lean:530:0: KALAI_BLOCK_DONE count=500 inflate_ms=132 replay_ms=9598
+2026-10-15T00:20:44.0831561Z info: KalaiFast.lean:531:0: KALAI_REPLAY_DONE 7500
+2026-10-15T00:20:44.0832495Z info: KalaiFast.lean:534:0: KALAI_BLOCK_DONE count=500 inflate_ms=138 replay_ms=17508
+2026-10-15T00:20:44.0833099Z info: KalaiFast.lean:535:0: KALAI_REPLAY_DONE 8000
+2026-10-15T00:20:44.0833684Z info: KalaiFast.lean:538:0: KALAI_BLOCK_DONE count=500 inflate_ms=127 replay_ms=7616
+2026-10-15T00:20:44.0834276Z info: KalaiFast.lean:539:0: KALAI_REPLAY_DONE 8500
+2026-10-15T00:20:44.0834862Z info: KalaiFast.lean:542:0: KALAI_BLOCK_DONE count=500 inflate_ms=119 replay_ms=8475
+2026-10-15T00:20:44.0835460Z info: KalaiFast.lean:543:0: KALAI_REPLAY_DONE 9000
+2026-10-15T00:20:44.0836051Z info: KalaiFast.lean:546:0: KALAI_BLOCK_DONE count=500 inflate_ms=151 replay_ms=20656
+2026-10-15T00:20:44.0836655Z info: KalaiFast.lean:547:0: KALAI_REPLAY_DONE 9500
+2026-10-15T00:20:44.0847482Z info: KalaiFast.lean:550:0: KALAI_BLOCK_DONE count=500 inflate_ms=146 replay_ms=12042
+2026-10-15T00:20:44.0848104Z info: KalaiFast.lean:551:0: KALAI_REPLAY_DONE 10000
+2026-10-15T00:20:44.0848713Z info: KalaiFast.lean:554:0: KALAI_BLOCK_DONE count=500 inflate_ms=143 replay_ms=11279
+2026-10-15T00:20:44.0849312Z info: KalaiFast.lean:555:0: KALAI_REPLAY_DONE 10500
+2026-10-15T00:20:44.0849961Z info: KalaiFast.lean:558:0: KALAI_BLOCK_DONE count=500 inflate_ms=704 replay_ms=25038
+2026-10-15T00:20:44.0850563Z info: KalaiFast.lean:559:0: KALAI_REPLAY_DONE 11000
+2026-10-15T00:20:44.0851158Z info: KalaiFast.lean:562:0: KALAI_BLOCK_DONE count=500 inflate_ms=1781 replay_ms=5195
+2026-10-15T00:20:44.0851756Z info: KalaiFast.lean:563:0: KALAI_REPLAY_DONE 11500
+2026-10-15T00:20:44.0852346Z info: KalaiFast.lean:566:0: KALAI_BLOCK_DONE count=500 inflate_ms=1554 replay_ms=5027
+2026-10-15T00:20:44.0852945Z info: KalaiFast.lean:567:0: KALAI_REPLAY_DONE 12000
+2026-10-15T00:20:44.0853557Z info: KalaiFast.lean:570:0: KALAI_BLOCK_DONE count=500 inflate_ms=94 replay_ms=115341
+2026-10-15T00:20:44.0854155Z info: KalaiFast.lean:571:0: KALAI_REPLAY_DONE 12500
+2026-10-15T00:20:44.0854752Z info: KalaiFast.lean:574:0: KALAI_BLOCK_DONE count=500 inflate_ms=41 replay_ms=91722
+2026-10-15T00:20:44.0855353Z info: KalaiFast.lean:575:0: KALAI_REPLAY_DONE 13000
+2026-10-15T00:20:44.0855947Z info: KalaiFast.lean:578:0: KALAI_BLOCK_DONE count=500 inflate_ms=976 replay_ms=41985
+2026-10-15T00:20:44.0856544Z info: KalaiFast.lean:579:0: KALAI_REPLAY_DONE 13500
+2026-10-15T00:20:44.0857317Z info: KalaiFast.lean:582:0: KALAI_BLOCK_DONE count=500 inflate_ms=1529 replay_ms=4961
+2026-10-15T00:20:44.0857925Z info: KalaiFast.lean:583:0: KALAI_REPLAY_DONE 14000
+2026-10-15T00:20:44.0858514Z info: KalaiFast.lean:586:0: KALAI_BLOCK_DONE count=500 inflate_ms=1742 replay_ms=6141
+2026-10-15T00:20:44.0859130Z info: KalaiFast.lean:587:0: KALAI_REPLAY_DONE 14500
+2026-10-15T00:20:44.0859957Z info: KalaiFast.lean:590:0: KALAI_BLOCK_DONE count=500 inflate_ms=1327 replay_ms=66082
+2026-10-15T00:20:44.0860577Z info: KalaiFast.lean:591:0: KALAI_REPLAY_DONE 15000
+2026-10-15T00:20:44.0861179Z info: KalaiFast.lean:594:0: KALAI_BLOCK_DONE count=500 inflate_ms=783 replay_ms=119149
+2026-10-15T00:20:44.0861801Z info: KalaiFast.lean:595:0: KALAI_REPLAY_DONE 15500
+2026-10-15T00:20:44.0862389Z info: KalaiFast.lean:598:0: KALAI_BLOCK_DONE count=500 inflate_ms=488 replay_ms=786
+2026-10-15T00:20:44.0862997Z info: KalaiFast.lean:599:0: KALAI_REPLAY_DONE 16000
+2026-10-15T00:20:44.0863711Z info: KalaiFast.lean:602:0: KALAI_BLOCK_DONE count=500 inflate_ms=207 replay_ms=398
+2026-10-15T00:20:44.0864345Z info: KalaiFast.lean:603:0: KALAI_REPLAY_DONE 16500
+2026-10-15T00:20:44.0865163Z info: KalaiFast.lean:606:0: KALAI_BLOCK_DONE count=500 inflate_ms=205 replay_ms=407
+2026-10-15T00:20:44.0865648Z info: KalaiFast.lean:607:0: KALAI_REPLAY_DONE 17000
+2026-10-15T00:20:44.0866098Z info: KalaiFast.lean:610:0: KALAI_BLOCK_DONE count=500 inflate_ms=235 replay_ms=484
+2026-10-15T00:20:44.0866556Z info: KalaiFast.lean:611:0: KALAI_REPLAY_DONE 17500
+2026-10-15T00:20:44.0867008Z info: KalaiFast.lean:614:0: KALAI_BLOCK_DONE count=500 inflate_ms=218 replay_ms=410
+2026-10-15T00:20:44.0867773Z info: KalaiFast.lean:615:0: KALAI_REPLAY_DONE 18000
+2026-10-15T00:20:44.0868428Z info: KalaiFast.lean:618:0: KALAI_BLOCK_DONE count=500 inflate_ms=161 replay_ms=321
+2026-10-15T00:20:44.0868866Z info: KalaiFast.lean:619:0: KALAI_REPLAY_DONE 18500
+2026-10-15T00:20:44.0869290Z info: KalaiFast.lean:622:0: KALAI_BLOCK_DONE count=500 inflate_ms=147 replay_ms=306
+2026-10-15T00:20:44.0869717Z info: KalaiFast.lean:623:0: KALAI_REPLAY_DONE 19000
+2026-10-15T00:20:44.0870140Z info: KalaiFast.lean:626:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=263
+2026-10-15T00:20:44.0870570Z info: KalaiFast.lean:627:0: KALAI_REPLAY_DONE 19500
+2026-10-15T00:20:44.0871002Z info: KalaiFast.lean:630:0: KALAI_BLOCK_DONE count=500 inflate_ms=767 replay_ms=5143
+2026-10-15T00:20:44.0871931Z info: KalaiFast.lean:631:0: KALAI_REPLAY_DONE 20000
+2026-10-15T00:20:44.0872781Z info: KalaiFast.lean:634:0: KALAI_BLOCK_DONE count=500 inflate_ms=81 replay_ms=17473
+2026-10-15T00:20:44.0873845Z info: KalaiFast.lean:635:0: KALAI_REPLAY_DONE 20500
+2026-10-15T00:20:44.0874441Z info: KalaiFast.lean:638:0: KALAI_BLOCK_DONE count=500 inflate_ms=93 replay_ms=18522
+2026-10-15T00:20:44.0875163Z info: KalaiFast.lean:639:0: KALAI_REPLAY_DONE 21000
+2026-10-15T00:20:44.0875699Z info: KalaiFast.lean:642:0: KALAI_BLOCK_DONE count=500 inflate_ms=105 replay_ms=19627
+2026-10-15T00:20:44.0876273Z info: KalaiFast.lean:643:0: KALAI_REPLAY_DONE 21500
+2026-10-15T00:20:44.0876860Z info: KalaiFast.lean:646:0: KALAI_BLOCK_DONE count=500 inflate_ms=122 replay_ms=17640
+2026-10-15T00:20:44.0877729Z info: KalaiFast.lean:647:0: KALAI_REPLAY_DONE 22000
+2026-10-15T00:20:44.0878346Z info: KalaiFast.lean:650:0: KALAI_BLOCK_DONE count=500 inflate_ms=49 replay_ms=24757
+2026-10-15T00:20:44.0878888Z info: KalaiFast.lean:651:0: KALAI_REPLAY_DONE 22500
+2026-10-15T00:20:44.0890085Z info: KalaiFast.lean:654:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=22967
+2026-10-15T00:20:44.0890935Z info: KalaiFast.lean:655:0: KALAI_REPLAY_DONE 23000
+2026-10-15T00:20:44.0891703Z info: KalaiFast.lean:658:0: KALAI_BLOCK_DONE count=500 inflate_ms=52 replay_ms=26180
+2026-10-15T00:20:44.0892483Z info: KalaiFast.lean:659:0: KALAI_REPLAY_DONE 23500
+2026-10-15T00:20:44.0893253Z info: KalaiFast.lean:662:0: KALAI_BLOCK_DONE count=500 inflate_ms=48 replay_ms=50574
+2026-10-15T00:20:44.0894033Z info: KalaiFast.lean:663:0: KALAI_REPLAY_DONE 24000
+2026-10-15T00:20:44.0894829Z info: KalaiFast.lean:666:0: KALAI_BLOCK_DONE count=500 inflate_ms=47 replay_ms=46074
+2026-10-15T00:20:44.0895666Z info: KalaiFast.lean:667:0: KALAI_REPLAY_DONE 24500
+2026-10-15T00:20:44.0896497Z info: KalaiFast.lean:670:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=57167
+2026-10-15T00:20:44.0897612Z info: KalaiFast.lean:671:0: KALAI_REPLAY_DONE 25000
+2026-10-15T00:20:44.0898456Z info: KalaiFast.lean:674:0: KALAI_BLOCK_DONE count=500 inflate_ms=46 replay_ms=58670
+2026-10-15T00:20:44.0899646Z info: KalaiFast.lean:675:0: KALAI_REPLAY_DONE 25500
+2026-10-15T00:20:44.0900498Z info: KalaiFast.lean:678:0: KALAI_BLOCK_DONE count=500 inflate_ms=39 replay_ms=48289
+2026-10-15T00:20:44.0901388Z info: KalaiFast.lean:679:0: KALAI_REPLAY_DONE 26000
+2026-10-15T00:20:44.0902290Z info: KalaiFast.lean:682:0: KALAI_BLOCK_DONE count=500 inflate_ms=45 replay_ms=53664
+2026-10-15T00:20:44.0903152Z info: KalaiFast.lean:683:0: KALAI_REPLAY_DONE 26500
+2026-10-15T00:20:44.0903946Z info: KalaiFast.lean:686:0: KALAI_BLOCK_DONE count=500 inflate_ms=67 replay_ms=50860
+2026-10-15T00:20:44.0904765Z info: KalaiFast.lean:687:0: KALAI_REPLAY_DONE 27000
+2026-10-15T00:20:44.0905568Z info: KalaiFast.lean:690:0: KALAI_BLOCK_DONE count=500 inflate_ms=64 replay_ms=48205
+2026-10-15T00:20:44.0906414Z info: KalaiFast.lean:691:0: KALAI_REPLAY_DONE 27500
+2026-10-15T00:20:44.0907499Z info: KalaiFast.lean:694:0: KALAI_BLOCK_DONE count=500 inflate_ms=60 replay_ms=40019
+2026-10-15T00:20:44.0908347Z info: KalaiFast.lean:695:0: KALAI_REPLAY_DONE 28000
+2026-10-15T00:20:44.0909154Z info: KalaiFast.lean:698:0: KALAI_BLOCK_DONE count=500 inflate_ms=54 replay_ms=58754
+2026-10-15T00:20:44.0909996Z info: KalaiFast.lean:699:0: KALAI_REPLAY_DONE 28500
+2026-10-15T00:20:44.0911100Z info: KalaiFast.lean:702:0: KALAI_BLOCK_DONE count=500 inflate_ms=43 replay_ms=150106
+2026-10-15T00:20:44.0911958Z info: KalaiFast.lean:703:0: KALAI_REPLAY_DONE 29000
+2026-10-15T00:20:44.0912790Z info: KalaiFast.lean:706:0: KALAI_BLOCK_DONE count=500 inflate_ms=42 replay_ms=112863
+2026-10-15T00:20:44.0913587Z info: KalaiFast.lean:707:0: KALAI_REPLAY_DONE 29500
+2026-10-15T00:20:44.0914412Z info: KalaiFast.lean:710:0: KALAI_BLOCK_DONE count=500 inflate_ms=266 replay_ms=85443
+2026-10-15T00:20:44.0915258Z info: KalaiFast.lean:711:0: KALAI_REPLAY_DONE 30000
+2026-10-15T00:20:44.0916083Z info: KalaiFast.lean:714:0: KALAI_BLOCK_DONE count=500 inflate_ms=792 replay_ms=110624
+2026-10-15T00:20:44.0916956Z info: KalaiFast.lean:715:0: KALAI_REPLAY_DONE 30500
+2026-10-15T00:20:44.0918046Z info: KalaiFast.lean:718:0: KALAI_BLOCK_DONE count=500 inflate_ms=1459 replay_ms=8663
+2026-10-15T00:20:44.0918889Z info: KalaiFast.lean:719:0: KALAI_REPLAY_DONE 31000
+2026-10-15T00:20:44.0919724Z info: KalaiFast.lean:722:0: KALAI_BLOCK_DONE count=500 inflate_ms=1022 replay_ms=7841
+2026-10-15T00:20:44.0920545Z info: KalaiFast.lean:723:0: KALAI_REPLAY_DONE 31500
+2026-10-15T00:20:44.0921394Z info: KalaiFast.lean:726:0: KALAI_BLOCK_DONE count=500 inflate_ms=1767 replay_ms=11236
+2026-10-15T00:20:44.0922291Z info: KalaiFast.lean:727:0: KALAI_REPLAY_DONE 32000
+2026-10-15T00:20:44.0923174Z info: KalaiFast.lean:730:0: KALAI_BLOCK_DONE count=500 inflate_ms=1965 replay_ms=38692
+2026-10-15T00:20:44.0924084Z info: KalaiFast.lean:731:0: KALAI_REPLAY_DONE 32500
+2026-10-15T00:20:44.0924946Z info: KalaiFast.lean:734:0: KALAI_BLOCK_DONE count=500 inflate_ms=2025 replay_ms=16950
+2026-10-15T00:20:44.0925830Z info: KalaiFast.lean:735:0: KALAI_REPLAY_DONE 33000
+2026-10-15T00:20:44.0926728Z info: KalaiFast.lean:738:0: KALAI_BLOCK_DONE count=500 inflate_ms=1865 replay_ms=16371
+2026-10-15T00:20:44.0927890Z info: KalaiFast.lean:739:0: KALAI_REPLAY_DONE 33500
+2026-10-15T00:20:44.0928786Z info: KalaiFast.lean:742:0: KALAI_BLOCK_DONE count=500 inflate_ms=1924 replay_ms=12954
+2026-10-15T00:20:44.0929547Z info: KalaiFast.lean:743:0: KALAI_REPLAY_DONE 34000
+2026-10-15T00:20:44.0930035Z info: KalaiFast.lean:746:0: KALAI_BLOCK_DONE count=500 inflate_ms=1926 replay_ms=7706
+2026-10-15T00:20:44.0930516Z info: KalaiFast.lean:747:0: KALAI_REPLAY_DONE 34500
+2026-10-15T00:20:44.0930969Z info: KalaiFast.lean:750:0: KALAI_BLOCK_DONE count=500 inflate_ms=1247 replay_ms=3871
+2026-10-15T00:20:44.0931420Z info: KalaiFast.lean:751:0: KALAI_REPLAY_DONE 35000
+2026-10-15T00:20:44.0931867Z info: KalaiFast.lean:754:0: KALAI_BLOCK_DONE count=500 inflate_ms=1642 replay_ms=4977
+2026-10-15T00:20:44.0932312Z info: KalaiFast.lean:755:0: KALAI_REPLAY_DONE 35500
+2026-10-15T00:20:44.0933597Z info: KalaiFast.lean:758:0: KALAI_BLOCK_DONE count=500 inflate_ms=1719 replay_ms=107060
+2026-10-15T00:20:44.0934365Z info: KalaiFast.lean:759:0: KALAI_REPLAY_DONE 36000
+2026-10-15T00:20:44.0934844Z info: KalaiFast.lean:762:0: KALAI_BLOCK_DONE count=500 inflate_ms=1429 replay_ms=128814
+2026-10-15T00:20:44.0935388Z info: KalaiFast.lean:763:0: KALAI_REPLAY_DONE 36500
+2026-10-15T00:20:44.0935854Z info: KalaiFast.lean:766:0: KALAI_BLOCK_DONE count=500 inflate_ms=1684 replay_ms=80943
+2026-10-15T00:20:44.0936338Z info: KalaiFast.lean:767:0: KALAI_REPLAY_DONE 37000
+2026-10-15T00:20:44.0936824Z info: KalaiFast.lean:770:0: KALAI_BLOCK_DONE count=500 inflate_ms=1154 replay_ms=11007
+2026-10-15T00:20:44.0937654Z info: KalaiFast.lean:771:0: KALAI_REPLAY_DONE 37500
+2026-10-15T00:20:44.0938387Z info: KalaiFast.lean:774:0: KALAI_BLOCK_DONE count=500 inflate_ms=836 replay_ms=67441
+2026-10-15T00:20:44.0939236Z info: KalaiFast.lean:775:0: KALAI_REPLAY_DONE 38000
+2026-10-15T00:20:44.0940042Z info: KalaiFast.lean:778:0: KALAI_BLOCK_DONE count=500 inflate_ms=1333 replay_ms=8703
+2026-10-15T00:20:44.0940541Z info: KalaiFast.lean:779:0: KALAI_REPLAY_DONE 38500
+2026-10-15T00:20:44.0940993Z info: KalaiFast.lean:782:0: KALAI_BLOCK_DONE count=500 inflate_ms=2701 replay_ms=18011
+2026-10-15T00:20:44.0941923Z info: KalaiFast.lean:783:0: KALAI_REPLAY_DONE 39000
+2026-10-15T00:20:44.0942390Z info: KalaiFast.lean:786:0: KALAI_BLOCK_DONE count=500 inflate_ms=2328 replay_ms=12412
+2026-10-15T00:20:44.0942854Z info: KalaiFast.lean:787:0: KALAI_REPLAY_DONE 39500
+2026-10-15T00:20:44.0943302Z info: KalaiFast.lean:790:0: KALAI_BLOCK_DONE count=500 inflate_ms=1479 replay_ms=11359
+2026-10-15T00:20:44.0943752Z info: KalaiFast.lean:791:0: KALAI_REPLAY_DONE 40000
+2026-10-15T00:20:44.0944207Z info: KalaiFast.lean:794:0: KALAI_BLOCK_DONE count=500 inflate_ms=1624 replay_ms=11456
+2026-10-15T00:20:44.0944658Z info: KalaiFast.lean:795:0: KALAI_REPLAY_DONE 40500
+2026-10-15T00:20:44.0945097Z info: KalaiFast.lean:798:0: KALAI_BLOCK_DONE count=500 inflate_ms=1647 replay_ms=12494
+2026-10-15T00:20:44.0945552Z info: KalaiFast.lean:799:0: KALAI_REPLAY_DONE 41000
+2026-10-15T00:20:44.0946004Z info: KalaiFast.lean:802:0: KALAI_BLOCK_DONE count=500 inflate_ms=1462 replay_ms=10157
+2026-10-15T00:20:44.0946450Z info: KalaiFast.lean:803:0: KALAI_REPLAY_DONE 41500
+2026-10-15T00:20:44.0946897Z info: KalaiFast.lean:806:0: KALAI_BLOCK_DONE count=500 inflate_ms=1640 replay_ms=10696
+2026-10-15T00:20:44.0947717Z info: KalaiFast.lean:807:0: KALAI_REPLAY_DONE 42000
+2026-10-15T00:20:44.0948166Z info: KalaiFast.lean:810:0: KALAI_BLOCK_DONE count=500 inflate_ms=1563 replay_ms=10634
+2026-10-15T00:20:44.0948610Z info: KalaiFast.lean:811:0: KALAI_REPLAY_DONE 42500
+2026-10-15T00:20:44.0949042Z info: KalaiFast.lean:814:0: KALAI_BLOCK_DONE count=160 inflate_ms=516 replay_ms=2670
+2026-10-15T00:20:44.0949483Z info: KalaiFast.lean:815:0: KALAI_REPLAY_DONE 42660
+2026-10-15T00:20:44.0950040Z info: KalaiFast.lean:845:0: 'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T00:20:44.0950591Z Build completed successfully (3263 jobs).
+2026-10-15T01:20:23.6195877Z Exporting #[Kalai.three_pow_five, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from FCSolution
+2026-10-15T01:20:23.6197543Z Running Lean default kernel on solution.
+2026-10-15T01:20:23.6197917Z Lean default kernel accepts the solution
+2026-10-15T01:20:23.6198234Z Your solution is okay!
+2026-10-15T01:20:23.7729294Z Finished with result: success
+2026-10-15T01:20:23.7729984Z Main processes terminated with: code=exited/status=0
+2026-10-15T01:20:23.7730573Z Service runtime: 59min 47.287s
+2026-10-15T01:20:23.7731054Z CPU time consumed: 59min 51.712s
+2026-10-15T01:20:23.7731518Z Memory peak: 6.2M
+2026-10-15T01:20:23.7731895Z Memory swap peak: 0B
+2026-10-15T01:20:34.1515690Z PASS: 2139 publication files, 976 original modules, exact public statement.
+2026-10-15T01:20:43.0782426Z 'Kalai.three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T01:20:43.0783247Z 'Kalai5.kalai_three_pow_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-10-15T01:20:43.2651528Z {
+2026-10-15T01:20:43.2652034Z   "status": "PASS",
+2026-10-15T01:20:43.2652450Z   "targets": {
+2026-10-15T01:20:43.2652895Z     "Kalai.three_pow_five": [
+2026-10-15T01:20:43.2653418Z       "Classical.choice",
+2026-10-15T01:20:43.2653876Z       "Quot.sound",
+2026-10-15T01:20:43.2654281Z       "propext"
+2026-10-15T01:20:43.2654625Z     ],
+2026-10-15T01:20:43.2655045Z     "Kalai5.kalai_three_pow_five": [
+2026-10-15T01:20:43.2655582Z       "Classical.choice",
+2026-10-15T01:20:43.2656037Z       "Quot.sound",
+2026-10-15T01:20:43.2656429Z       "propext"
+2026-10-15T01:20:43.2656756Z     ]
+2026-10-15T01:20:43.2657453Z   },
+2026-10-15T01:20:43.2657816Z   "sorryAx": false,
+2026-10-15T01:20:43.2658222Z   "new_axioms": false
+2026-10-15T01:20:43.2658610Z }

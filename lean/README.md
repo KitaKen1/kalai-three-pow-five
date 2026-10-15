@@ -26,9 +26,9 @@ lake env lean -Ddebug.skipKernelTC=false -DElab.async=false FCAudit.lean
 lake env leanchecker --fresh FCSolution
 ```
 
-The optimized FC archive passed complete private CI, including the standard
+The optimized FC archive passed complete public CI, including the standard
 three-axiom audit, Comparator and independent fresh kernel replay.
-[Successful receipts](../verification/private-ci/README.md) identify the exact
-archive hash and tested commit. Public CI rechecks the same proof and checker
-configuration. Browser completion remains unverified.
+[Successful receipts](../ComparatorLog20261015/README.md) identify the exact
+archive hash and tested commit for run `38654268610`, attempt 1.
+Browser completion remains unverified.
 See [comparator/README.md](comparator/README.md) for the Linux check.
